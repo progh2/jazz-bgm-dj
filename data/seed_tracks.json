@@ -19,12 +19,12 @@
   },
   {
     "title": "Vibe Ace",
-    "scene": "B3_cool",
+    "scene": "A3_break",
     "focus": 5,
     "artist": "Kevin MacLeod",
     "license": "CC BY 4.0",
-    "videoId": "45ghQ2G4vl8",
-    "length": 0
+    "videoId": "5hPus4kCrFs",
+    "length": 64
   },
   {
     "title": "As I Figure",
@@ -37,16 +37,16 @@
   },
   {
     "title": "Faster Does It",
-    "scene": "B1_swing",
-    "focus": 3,
+    "scene": "B2_bebop",
+    "focus": 2,
     "artist": "Kevin MacLeod",
     "license": "CC BY 4.0",
-    "videoId": "1glncQEPzIQ",
-    "length": 0
+    "videoId": "RVUl_VskWNE",
+    "length": 183
   },
   {
     "title": "AcidJazz",
-    "scene": "B13_soul",
+    "scene": "B10_fusion",
     "focus": 3,
     "artist": "Kevin MacLeod",
     "license": "CC BY 4.0",
@@ -109,12 +109,12 @@
   },
   {
     "title": "Cool Vibes",
-    "scene": "B3_cool",
+    "scene": "C6_studio",
     "focus": 5,
     "artist": "Kevin MacLeod",
     "license": "CC BY 4.0",
-    "videoId": "wKPdxsPi9rU",
-    "length": 0
+    "videoId": "TjqwSV4CggE",
+    "length": 219
   },
   {
     "title": "Smooth Lovin",
@@ -136,7 +136,7 @@
   },
   {
     "title": "Shades of Spring",
-    "scene": "D3_uplift",
+    "scene": "B5_modal",
     "focus": 4,
     "artist": "Kevin MacLeod",
     "license": "CC BY 4.0",
@@ -163,12 +163,12 @@
   },
   {
     "title": "Wallpaper",
-    "scene": "C1_lounge",
+    "scene": "D6_elegant",
     "focus": 5,
     "artist": "Kevin MacLeod",
     "license": "CC BY 4.0",
-    "videoId": "wNjJiZk7H28",
-    "length": 0
+    "videoId": "fOgsFH0s5uU",
+    "length": 221
   },
   {
     "title": "Mining by Moonlight",
@@ -223,5 +223,266 @@
     "license": "CC BY 4.0",
     "videoId": "BDrkPsiS0qs",
     "length": 0
+  },
+  {
+    "title": "Sweeter Vermouth",
+    "scene": "A1_curtain",
+    "focus": 4,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "LyHEJ8uTlk",
+    "length": 27
+  },
+  {
+    "title": "Hot Swing",
+    "scene": "A1_curtain",
+    "focus": 3,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "kWU7wrW3muY",
+    "length": 51
+  },
+  {
+    "title": "Bass Soli",
+    "scene": "A3_break",
+    "focus": 4,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "3fMbCuORobY",
+    "length": 66
+  },
+  {
+    "title": "Dispersion Relation",
+    "scene": "B2_bebop",
+    "focus": 2,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "v99vSaCpgAI",
+    "length": 245
+  },
+  {
+    "title": "No Good Layabout",
+    "scene": "B2_bebop",
+    "focus": 2,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "egTTMzSeXHg",
+    "length": 187
+  },
+  {
+    "title": "Be Bop 25",
+    "scene": "B2_bebop",
+    "focus": 2,
+    "artist": "Audionautix / Jason Shaw",
+    "license": "CC BY 4.0",
+    "videoId": "rqeYYi9P4Bk",
+    "length": 143
+  },
+  {
+    "title": "Awesome Call",
+    "scene": "B2_bebop",
+    "focus": 3,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "JDMsI3iOKqc",
+    "length": 153
+  },
+  {
+    "title": "Sidewalk Shade",
+    "scene": "B4_hardbop",
+    "focus": 3,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "thLYvVLdAh0",
+    "length": 183
+  },
+  {
+    "title": "Funky Chunk",
+    "scene": "B4_hardbop",
+    "focus": 3,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "4Adsq94IGfU",
+    "length": 245
+  },
+  {
+    "title": "Closer To Jazz",
+    "scene": "B4_hardbop",
+    "focus": 3,
+    "artist": "Audionautix / Jason Shaw",
+    "license": "CC BY 4.0",
+    "videoId": "OHor51cs_Js",
+    "length": 143
+  },
+  {
+    "title": "Intractable",
+    "scene": "B5_modal",
+    "focus": 4,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "w2XKaQ49VOY",
+    "length": 269
+  },
+  {
+    "title": "Mellowtron",
+    "scene": "B5_modal",
+    "focus": 5,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "sfxUvA3GMiA",
+    "length": 54
+  },
+  {
+    "title": "Local Forecast",
+    "scene": "B10_fusion",
+    "focus": 3,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "MIb5eknCKSA",
+    "length": 167
+  },
+  {
+    "title": "Funkorama",
+    "scene": "B10_fusion",
+    "focus": 3,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "LpEUZEHt0qM",
+    "length": 202
+  },
+  {
+    "title": "Laser Groove",
+    "scene": "B10_fusion",
+    "focus": 3,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "GImBmTwBV1s",
+    "length": 168
+  },
+  {
+    "title": "2017.12.08 Atonal",
+    "scene": "B11_free",
+    "focus": 1,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "uRGd-INuYWY",
+    "length": 344
+  },
+  {
+    "title": "Atonal in C-ish",
+    "scene": "B11_free",
+    "focus": 1,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "kE3WR5d1fuA",
+    "length": 42
+  },
+  {
+    "title": "Hat the Jazz",
+    "scene": "C6_studio",
+    "focus": 4,
+    "artist": "Twin Musicom",
+    "license": "CC BY 4.0",
+    "videoId": "JcWDxBCtu_w",
+    "length": 49
+  },
+  {
+    "title": "Bass Vibes",
+    "scene": "C6_studio",
+    "focus": 5,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "Aim9XZttkFI",
+    "length": 170
+  },
+  {
+    "title": "Joey's Formal Waltz",
+    "scene": "D6_elegant",
+    "focus": 4,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "zBisC7u-2OM",
+    "length": 305
+  },
+  {
+    "title": "古き良き日々",
+    "scene": "D6_elegant",
+    "focus": 4,
+    "artist": "MusMus",
+    "license": "Free with attribution (musmus.main.jp)",
+    "videoId": "OtPeKoNp6us",
+    "length": 203
+  },
+  {
+    "title": "sleepin’ maple syrup jazz",
+    "scene": "D6_elegant",
+    "focus": 5,
+    "artist": "MusMus",
+    "license": "Free with attribution (musmus.main.jp)",
+    "videoId": "Im3K4nFdyWk",
+    "length": 73
+  },
+  {
+    "title": "Light Up delight",
+    "scene": "D6_elegant",
+    "focus": 3,
+    "artist": "MusMus",
+    "license": "Free with attribution (musmus.main.jp)",
+    "videoId": "3rwrZY2JupA",
+    "length": 138
+  },
+  {
+    "title": "Fig Leaf Rag",
+    "scene": "B12_dixie",
+    "focus": 3,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "vHh1Qd6-r0M",
+    "length": 211
+  },
+  {
+    "title": "Investigations",
+    "scene": "B14_noir",
+    "focus": 4,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "SgJ8dyD01I8",
+    "length": 94
+  },
+  {
+    "title": "Darkest Child",
+    "scene": "B14_noir",
+    "focus": 4,
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "videoId": "soJ9xucVMbg",
+    "length": 239
+  },
+  {
+    "title": "気分上々ジャズ",
+    "scene": "D3_uplift",
+    "focus": 4,
+    "artist": "MusMus",
+    "license": "Free with attribution (musmus.main.jp)",
+    "videoId": "rBJ56gnGYB0",
+    "length": 208
+  },
+  {
+    "title": "柔らかな嘘",
+    "scene": "B6_latin",
+    "focus": 5,
+    "artist": "MusMus",
+    "license": "Free with attribution (musmus.main.jp)",
+    "videoId": "2a1M4ORJY2k",
+    "length": 172
+  },
+  {
+    "title": "Stable yetl - PIano Jazz",
+    "scene": "C2_cafe",
+    "focus": 5,
+    "artist": "MusMus",
+    "license": "Free with attribution (musmus.main.jp)",
+    "videoId": "C7CFPG08_Yo",
+    "length": 165
   }
 ]

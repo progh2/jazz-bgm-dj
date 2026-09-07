@@ -28,16 +28,16 @@
 "focus": 5
 },
 {
-"videoId": "45ghQ2G4vl8",
+"videoId": "5hPus4kCrFs",
 "title": "Vibe Ace",
 "artist": "Kevin MacLeod",
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
-"length": null,
+"length": 64,
 "origin": "seed",
-"forced_sub": "B3_cool",
+"forced_sub": "A3_break",
 "focus_hint": 5,
-"sub": "B3_cool",
+"sub": "A3_break",
 "alts": [],
 "focus": 5
 },
@@ -54,16 +54,16 @@
 "focus": 4
 },
 {
-"videoId": "RVUl_VskWNE",
-"title": "Faster Does It",
+"videoId": "1glncQEPzIQ",
+"title": "Kevin MacLeod: Faster Does It",
 "artist": "Kevin MacLeod",
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
-"length": 183,
+"length": 184,
 "origin": "search",
-"sub": "B1_swing",
+"sub": "B2_bebop",
 "alts": [],
-"focus": 4
+"focus": 2
 },
 {
 "videoId": "kJmAelp4lVI",
@@ -73,9 +73,9 @@
 "source": "https://incompetech.com/",
 "length": null,
 "origin": "seed",
-"forced_sub": "B13_soul",
+"forced_sub": "B10_fusion",
 "focus_hint": 3,
-"sub": "B13_soul",
+"sub": "B10_fusion",
 "alts": [],
 "focus": 3
 },
@@ -166,8 +166,10 @@
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
 "length": 219,
-"origin": "search",
-"sub": "B3_cool",
+"origin": "seed",
+"forced_sub": "C6_studio",
+"focus_hint": 5,
+"sub": "C6_studio",
 "alts": [],
 "focus": 5
 },
@@ -207,9 +209,9 @@
 "source": "https://incompetech.com/",
 "length": null,
 "origin": "seed",
-"forced_sub": "D3_uplift",
+"forced_sub": "B5_modal",
 "focus_hint": 4,
-"sub": "D3_uplift",
+"sub": "B5_modal",
 "alts": [],
 "focus": 4
 },
@@ -240,16 +242,16 @@
 "focus": 4
 },
 {
-"videoId": "wNjJiZk7H28",
+"videoId": "fOgsFH0s5uU",
 "title": "Wallpaper",
 "artist": "Kevin MacLeod",
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
-"length": null,
+"length": 221,
 "origin": "seed",
-"forced_sub": "C1_lounge",
+"forced_sub": "D6_elegant",
 "focus_hint": 5,
-"sub": "C1_lounge",
+"sub": "D6_elegant",
 "alts": [],
 "focus": 5
 },
@@ -330,6 +332,400 @@
 "forced_sub": "B9_smooth",
 "focus_hint": 5,
 "sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "LyHEJ8uTlk",
+"title": "Sweeter Vermouth",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 27,
+"origin": "seed",
+"forced_sub": "A1_curtain",
+"focus_hint": 4,
+"sub": "A1_curtain",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "kWU7wrW3muY",
+"title": "Hot Swing",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 51,
+"origin": "seed",
+"forced_sub": "A1_curtain",
+"focus_hint": 3,
+"sub": "A1_curtain",
+"alts": [],
+"focus": 3
+},
+{
+"videoId": "3fMbCuORobY",
+"title": "Bass Soli",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 66,
+"origin": "seed",
+"forced_sub": "A3_break",
+"focus_hint": 4,
+"sub": "A3_break",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "v99vSaCpgAI",
+"title": "Dispersion Relation",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 245,
+"origin": "seed",
+"forced_sub": "B2_bebop",
+"focus_hint": 2,
+"sub": "B2_bebop",
+"alts": [],
+"focus": 2
+},
+{
+"videoId": "egTTMzSeXHg",
+"title": "No Good Layabout",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 187,
+"origin": "seed",
+"forced_sub": "B2_bebop",
+"focus_hint": 2,
+"sub": "B2_bebop",
+"alts": [],
+"focus": 2
+},
+{
+"videoId": "rqeYYi9P4Bk",
+"title": "Be Bop 25",
+"artist": "Audionautix / Jason Shaw",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 143,
+"origin": "seed",
+"forced_sub": "B2_bebop",
+"focus_hint": 2,
+"sub": "B2_bebop",
+"alts": [],
+"focus": 2
+},
+{
+"videoId": "JDMsI3iOKqc",
+"title": "Awesome Call",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 153,
+"origin": "seed",
+"forced_sub": "B2_bebop",
+"focus_hint": 3,
+"sub": "B2_bebop",
+"alts": [],
+"focus": 3
+},
+{
+"videoId": "thLYvVLdAh0",
+"title": "Sidewalk Shade",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 183,
+"origin": "seed",
+"forced_sub": "B4_hardbop",
+"focus_hint": 3,
+"sub": "B4_hardbop",
+"alts": [],
+"focus": 3
+},
+{
+"videoId": "qcSFJSoTauo",
+"title": "Kevin MacLeod: Funky Chunk",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 241,
+"origin": "search",
+"sub": "B4_hardbop",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "OHor51cs_Js",
+"title": "Closer To Jazz",
+"artist": "Audionautix / Jason Shaw",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 143,
+"origin": "seed",
+"forced_sub": "B4_hardbop",
+"focus_hint": 3,
+"sub": "B4_hardbop",
+"alts": [],
+"focus": 3
+},
+{
+"videoId": "IFrf3B2sHDU",
+"title": "Kevin MacLeod: Intractable",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 271,
+"origin": "search",
+"sub": "B5_modal",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "sfxUvA3GMiA",
+"title": "Mellowtron",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 54,
+"origin": "seed",
+"forced_sub": "B5_modal",
+"focus_hint": 5,
+"sub": "B5_modal",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "wRw5uAAGnw8",
+"title": "Local Forecast",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 190,
+"origin": "search",
+"sub": "B10_fusion",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "dmIO-dT5BFw",
+"title": "Kevin MacLeod: Funkorama",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 203,
+"origin": "search",
+"sub": "B10_fusion",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "GImBmTwBV1s",
+"title": "Laser Groove",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 168,
+"origin": "seed",
+"forced_sub": "B10_fusion",
+"focus_hint": 3,
+"sub": "B10_fusion",
+"alts": [],
+"focus": 3
+},
+{
+"videoId": "uRGd-INuYWY",
+"title": "2017.12.08 Atonal",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 344,
+"origin": "seed",
+"forced_sub": "B11_free",
+"focus_hint": 1,
+"sub": "B11_free",
+"alts": [],
+"focus": 1
+},
+{
+"videoId": "kE3WR5d1fuA",
+"title": "Atonal in C-ish",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 42,
+"origin": "seed",
+"forced_sub": "B11_free",
+"focus_hint": 1,
+"sub": "B11_free",
+"alts": [],
+"focus": 1
+},
+{
+"videoId": "JcWDxBCtu_w",
+"title": "Hat the Jazz",
+"artist": "Twin Musicom",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 49,
+"origin": "seed",
+"forced_sub": "C6_studio",
+"focus_hint": 4,
+"sub": "C6_studio",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "Aim9XZttkFI",
+"title": "Bass Vibes",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 170,
+"origin": "seed",
+"forced_sub": "C6_studio",
+"focus_hint": 5,
+"sub": "C6_studio",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "zBisC7u-2OM",
+"title": "Joey's Formal Waltz",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 305,
+"origin": "seed",
+"forced_sub": "D6_elegant",
+"focus_hint": 4,
+"sub": "D6_elegant",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "OtPeKoNp6us",
+"title": "古き良き日々",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://incompetech.com/",
+"length": 203,
+"origin": "seed",
+"forced_sub": "D6_elegant",
+"focus_hint": 4,
+"sub": "D6_elegant",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "Im3K4nFdyWk",
+"title": "sleepin’ maple syrup jazz",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://incompetech.com/",
+"length": 73,
+"origin": "seed",
+"forced_sub": "D6_elegant",
+"focus_hint": 5,
+"sub": "D6_elegant",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "3rwrZY2JupA",
+"title": "Light Up delight",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://incompetech.com/",
+"length": 138,
+"origin": "seed",
+"forced_sub": "D6_elegant",
+"focus_hint": 3,
+"sub": "D6_elegant",
+"alts": [],
+"focus": 3
+},
+{
+"videoId": "vHh1Qd6-r0M",
+"title": "Fig Leaf Rag",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 211,
+"origin": "seed",
+"forced_sub": "B12_dixie",
+"focus_hint": 3,
+"sub": "B12_dixie",
+"alts": [],
+"focus": 3
+},
+{
+"videoId": "7_t7gQ8Olgk",
+"title": "Kevin MacLeod: Investigations",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 96,
+"origin": "search",
+"sub": "B14_noir",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "WfBIexUTm6A",
+"title": "Darkest Child",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 239,
+"origin": "search",
+"sub": "B14_noir",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "rBJ56gnGYB0",
+"title": "気分上々ジャズ",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://incompetech.com/",
+"length": 208,
+"origin": "seed",
+"forced_sub": "D3_uplift",
+"focus_hint": 4,
+"sub": "D3_uplift",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "2a1M4ORJY2k",
+"title": "柔らかな嘘",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://incompetech.com/",
+"length": 172,
+"origin": "seed",
+"forced_sub": "B6_latin",
+"focus_hint": 5,
+"sub": "B6_latin",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "C7CFPG08_Yo",
+"title": "Stable yetl - PIano Jazz",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://incompetech.com/",
+"length": 165,
+"origin": "seed",
+"forced_sub": "C2_cafe",
+"focus_hint": 5,
+"sub": "C2_cafe",
 "alts": [],
 "focus": 5
 },
@@ -540,18 +936,6 @@
 "focus": 5
 },
 {
-"videoId": "GImBmTwBV1s",
-"title": "Laser Groove",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 168,
-"origin": "channel",
-"sub": "B13_soul",
-"alts": [],
-"focus": 3
-},
-{
 "videoId": "H6ydejhm4EY",
 "title": "Bittersweet",
 "artist": "Kevin MacLeod",
@@ -672,18 +1056,6 @@
 "focus": 5
 },
 {
-"videoId": "qcSFJSoTauo",
-"title": "Kevin MacLeod: Funky Chunk",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 241,
-"origin": "search",
-"sub": "B13_soul",
-"alts": [],
-"focus": 4
-},
-{
 "videoId": "L7iqnW3iA4U",
 "title": "Ultralounge",
 "artist": "Kevin MacLeod",
@@ -720,16 +1092,16 @@
 "focus": 4
 },
 {
-"videoId": "wRw5uAAGnw8",
-"title": "Local Forecast",
+"videoId": "balbVu8zlvQ",
+"title": "Sidewalk Shade - Note for Note",
 "artist": "Kevin MacLeod",
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
-"length": 190,
-"origin": "search",
-"sub": "B9_smooth",
+"length": 157,
+"origin": "channel",
+"sub": "B4_hardbop",
 "alts": [],
-"focus": 5
+"focus": 3
 },
 {
 "videoId": "liWL0ZwQ2Oc",
@@ -974,18 +1346,6 @@
 "focus": 5
 },
 {
-"videoId": "rBJ56gnGYB0",
-"title": "気分上々ジャズ【音楽素材MusMus】",
-"artist": "MusMus",
-"license": "Free with attribution (musmus.main.jp)",
-"source": "https://musmus.main.jp/",
-"length": 208,
-"origin": "channel",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 5
-},
-{
 "videoId": "-VO4ax9FM-I",
 "title": "URBAN FLIGHT【音楽素材MusMus】",
 "artist": "MusMus",
@@ -996,18 +1356,6 @@
 "sub": "C4_rooftop",
 "alts": [],
 "focus": 4
-},
-{
-"videoId": "2a1M4ORJY2k",
-"title": "Sugary lie / Jazz Bossa / MusMus",
-"artist": "MusMus",
-"license": "Free with attribution (musmus.main.jp)",
-"source": "https://musmus.main.jp/",
-"length": 172,
-"origin": "channel",
-"sub": "B6_latin",
-"alts": [],
-"focus": 5
 },
 {
 "videoId": "W8-bRfQuku4",
@@ -1072,30 +1420,6 @@
 "focus": 5
 },
 {
-"videoId": "Im3K4nFdyWk",
-"title": "sleepin’ maple syrup jazz【音楽素材MusMus】ピアノとサックスがメインのミドルテンポジャズ",
-"artist": "MusMus",
-"license": "Free with attribution (musmus.main.jp)",
-"source": "https://musmus.main.jp/",
-"length": 73,
-"origin": "channel",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 4
-},
-{
-"videoId": "C7CFPG08_Yo",
-"title": "Stable yetl - PIano Jazz - MusMus",
-"artist": "MusMus",
-"license": "Free with attribution (musmus.main.jp)",
-"source": "https://musmus.main.jp/",
-"length": 165,
-"origin": "channel",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 5
-},
-{
 "videoId": "vbtQoGuccnM",
 "title": "inherit the Light Trail - PIano,Sax,Violin Contemporary Jazz - MusMus",
 "artist": "MusMus",
@@ -1107,18 +1431,6 @@
 "alts": [
 "C1_lounge"
 ],
-"focus": 5
-},
-{
-"videoId": "3rwrZY2JupA",
-"title": "Light Up delight  [MusMus Ryalty Free Music] Fashionable jazz with piano and brass instruments",
-"artist": "MusMus",
-"license": "Free with attribution (musmus.main.jp)",
-"source": "https://musmus.main.jp/",
-"length": 138,
-"origin": "channel",
-"sub": "B9_smooth",
-"alts": [],
 "focus": 5
 },
 {
@@ -1811,18 +2123,6 @@
 "focus": 5
 },
 {
-"videoId": "QogwAgtU3z0",
-"title": "Kevin MacLeod: Dispersion Relation",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 246,
-"origin": "search",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 5
-},
-{
 "videoId": "uBFnDKp7s_g",
 "title": "Deuces",
 "artist": "Kevin MacLeod",
@@ -1841,18 +2141,6 @@
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
 "length": 171,
-"origin": "search",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 5
-},
-{
-"videoId": "IFrf3B2sHDU",
-"title": "Kevin MacLeod: Intractable",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 271,
 "origin": "search",
 "sub": "B9_smooth",
 "alts": [],
@@ -1881,18 +2169,6 @@
 "sub": "B9_smooth",
 "alts": [],
 "focus": 5
-},
-{
-"videoId": "HqDFEqoap6Q",
-"title": "Kevin MacLeod: Hot Swing",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 52,
-"origin": "search",
-"sub": "B1_swing",
-"alts": [],
-"focus": 2
 },
 {
 "videoId": "Yy-NyPTRYU8",
@@ -2178,9 +2454,9 @@
 "source": "https://incompetech.com/",
 "length": 192,
 "origin": "search",
-"sub": "B9_smooth",
+"sub": "B10_fusion",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "py3IoOIQKXM",
@@ -2370,7 +2646,7 @@
 "source": "https://incompetech.com/",
 "length": 289,
 "origin": "search",
-"sub": "B13_soul",
+"sub": "B10_fusion",
 "alts": [],
 "focus": 4
 },
@@ -2563,18 +2839,6 @@
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
 "length": 242,
-"origin": "search",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 5
-},
-{
-"videoId": "vHh1Qd6-r0M",
-"title": "Kevin MacLeod: Fig Leaf Rag",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 211,
 "origin": "search",
 "sub": "B9_smooth",
 "alts": [],
@@ -2816,9 +3080,9 @@
 "source": "https://incompetech.com/",
 "length": 246,
 "origin": "search",
-"sub": "B9_smooth",
+"sub": "D6_elegant",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "nbbJ9weexQ0",
@@ -2977,18 +3241,6 @@
 "focus": 4
 },
 {
-"videoId": "7_t7gQ8Olgk",
-"title": "Kevin MacLeod: Investigations",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 96,
-"origin": "search",
-"sub": "B14_noir",
-"alts": [],
-"focus": 4
-},
-{
 "videoId": "L1L2ynUgPnw",
 "title": "Kevin MacLeod: Interloper",
 "artist": "Kevin MacLeod",
@@ -3043,18 +3295,6 @@
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
 "length": 203,
-"origin": "search",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 5
-},
-{
-"videoId": "OHor51cs_Js",
-"title": "Closer To Jazz",
-"artist": "Audionautix / Jason Shaw",
-"license": "CC BY 4.0",
-"source": "https://audionautix.com/",
-"length": 143,
 "origin": "search",
 "sub": "B9_smooth",
 "alts": [],
@@ -3241,18 +3481,6 @@
 "sub": "B9_smooth",
 "alts": [],
 "focus": 5
-},
-{
-"videoId": "JcWDxBCtu_w",
-"title": "Hat the Jazz",
-"artist": "Twin Musicom",
-"license": "CC BY 4.0",
-"source": "https://www.twinmusicom.org/",
-"length": 49,
-"origin": "search",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 3
 },
 {
 "videoId": "3WnUPSfSC24",
@@ -4203,30 +4431,6 @@
 "focus": 5
 },
 {
-"videoId": "soJ9xucVMbg",
-"title": "Darkest Child",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 239,
-"origin": "search",
-"sub": "B14_noir",
-"alts": [],
-"focus": 5
-},
-{
-"videoId": "LpEUZEHt0qM",
-"title": "Funkorama",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 202,
-"origin": "search",
-"sub": "B13_soul",
-"alts": [],
-"focus": 4
-},
-{
 "videoId": "X5cDq4ZyZoM",
 "title": "C-Funk - Funkorama",
 "artist": "Kevin MacLeod",
@@ -4234,7 +4438,7 @@
 "source": "https://incompetech.com/",
 "length": 171,
 "origin": "search",
-"sub": "B13_soul",
+"sub": "B10_fusion",
 "alts": [],
 "focus": 3
 },
@@ -4249,18 +4453,6 @@
 "sub": "B9_smooth",
 "alts": [],
 "focus": 5
-},
-{
-"videoId": "DRIiYrc6uFA",
-"title": "Kevin MacLeod: Mellowtron",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 56,
-"origin": "search",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 3
 },
 {
 "videoId": "5y2iCWVL06M",
@@ -4371,18 +4563,6 @@
 "focus": 5
 },
 {
-"videoId": "OtPeKoNp6us",
-"title": "古き良き日々- ジャジーなピアノ曲【音楽素材MusMus】",
-"artist": "MusMus",
-"license": "Free with attribution (musmus.main.jp)",
-"source": "https://musmus.main.jp/",
-"length": 203,
-"origin": "search",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 5
-},
-{
 "videoId": "VrI3at_WqyU",
 "title": "THE MUSMUS 「青葉とワルツ」",
 "artist": "MusMus",
@@ -4476,9 +4656,9 @@
 "source": "https://incompetech.com/",
 "length": 201,
 "origin": "search",
-"sub": "B9_smooth",
+"sub": "B10_fusion",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "HYWhvTkXO6U",
@@ -4488,9 +4668,9 @@
 "source": "https://incompetech.com/",
 "length": 166,
 "origin": "search",
-"sub": "B9_smooth",
+"sub": "B10_fusion",
 "alts": [],
-"focus": 5
+"focus": 3
 },
 {
 "videoId": "dEb5zRrSAZ4",
@@ -4500,9 +4680,9 @@
 "source": "https://incompetech.com/",
 "length": 190,
 "origin": "search",
-"sub": "B9_smooth",
+"sub": "B10_fusion",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "kqcvcoz8Wno",
@@ -4512,7 +4692,7 @@
 "source": "https://incompetech.com/",
 "length": 54,
 "origin": "search",
-"sub": "B9_smooth",
+"sub": "B5_modal",
 "alts": [],
 "focus": 3
 },
@@ -5289,9 +5469,9 @@
 "source": "https://incompetech.com/",
 "length": 212,
 "origin": "search",
-"sub": "B9_smooth",
+"sub": "B12_dixie",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "VtEYvt8IMaE",

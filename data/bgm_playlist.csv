@@ -1,12 +1,14 @@
 scene,id,title,artist,videoId,focus,length,license
+A1_curtain,a1_curtain-kwu7wrw3muy,Hot Swing,Kevin MacLeod,kWU7wrW3muY,3,51,CC BY 4.0
 A2_intro,a2_intro-ftidfrnadqi,Ryno's Theme - .com,Kevin MacLeod,FTIdFrNaDqI,4,182,CC BY 4.0
 A2_intro,a2_intro-ryuynwq38x0,dear Dragon Example of use: 100% Orange Juice Sweet Breaker's Theme etc.,MusMus,rYUynwQ38x0,4,195,Free with attribution (musmus.main.jp)
 A2_intro,a2_intro-7hjr76oc9u0,'s - (Away and then Home) Intro Funky Music,TeknoAXE,7HjR76oC9u0,2,99,CC BY 4.0
+A3_break,a3_break-5hpus4kcrfs,Vibe Ace,Kevin MacLeod,5hPus4kCrFs,5,64,CC BY 4.0
+A3_break,a3_break-3fmbcuoroby,Bass Soli,Kevin MacLeod,3fMbCuORobY,4,66,CC BY 4.0
 A4_close,a4_close-dyxj27za0dq,Close to Midnight - Electro Swing/Swing Hop,TeknoAXE,dyXJ27za0dQ,5,200,CC BY 4.0
 B1_swing,b1_swing-xqo5gppa2vi,As I Figure,Kevin MacLeod,XQo5Gppa2vI,4,217,CC BY 4.0
 B1_swing,b1_swing-3szoxbcjnle,Big Swing Band,Audionautix / Jason Shaw,3SZoXbcJNlE,4,111,CC BY 4.0
 B1_swing,b1_swing-v0gc7fience,Don't Mean a Thing - Electro Swing,TeknoAXE,v0Gc7FIENcE,4,207,CC BY 4.0
-B1_swing,b1_swing-rvul_vskwne,Faster Does It,Kevin MacLeod,RVUl_VskWNE,4,183,CC BY 4.0
 B1_swing,b1_swing-ddmilm0cxg4,George Street Shuffle,Kevin MacLeod,DDmILM0cxg4,4,180,CC BY 4.0
 B1_swing,b1_swing-bxdmpakyxrg,Hep Cats by,Kevin MacLeod,BxDmPAKyxrg,4,251,CC BY 4.0
 B1_swing,b1_swing-vli9812n9v8,Hep cats,Kevin MacLeod,vLI9812N9V8,4,250,CC BY 4.0
@@ -22,11 +24,21 @@ B1_swing,b1_swing-jlf_vsom20s,Stomping at Midnight Vinyl Recording,Kevin MacLeod
 B1_swing,b1_swing-rtahc_olxje,Swing Machine,Kevin MacLeod,Rtahc_olXjE,4,138,CC BY 4.0
 B1_swing,b1_swing-1zzqio6jprq,Wat Dat Dee - Electro Swing,TeknoAXE,1Zzqio6jPRQ,4,201,CC BY 4.0
 B1_swing,b1_swing-b3kfmtgnbqg,Big Band Swingin' ( ),Eric Matyas (Soundimage.org),b3kfMTgnBqg,3,85,Free with attribution
-B1_swing,b1_swing-hqdfeqoap6q,Hot Swing,Kevin MacLeod,HqDFEqoap6Q,2,52,CC BY 4.0
+B2_bebop,b2_bebop-jdmsi3iokqc,Awesome Call,Kevin MacLeod,JDMsI3iOKqc,3,153,CC BY 4.0
+B2_bebop,b2_bebop-rqeyyi9p4bk,Be Bop 25,Audionautix / Jason Shaw,rqeYYi9P4Bk,2,143,CC BY 4.0
+B2_bebop,b2_bebop-v99vsacpgai,Dispersion Relation,Kevin MacLeod,v99vSaCpgAI,2,245,CC BY 4.0
+B2_bebop,b2_bebop-1glncqepziq,Faster Does It,Kevin MacLeod,1glncQEPzIQ,2,184,CC BY 4.0
+B2_bebop,b2_bebop-egttmzsexhg,No Good Layabout,Kevin MacLeod,egTTMzSeXHg,2,187,CC BY 4.0
 B3_cool,b3_cool-htvctalhgvu,'s - Royalty Free Song (Laid Back) Elevator Music?,TeknoAXE,htvCtAlhGvU,5,270,CC BY 4.0
-B3_cool,b3_cool-tjqwsv4cgge,Cool Vibes,Kevin MacLeod,TjqwSV4CggE,5,219,CC BY 4.0
 B3_cool,b3_cool-_q3nyfldjvs,Natural Vibes,Kevin MacLeod,_q3NYfldJvs,5,132,CC BY 4.0
-B3_cool,b3_cool-45ghq2g4vl8,Vibe Ace,Kevin MacLeod,45ghQ2G4vl8,5,180,CC BY 4.0
+B4_hardbop,b4_hardbop-qcsfjsotauo,Funky Chunk,Kevin MacLeod,qcSFJSoTauo,4,241,CC BY 4.0
+B4_hardbop,b4_hardbop-ohor51cs_js,Closer To Jazz,Audionautix / Jason Shaw,OHor51cs_Js,3,143,CC BY 4.0
+B4_hardbop,b4_hardbop-thlyvvldah0,Sidewalk Shade,Kevin MacLeod,thLYvVLdAh0,3,183,CC BY 4.0
+B4_hardbop,b4_hardbop-balbvu8zlvq,Sidewalk Shade - Note for Note,Kevin MacLeod,balbVu8zlvQ,3,157,CC BY 4.0
+B5_modal,b5_modal-ifrf3b2shdu,Intractable,Kevin MacLeod,IFrf3B2sHDU,5,271,CC BY 4.0
+B5_modal,b5_modal-sfxuva3gmia,Mellowtron,Kevin MacLeod,sfxUvA3GMiA,5,54,CC BY 4.0
+B5_modal,b5_modal-blubf0viane,Shades of Spring,Kevin MacLeod,bLuBF0vianE,4,180,CC BY 4.0
+B5_modal,b5_modal-kqcvcoz8wno,Mellowtron by,Kevin MacLeod,kqcvcoz8Wno,3,54,CC BY 4.0
 B6_latin,b6_latin-vygpdi8wgic,Blobby Samba,Kevin MacLeod,VYgpDi8WGic,5,234,CC BY 4.0
 B6_latin,b6_latin-mfsvlwy0tee,Blobby Samba - Latinesque,Kevin MacLeod,mfSvLWY0teE,5,234,CC BY 4.0
 B6_latin,b6_latin-a25zuqfejr4,Bossa Antigua,Kevin MacLeod,A25zUqFEJr4,5,180,CC BY 4.0
@@ -41,7 +53,7 @@ B6_latin,b6_latin-hpsgkm3n2am,Old Bossa,Twin Musicom,hPSgKm3n2aM,5,161,CC BY 4.0
 B6_latin,b6_latin-8fbvi38gvjq,Sad Bossa /,MusMus,8fbvI38gVJQ,5,139,Free with attribution (musmus.main.jp)
 B6_latin,b6_latin-jy81kvouwpo,Samba Isobel,Kevin MacLeod,JY81kVOuwPo,5,251,CC BY 4.0
 B6_latin,b6_latin-ltblurpmmdy,Sideways Samba,Audionautix / Jason Shaw,ltblurPMmdY,5,191,CC BY 4.0
-B6_latin,b6_latin-2a1m4orjy2k,Sugary lie / Jazz Bossa /,MusMus,2a1M4ORJY2k,5,172,Free with attribution (musmus.main.jp)
+B6_latin,b6_latin-2a1m4orjy2k,柔らかな嘘,MusMus,2a1M4ORJY2k,5,172,Free with attribution (musmus.main.jp)
 B6_latin,b6_latin-ou-moaztxhe,Samba Stings,Kevin MacLeod,OU-MOAZtXHE,3,47,CC BY 4.0
 B7_blues,b7_blues-zoai7wds44c,'s - Basic Blues Stomp -- Rock/Retro,TeknoAXE,zOai7WDS44c,4,167,CC BY 4.0
 B7_blues,b7_blues-33wptzmunai,Acoustic Blues,Audionautix / Jason Shaw,33WPtZmunaI,4,153,CC BY 4.0
@@ -99,17 +111,31 @@ B9_smooth,b9_smooth-gwqkv76azgi,Triangle,Audionautix / Jason Shaw,gWQKv76azGI,5,
 B9_smooth,b9_smooth-lfsn0blcuqa,Wheels,Audionautix / Jason Shaw,lfsn0BlCUqA,5,212,CC BY 4.0
 B9_smooth,b9_smooth-wm7fxpwi-ly,With a Stamp,Twin Musicom,Wm7fXPwI-LY,5,282,CC BY 4.0
 B9_smooth,b9_smooth-tgmdouoy-yk,turns into George Lucas...again,TeknoAXE,tGMDouOy-yk,5,665,CC BY 4.0
+B9_smooth,b9_smooth-ecfvi2ebav0,ジャズで聴くファイナルファンタジー4,MusMus,EcfVi2EBaV0,5,196,Free with attribution (musmus.main.jp)
 B9_smooth,b9_smooth-clzw4fdx7ug,卒業（体育館 ）,MusMus,CLzw4fDx7ug,5,236,Free with attribution (musmus.main.jp)
 B9_smooth,b9_smooth-mfawighzage,卒業（音楽室 ）,MusMus,MfaWiGHZAgE,5,236,Free with attribution (musmus.main.jp)
 B9_smooth,b9_smooth-wz_2ur4j4eo,怠惰の果実,MusMus,wZ_2uR4j4eo,5,327,Free with attribution (musmus.main.jp)
 B9_smooth,b9_smooth-rlx6i2fnqk4,手描きアート Koichi Morita Art 004 Alien Sorting Soul,魔王魂 (森田交一),rlX6i2fNQK4,5,739,Free with attribution (maou.audio terms)
 B9_smooth,b9_smooth-otgdebate2q,暗いジャズのアコースティック02,魔王魂 (森田交一),otGDEbATe2Q,5,105,Free with attribution (maou.audio terms)
-B9_smooth,b9_smooth-rbj56gngyb0,気分上々ジャズ,MusMus,rBJ56gnGYB0,5,208,Free with attribution (musmus.main.jp)
 B9_smooth,b9_smooth-3xjqtmpqvoc,Classical Carnivale,Twin Musicom,3XJQtMPQvoc,4,91,CC BY 4.0
 B9_smooth,b9_smooth-h3ylvrgmkam,ややジャズぃ〜なアコースティック15,魔王魂 (森田交一),h3YLVRGmkaM,4,61,Free with attribution (maou.audio terms)
 B9_smooth,b9_smooth-slhv2v6c64u,心地よいジャズのアコースティック11,魔王魂 (森田交一),slhV2v6C64U,4,87,Free with attribution (maou.audio terms)
+B10_fusion,b10_fusion-kisszsqu7nq,Cold Funk - Funkorama,Kevin MacLeod,KISsZSqU7nQ,4,289,CC BY 4.0
+B10_fusion,b10_fusion-dmio-dt5bfw,Funkorama,Kevin MacLeod,dmIO-dT5BFw,4,203,CC BY 4.0
+B10_fusion,b10_fusion-wrw5uaagnw8,Local Forecast,Kevin MacLeod,wRw5uAAGnw8,4,190,CC BY 4.0
+B10_fusion,b10_fusion-5iyl1l34pis,Local Forecast - Elevator,Kevin MacLeod,5IyL1l34PIs,4,192,CC BY 4.0
+B10_fusion,b10_fusion-3jvixh3tmp0,Local Forecast - Slower,Kevin MacLeod,3JVIxh3tMp0,4,201,CC BY 4.0
+B10_fusion,b10_fusion-deb5zrrsaz4,Local Forecast Elevator,Kevin MacLeod,dEb5zRrSAZ4,4,190,CC BY 4.0
+B10_fusion,b10_fusion-kjmaelp4lvi,AcidJazz,Kevin MacLeod,kJmAelp4lVI,3,180,CC BY 4.0
+B10_fusion,b10_fusion-x5cdq4zyzom,C-Funk - Funkorama,Kevin MacLeod,X5cDq4ZyZoM,3,171,CC BY 4.0
+B10_fusion,b10_fusion-gimbmtwbv1s,Laser Groove,Kevin MacLeod,GImBmTwBV1s,3,168,CC BY 4.0
+B10_fusion,b10_fusion-hywhvtkxo6u,Local Forecast (Normal),Kevin MacLeod,HYWhvTkXO6U,3,166,CC BY 4.0
+B11_free,b11_free-urgd-inuywy,2017.12.08 Atonal,Kevin MacLeod,uRGd-INuYWY,1,344,CC BY 4.0
+B11_free,b11_free-ke3wr5d1fua,Atonal in C-ish,Kevin MacLeod,kE3WR5d1fuA,1,42,CC BY 4.0
+B12_dixie,b12_dixie-b1wiejj99xa,Fig Leaf Rag - distressed,Kevin MacLeod,B1WIEJj99XA,4,212,CC BY 4.0
 B12_dixie,b12_dixie-01afmksqzu0,Fig Leaf Times Two,Kevin MacLeod,01AFmkSqZu0,4,381,CC BY 4.0
 B12_dixie,b12_dixie-uahft4fw0hm,2007 04 & Dan Beimborn - Ragtime Annie,Kevin MacLeod,uaHFt4Fw0HM,3,160,CC BY 4.0
+B12_dixie,b12_dixie-vhh1qd6-r0m,Fig Leaf Rag,Kevin MacLeod,vHh1Qd6-r0M,3,211,CC BY 4.0
 B12_dixie,b12_dixie--2l1yqnjuku,Frogs Legs Rag,Kevin MacLeod,-2L1YqnJuKU,3,169,CC BY 4.0
 B12_dixie,b12_dixie-b1izxvfdjis,Maple Leaf Rag,Kevin MacLeod,B1izxvFdJis,3,152,CC BY 4.0
 B13_soul,b13_soul-sk883ji5uas,'s - (Resonance Experiment) Funky Big Beat Music,TeknoAXE,Sk883ji5Uas,4,257,CC BY 4.0
@@ -120,13 +146,10 @@ B13_soul,b13_soul-dmzt2cnilvu,Clean Soul,Kevin MacLeod,DmZT2cniLVU,4,309,CC BY 4
 B13_soul,b13_soul-thihnuqjhf4,Clean Soul (EP and Bass Duet),Kevin MacLeod,THihnuQJHF4,4,307,CC BY 4.0
 B13_soul,b13_soul-m822dtfvpae,Clean Soul - Calming,Kevin MacLeod,M822DtfVpaE,4,307,CC BY 4.0
 B13_soul,b13_soul-0gp8kimr1zy,Cold Funk,Kevin MacLeod,0GP8kImr1zY,4,291,CC BY 4.0
-B13_soul,b13_soul-kisszsqu7nq,Cold Funk - Funkorama,Kevin MacLeod,KISsZSqU7nQ,4,289,CC BY 4.0
 B13_soul,b13_soul-eb1zg49ulio,Funk Japan / Copyright,MusMus,EB1zg49Ulio,4,207,Free with attribution (musmus.main.jp)
 B13_soul,b13_soul-yicqegdwca0,Funk You O - Funk/Alternative,TeknoAXE,yiCQeGdwcA0,4,232,CC BY 4.0
 B13_soul,b13_soul-mk1l2xyxuv4,Funk the Chilldown - Funk/Chill,TeknoAXE,mK1L2xyXuV4,4,258,CC BY 4.0
-B13_soul,b13_soul-lpeuzeht0qm,Funkorama,Kevin MacLeod,LpEUZEHt0qM,4,202,CC BY 4.0
 B13_soul,b13_soul-kixdwb3ksh8,Funky Boxstep,Kevin MacLeod,KixDwB3ksh8,4,316,CC BY 4.0
-B13_soul,b13_soul-qcsfjsotauo,Funky Chunk,Kevin MacLeod,qcSFJSoTauo,4,241,CC BY 4.0
 B13_soul,b13_soul-s9qlz6dviwu,Funky One,Kevin MacLeod,S9QLZ6dVIWU,4,183,CC BY 4.0
 B13_soul,b13_soul-v3e3_pfja44,Got Funk,Kevin MacLeod,v3E3_pFJA44,4,282,CC BY 4.0
 B13_soul,b13_soul-f-k7kk7xeim,Groove Grove,Kevin MacLeod,f-k7Kk7XeIM,4,207,CC BY 4.0
@@ -138,21 +161,19 @@ B13_soul,b13_soul-yypkc7tgrhk,Moped Cruising -- Breakbeats/Funk,TeknoAXE,yYpKC7T
 B13_soul,b13_soul-_fuxd7mw2xo,Palm and Soul,Kevin MacLeod,_fuXd7mW2xo,4,242,CC BY 4.0
 B13_soul,b13_soul-6eoummyzf9s,Shifting Sands - Funk/Easy,TeknoAXE,6EouMmYZf9s,4,233,CC BY 4.0
 B13_soul,b13_soul-58ismd33iuq,Simpler Times - Funk/Alternative,TeknoAXE,58ISMD33IuQ,4,226,CC BY 4.0
-B13_soul,b13_soul-kjmaelp4lvi,AcidJazz,Kevin MacLeod,kJmAelp4lVI,3,180,CC BY 4.0
 B13_soul,b13_soul-wse9bkkdghi,Boogie Woogie Bed,Audionautix / Jason Shaw,wSe9BkkDGhI,3,147,CC BY 4.0
 B13_soul,b13_soul-kyvxdeu8fyy,C-Funk,Kevin MacLeod,KyvXdEu8fYY,3,173,CC BY 4.0
-B13_soul,b13_soul-x5cdq4zyzom,C-Funk - Funkorama,Kevin MacLeod,X5cDq4ZyZoM,3,171,CC BY 4.0
 B13_soul,b13_soul-a37a7a2pbwm,Funky Gameplay,Eric Matyas (Soundimage.org),a37a7A2PBwM,3,137,Free with attribution
-B13_soul,b13_soul-gimbmtwbv1s,Laser Groove,Kevin MacLeod,GImBmTwBV1s,3,168,CC BY 4.0
 B13_soul,b13_soul-2lkoboatetg,Captain Glouglou & their beautiful keyboard - Organ,Loyalty Freak Music / Komiku,2lkoboAtETg,2,93,CC0
 B13_soul,b13_soul-j5bjczyyhic,Funky Goat Store,MusMus,J5bJCZyyHIc,2,61,Free with attribution (musmus.main.jp)
 B13_soul,b13_soul-xd9v_0kqjc4,Funky Monster Mischief,Eric Matyas (Soundimage.org),Xd9V_0kQjC4,2,76,Free with attribution
 B13_soul,b13_soul-j5yc2j9kjgu,Funky Runnin',Eric Matyas (Soundimage.org),j5yc2j9KjgU,2,93,Free with attribution
 B13_soul,b13_soul-d4kfviefv6m,Future Funk,Eric Matyas (Soundimage.org),D4KFvIefV6M,2,86,Free with attribution
 B13_soul,b13_soul-w8-brfquku4,Unconventional Organ,MusMus,W8-bRfQuku4,2,90,Free with attribution (musmus.main.jp)
+B13_soul,b13_soul-_pvxp9xx05q,Funk Game,Kevin MacLeod,_pVxP9xX05Q,1,59,CC BY 4.0
 B13_soul,b13_soul-hx0cphltu10,Funky Streets,Eric Matyas (Soundimage.org),hX0cPhLTu10,1,51,Free with attribution
 B14_noir,b14_noir-5b9a2w5eftm,Dances and Dames,Kevin MacLeod,5B9a2W5eFTM,5,180,CC BY 4.0
-B14_noir,b14_noir-soj9xucvmbg,Darkest Child,Kevin MacLeod,soJ9xucVMbg,5,239,CC BY 4.0
+B14_noir,b14_noir-wfbiexutm6a,Darkest Child,Kevin MacLeod,WfBIexUTm6A,5,239,CC BY 4.0
 B14_noir,b14_noir-fzi1o9dhmzg,Darkest Child (var A),Kevin MacLeod,fZi1O9dHMZg,5,200,CC BY 4.0
 B14_noir,b14_noir-ncwyta2kt8g,Darkest Child A,Kevin MacLeod,nCwYta2Kt8g,5,198,CC BY 4.0
 B14_noir,b14_noir-3xieyu0qxzg,I Knew a Guy,Kevin MacLeod,3XiEYu0Qxzg,5,180,CC BY 4.0
@@ -176,7 +197,6 @@ C1_lounge,c1_lounge-liwl0zwq2oc,Moon Lounge Omicron Prime,Kevin MacLeod,liWL0ZwQ
 C1_lounge,c1_lounge-i73dqey-aea,Mystery Sax,Kevin MacLeod,I73DQEy-aEA,5,285,CC BY 4.0
 C1_lounge,c1_lounge-5y2icwvl06m,Night on the Docks - Piano,Kevin MacLeod,5y2iCWVL06M,5,177,CC BY 4.0
 C1_lounge,c1_lounge-l7iqnw3ia4u,Ultralounge,Kevin MacLeod,L7iqnW3iA4U,5,318,CC BY 4.0
-C1_lounge,c1_lounge-wnjjizk7h28,Wallpaper,Kevin MacLeod,wNjJiZk7H28,5,180,CC BY 4.0
 C1_lounge,c1_lounge-6q-ffdlztvm,Hong Kong Midnight,Eric Matyas (Soundimage.org),6Q-FfDlZtvM,4,63,Free with attribution
 C1_lounge,c1_lounge-fy7ktglkeom,Midnight Crawlers,Eric Matyas (Soundimage.org),fy7kTGLKeoM,4,63,Free with attribution
 C1_lounge,c1_lounge-rj0jwldy0xw,Midnight Mist_LoFi ( Track),Eric Matyas (Soundimage.org),rj0jwLdy0Xw,3,48,Free with attribution
@@ -184,12 +204,16 @@ C1_lounge,c1_lounge-oauis-l37ca,Midnight Streets_ ( Track),Eric Matyas (Soundima
 C2_cafe,c2_cafe-8dtq21bwvyq,Jazz Brunch,Kevin MacLeod,8DtQ21BWvyQ,5,180,CC BY 4.0
 C2_cafe,c2_cafe-wtfovv1bafk,Little Monster’s Cafe / Copyright,MusMus,WTFoVv1BaFk,5,142,Free with attribution (musmus.main.jp)
 C2_cafe,c2_cafe-7fsklw3xyn8,Lobby Time,Kevin MacLeod,7FsKlW3xYN8,5,193,CC BY 4.0
+C2_cafe,c2_cafe-c7cfpg08_yo,Stable yetl - PIano Jazz,MusMus,C7CFPG08_Yo,5,165,Free with attribution (musmus.main.jp)
 C3_speakeasy,c3_speakeasy-l8arj1fxxa4,Bar Street Jam - Chill/Easy,TeknoAXE,L8aRJ1FxXa4,5,277,CC BY 4.0
 C3_speakeasy,c3_speakeasy-qwmp_vng-ym,Whiskey on the Mississippi,Kevin MacLeod,qWmP_Vng-YM,4,198,CC BY 4.0
 C4_rooftop,c4_rooftop-snz7hvmq74e,Digital Downtown,Eric Matyas (Soundimage.org),Snz7hVmq74E,4,106,Free with attribution
 C4_rooftop,c4_rooftop--vo4ax9fm-i,URBAN FLIGHT,MusMus,-VO4ax9FM-I,4,138,Free with attribution (musmus.main.jp)
 C5_festival,c5_festival-1_cvfd2jtpa,Tiki Bar Mixer,Kevin MacLeod,1_cvfD2jtpA,4,213,CC BY 4.0
 C5_festival,c5_festival--9magnskyd0,Beach Party,Kevin MacLeod,-9mAgnSkYD0,3,180,CC BY 4.0
+C6_studio,c6_studio-aim9xzttkfi,Bass Vibes,Kevin MacLeod,Aim9XZttkFI,5,170,CC BY 4.0
+C6_studio,c6_studio-tjqwsv4cgge,Cool Vibes,Kevin MacLeod,TjqwSV4CggE,5,219,CC BY 4.0
+C6_studio,c6_studio-jcwdxbctu_w,Hat the Jazz,Twin Musicom,JcWDxBCtu_w,4,49,CC BY 4.0
 C7_dance,c7_dance-027tcvvj4y0,'s - -A (Chilling on Space Colony 1 The Dance Remix ) Downtempo,TeknoAXE,027TcVVj4Y0,2,262,CC BY 4.0
 D1_melancholy,d1_melancholy-h6ydejhm4ey,Bittersweet,Kevin MacLeod,H6ydejhm4EY,5,202,CC BY 4.0
 D2_romance,d2_romance-htd1sl4g4o8,Romantic,Kevin MacLeod,HTd1sl4G4O8,5,180,CC BY 4.0
@@ -198,13 +222,19 @@ D2_romance,d2_romance-ggvrfcooami,Romantic Lands Beckon,Eric Matyas (Soundimage.
 D3_uplift,d3_uplift-z4dq5qmabn0,'s - Royalty Free Song (Lucid Morning) Thematic Music,TeknoAXE,z4Dq5qMabN0,4,262,CC BY 4.0
 D3_uplift,d3_uplift-smcwoajfuw0,Carefree,Kevin MacLeod,sMcWOaJFuw0,4,206,CC BY 4.0
 D3_uplift,d3_uplift-axphs1morwo,Carefree Days in Groovyville,Eric Matyas (Soundimage.org),AxPHs1MoRwo,4,109,Free with attribution
-D3_uplift,d3_uplift-blubf0viane,Shades of Spring,Kevin MacLeod,bLuBF0vianE,4,180,CC BY 4.0
+D3_uplift,d3_uplift-rbj56gngyb0,気分上々ジャズ,MusMus,rBJ56gnGYB0,4,208,Free with attribution (musmus.main.jp)
 D3_uplift,d3_uplift-plqvzi9kfwm,Carefree Days at Pelican Shores,Eric Matyas (Soundimage.org),PlqVzi9kFwM,3,92,Free with attribution
 D4_tense,d4_tense-rx9kco_vnsy,'s - (Dead Piano Island) Tension/Suspense/Orchestra,TeknoAXE,rx9KcO_VnSY,4,197,CC BY 4.0
 D4_tense,d4_tense-5azmctdbqii,'s - (Reception) Orchestra/Tension/Drama/Suspense,TeknoAXE,5AZMctDbqII,4,226,CC BY 4.0
 D4_tense,d4_tense-gtrhdi8iuvs,Spy Glass,Kevin MacLeod,gTrHdi8iuvs,4,226,CC BY 4.0
 D4_tense,d4_tense-iyhefenwack,'s - (Boss Battle 1) bpm 120 Suspense/Action/Orchestra,TeknoAXE,IYhEfEnWaCk,2,81,CC BY 4.0
 D5_playful,d5_playful-qrqjlopbnyy,Sneaky Snitch,Kevin MacLeod,QrqjLoPbnyY,3,143,CC BY 4.0
+D6_elegant,d6_elegant-fogsfh0s5uu,Wallpaper,Kevin MacLeod,fOgsFH0s5uU,5,221,CC BY 4.0
+D6_elegant,d6_elegant-im3k4nfdywk,sleepin’ maple syrup jazz,MusMus,Im3K4nFdyWk,5,73,Free with attribution (musmus.main.jp)
+D6_elegant,d6_elegant-dzkl4---jhm,George Duff/ /John Martin - 'Belltable Waltz set',Kevin MacLeod,DzKL4---JhM,4,246,CC BY 4.0
+D6_elegant,d6_elegant-zbisc7u-2om,Joey's Formal Waltz,Kevin MacLeod,zBisC7u-2OM,4,305,CC BY 4.0
+D6_elegant,d6_elegant-otpekonp6us,古き良き日々,MusMus,OtPeKoNp6us,4,203,Free with attribution (musmus.main.jp)
+D6_elegant,d6_elegant-3rwrzy2jupa,Light Up delight,MusMus,3rwrZY2JupA,3,138,Free with attribution (musmus.main.jp)
 D7_rainy,d7_rainy-5rqc913k3kg,Puddle Jumping,Eric Matyas (Soundimage.org),5Rqc913k3kg,5,138,Free with attribution
 D7_rainy,d7_rainy-yanzvd_mgjw,Rainy November -- Background/Jazz/Orchestra,TeknoAXE,yAnzVd_mgjw,5,198,CC BY 4.0
 D8_afterhours,d8_afterhours-baykt6yw23m,Mining by Moonlight,Kevin MacLeod,bAYKt6yW23M,5,196,CC BY 4.0

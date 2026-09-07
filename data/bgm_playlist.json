@@ -9,8 +9,19 @@
         {
           "id": "A1_curtain",
           "name": "커튼콜 / 개장",
-          "count": 0,
-          "tracks": []
+          "count": 1,
+          "tracks": [
+            {
+              "id": "a1_curtain-kwu7wrw3muy",
+              "title": "Hot Swing",
+              "artist": "Kevin MacLeod",
+              "videoId": "kWU7wrW3muY",
+              "focus": 3,
+              "length": 51,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=kWU7wrW3muY"
+            }
+          ]
         },
         {
           "id": "A2_intro",
@@ -52,8 +63,29 @@
         {
           "id": "A3_break",
           "name": "브레이크 / 인터미션",
-          "count": 0,
-          "tracks": []
+          "count": 2,
+          "tracks": [
+            {
+              "id": "a3_break-5hpus4kcrfs",
+              "title": "Vibe Ace",
+              "artist": "Kevin MacLeod",
+              "videoId": "5hPus4kCrFs",
+              "focus": 5,
+              "length": 64,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=5hPus4kCrFs"
+            },
+            {
+              "id": "a3_break-3fmbcuoroby",
+              "title": "Bass Soli",
+              "artist": "Kevin MacLeod",
+              "videoId": "3fMbCuORobY",
+              "focus": 4,
+              "length": 66,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=3fMbCuORobY"
+            }
+          ]
         },
         {
           "id": "A4_close",
@@ -80,7 +112,7 @@
         {
           "id": "B1_swing",
           "name": "스윙 / 빅밴드",
-          "count": 20,
+          "count": 18,
           "tracks": [
             {
               "id": "b1_swing-xqo5gppa2vi",
@@ -111,16 +143,6 @@
               "length": 207,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=v0Gc7FIENcE"
-            },
-            {
-              "id": "b1_swing-rvul_vskwne",
-              "title": "Faster Does It",
-              "artist": "Kevin MacLeod",
-              "videoId": "RVUl_VskWNE",
-              "focus": 4,
-              "length": 183,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=RVUl_VskWNE"
             },
             {
               "id": "b1_swing-ddmilm0cxg4",
@@ -271,29 +293,70 @@
               "length": 85,
               "license": "Free with attribution",
               "source": "https://www.youtube.com/watch?v=b3kfMTgnBqg"
-            },
-            {
-              "id": "b1_swing-hqdfeqoap6q",
-              "title": "Hot Swing",
-              "artist": "Kevin MacLeod",
-              "videoId": "HqDFEqoap6Q",
-              "focus": 2,
-              "length": 52,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=HqDFEqoap6Q"
             }
           ]
         },
         {
           "id": "B2_bebop",
           "name": "비밥",
-          "count": 0,
-          "tracks": []
+          "count": 5,
+          "tracks": [
+            {
+              "id": "b2_bebop-jdmsi3iokqc",
+              "title": "Awesome Call",
+              "artist": "Kevin MacLeod",
+              "videoId": "JDMsI3iOKqc",
+              "focus": 3,
+              "length": 153,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=JDMsI3iOKqc"
+            },
+            {
+              "id": "b2_bebop-rqeyyi9p4bk",
+              "title": "Be Bop 25",
+              "artist": "Audionautix / Jason Shaw",
+              "videoId": "rqeYYi9P4Bk",
+              "focus": 2,
+              "length": 143,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=rqeYYi9P4Bk"
+            },
+            {
+              "id": "b2_bebop-v99vsacpgai",
+              "title": "Dispersion Relation",
+              "artist": "Kevin MacLeod",
+              "videoId": "v99vSaCpgAI",
+              "focus": 2,
+              "length": 245,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=v99vSaCpgAI"
+            },
+            {
+              "id": "b2_bebop-1glncqepziq",
+              "title": "Faster Does It",
+              "artist": "Kevin MacLeod",
+              "videoId": "1glncQEPzIQ",
+              "focus": 2,
+              "length": 184,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=1glncQEPzIQ"
+            },
+            {
+              "id": "b2_bebop-egttmzsexhg",
+              "title": "No Good Layabout",
+              "artist": "Kevin MacLeod",
+              "videoId": "egTTMzSeXHg",
+              "focus": 2,
+              "length": 187,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=egTTMzSeXHg"
+            }
+          ]
         },
         {
           "id": "B3_cool",
           "name": "쿨 재즈",
-          "count": 4,
+          "count": 2,
           "tracks": [
             {
               "id": "b3_cool-htvctalhgvu",
@@ -306,16 +369,6 @@
               "source": "https://www.youtube.com/watch?v=htvCtAlhGvU"
             },
             {
-              "id": "b3_cool-tjqwsv4cgge",
-              "title": "Cool Vibes",
-              "artist": "Kevin MacLeod",
-              "videoId": "TjqwSV4CggE",
-              "focus": 5,
-              "length": 219,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=TjqwSV4CggE"
-            },
-            {
               "id": "b3_cool-_q3nyfldjvs",
               "title": "Natural Vibes",
               "artist": "Kevin MacLeod",
@@ -324,30 +377,102 @@
               "length": 132,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=_q3NYfldJvs"
-            },
-            {
-              "id": "b3_cool-45ghq2g4vl8",
-              "title": "Vibe Ace",
-              "artist": "Kevin MacLeod",
-              "videoId": "45ghQ2G4vl8",
-              "focus": 5,
-              "length": 180,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=45ghQ2G4vl8"
             }
           ]
         },
         {
           "id": "B4_hardbop",
           "name": "하드밥",
-          "count": 0,
-          "tracks": []
+          "count": 4,
+          "tracks": [
+            {
+              "id": "b4_hardbop-qcsfjsotauo",
+              "title": "Funky Chunk",
+              "artist": "Kevin MacLeod",
+              "videoId": "qcSFJSoTauo",
+              "focus": 4,
+              "length": 241,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=qcSFJSoTauo"
+            },
+            {
+              "id": "b4_hardbop-ohor51cs_js",
+              "title": "Closer To Jazz",
+              "artist": "Audionautix / Jason Shaw",
+              "videoId": "OHor51cs_Js",
+              "focus": 3,
+              "length": 143,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=OHor51cs_Js"
+            },
+            {
+              "id": "b4_hardbop-thlyvvldah0",
+              "title": "Sidewalk Shade",
+              "artist": "Kevin MacLeod",
+              "videoId": "thLYvVLdAh0",
+              "focus": 3,
+              "length": 183,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=thLYvVLdAh0"
+            },
+            {
+              "id": "b4_hardbop-balbvu8zlvq",
+              "title": "Sidewalk Shade - Note for Note",
+              "artist": "Kevin MacLeod",
+              "videoId": "balbVu8zlvQ",
+              "focus": 3,
+              "length": 157,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=balbVu8zlvQ"
+            }
+          ]
         },
         {
           "id": "B5_modal",
           "name": "모달",
-          "count": 0,
-          "tracks": []
+          "count": 4,
+          "tracks": [
+            {
+              "id": "b5_modal-ifrf3b2shdu",
+              "title": "Intractable",
+              "artist": "Kevin MacLeod",
+              "videoId": "IFrf3B2sHDU",
+              "focus": 5,
+              "length": 271,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=IFrf3B2sHDU"
+            },
+            {
+              "id": "b5_modal-sfxuva3gmia",
+              "title": "Mellowtron",
+              "artist": "Kevin MacLeod",
+              "videoId": "sfxUvA3GMiA",
+              "focus": 5,
+              "length": 54,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=sfxUvA3GMiA"
+            },
+            {
+              "id": "b5_modal-blubf0viane",
+              "title": "Shades of Spring",
+              "artist": "Kevin MacLeod",
+              "videoId": "bLuBF0vianE",
+              "focus": 4,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=bLuBF0vianE"
+            },
+            {
+              "id": "b5_modal-kqcvcoz8wno",
+              "title": "Mellowtron by",
+              "artist": "Kevin MacLeod",
+              "videoId": "kqcvcoz8Wno",
+              "focus": 3,
+              "length": 54,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=kqcvcoz8Wno"
+            }
+          ]
         },
         {
           "id": "B6_latin",
@@ -496,7 +621,7 @@
             },
             {
               "id": "b6_latin-2a1m4orjy2k",
-              "title": "Sugary lie / Jazz Bossa /",
+              "title": "柔らかな嘘",
               "artist": "MusMus",
               "videoId": "2a1M4ORJY2k",
               "focus": 5,
@@ -1096,6 +1221,16 @@
               "source": "https://www.youtube.com/watch?v=tGMDouOy-yk"
             },
             {
+              "id": "b9_smooth-ecfvi2ebav0",
+              "title": "ジャズで聴くファイナルファンタジー4",
+              "artist": "MusMus",
+              "videoId": "EcfVi2EBaV0",
+              "focus": 5,
+              "length": 196,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=EcfVi2EBaV0"
+            },
+            {
               "id": "b9_smooth-clzw4fdx7ug",
               "title": "卒業（体育館 ）",
               "artist": "MusMus",
@@ -1146,16 +1281,6 @@
               "source": "https://www.youtube.com/watch?v=otGDEbATe2Q"
             },
             {
-              "id": "b9_smooth-rbj56gngyb0",
-              "title": "気分上々ジャズ",
-              "artist": "MusMus",
-              "videoId": "rBJ56gnGYB0",
-              "focus": 5,
-              "length": 208,
-              "license": "Free with attribution (musmus.main.jp)",
-              "source": "https://www.youtube.com/watch?v=rBJ56gnGYB0"
-            },
-            {
               "id": "b9_smooth-3xjqtmpqvoc",
               "title": "Classical Carnivale",
               "artist": "Twin Musicom",
@@ -1190,20 +1315,152 @@
         {
           "id": "B10_fusion",
           "name": "퓨전 / 일렉트릭",
-          "count": 0,
-          "tracks": []
+          "count": 10,
+          "tracks": [
+            {
+              "id": "b10_fusion-kisszsqu7nq",
+              "title": "Cold Funk - Funkorama",
+              "artist": "Kevin MacLeod",
+              "videoId": "KISsZSqU7nQ",
+              "focus": 4,
+              "length": 289,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=KISsZSqU7nQ"
+            },
+            {
+              "id": "b10_fusion-dmio-dt5bfw",
+              "title": "Funkorama",
+              "artist": "Kevin MacLeod",
+              "videoId": "dmIO-dT5BFw",
+              "focus": 4,
+              "length": 203,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=dmIO-dT5BFw"
+            },
+            {
+              "id": "b10_fusion-wrw5uaagnw8",
+              "title": "Local Forecast",
+              "artist": "Kevin MacLeod",
+              "videoId": "wRw5uAAGnw8",
+              "focus": 4,
+              "length": 190,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=wRw5uAAGnw8"
+            },
+            {
+              "id": "b10_fusion-5iyl1l34pis",
+              "title": "Local Forecast - Elevator",
+              "artist": "Kevin MacLeod",
+              "videoId": "5IyL1l34PIs",
+              "focus": 4,
+              "length": 192,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=5IyL1l34PIs"
+            },
+            {
+              "id": "b10_fusion-3jvixh3tmp0",
+              "title": "Local Forecast - Slower",
+              "artist": "Kevin MacLeod",
+              "videoId": "3JVIxh3tMp0",
+              "focus": 4,
+              "length": 201,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=3JVIxh3tMp0"
+            },
+            {
+              "id": "b10_fusion-deb5zrrsaz4",
+              "title": "Local Forecast Elevator",
+              "artist": "Kevin MacLeod",
+              "videoId": "dEb5zRrSAZ4",
+              "focus": 4,
+              "length": 190,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=dEb5zRrSAZ4"
+            },
+            {
+              "id": "b10_fusion-kjmaelp4lvi",
+              "title": "AcidJazz",
+              "artist": "Kevin MacLeod",
+              "videoId": "kJmAelp4lVI",
+              "focus": 3,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=kJmAelp4lVI"
+            },
+            {
+              "id": "b10_fusion-x5cdq4zyzom",
+              "title": "C-Funk - Funkorama",
+              "artist": "Kevin MacLeod",
+              "videoId": "X5cDq4ZyZoM",
+              "focus": 3,
+              "length": 171,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=X5cDq4ZyZoM"
+            },
+            {
+              "id": "b10_fusion-gimbmtwbv1s",
+              "title": "Laser Groove",
+              "artist": "Kevin MacLeod",
+              "videoId": "GImBmTwBV1s",
+              "focus": 3,
+              "length": 168,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=GImBmTwBV1s"
+            },
+            {
+              "id": "b10_fusion-hywhvtkxo6u",
+              "title": "Local Forecast (Normal)",
+              "artist": "Kevin MacLeod",
+              "videoId": "HYWhvTkXO6U",
+              "focus": 3,
+              "length": 166,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=HYWhvTkXO6U"
+            }
+          ]
         },
         {
           "id": "B11_free",
           "name": "프리 / 아방가르드",
-          "count": 0,
-          "tracks": []
+          "count": 2,
+          "tracks": [
+            {
+              "id": "b11_free-urgd-inuywy",
+              "title": "2017.12.08 Atonal",
+              "artist": "Kevin MacLeod",
+              "videoId": "uRGd-INuYWY",
+              "focus": 1,
+              "length": 344,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=uRGd-INuYWY"
+            },
+            {
+              "id": "b11_free-ke3wr5d1fua",
+              "title": "Atonal in C-ish",
+              "artist": "Kevin MacLeod",
+              "videoId": "kE3WR5d1fuA",
+              "focus": 1,
+              "length": 42,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=kE3WR5d1fuA"
+            }
+          ]
         },
         {
           "id": "B12_dixie",
           "name": "딕실랜드 / 트래디셔널",
-          "count": 4,
+          "count": 6,
           "tracks": [
+            {
+              "id": "b12_dixie-b1wiejj99xa",
+              "title": "Fig Leaf Rag - distressed",
+              "artist": "Kevin MacLeod",
+              "videoId": "B1WIEJj99XA",
+              "focus": 4,
+              "length": 212,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=B1WIEJj99XA"
+            },
             {
               "id": "b12_dixie-01afmksqzu0",
               "title": "Fig Leaf Times Two",
@@ -1223,6 +1480,16 @@
               "length": 160,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=uaHFt4Fw0HM"
+            },
+            {
+              "id": "b12_dixie-vhh1qd6-r0m",
+              "title": "Fig Leaf Rag",
+              "artist": "Kevin MacLeod",
+              "videoId": "vHh1Qd6-r0M",
+              "focus": 3,
+              "length": 211,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=vHh1Qd6-r0M"
             },
             {
               "id": "b12_dixie--2l1yqnjuku",
@@ -1249,7 +1516,7 @@
         {
           "id": "B13_soul",
           "name": "소울 재즈 / 펑키",
-          "count": 39,
+          "count": 34,
           "tracks": [
             {
               "id": "b13_soul-sk883ji5uas",
@@ -1332,16 +1599,6 @@
               "source": "https://www.youtube.com/watch?v=0GP8kImr1zY"
             },
             {
-              "id": "b13_soul-kisszsqu7nq",
-              "title": "Cold Funk - Funkorama",
-              "artist": "Kevin MacLeod",
-              "videoId": "KISsZSqU7nQ",
-              "focus": 4,
-              "length": 289,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=KISsZSqU7nQ"
-            },
-            {
               "id": "b13_soul-eb1zg49ulio",
               "title": "Funk Japan / Copyright",
               "artist": "MusMus",
@@ -1372,16 +1629,6 @@
               "source": "https://www.youtube.com/watch?v=mK1L2xyXuV4"
             },
             {
-              "id": "b13_soul-lpeuzeht0qm",
-              "title": "Funkorama",
-              "artist": "Kevin MacLeod",
-              "videoId": "LpEUZEHt0qM",
-              "focus": 4,
-              "length": 202,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=LpEUZEHt0qM"
-            },
-            {
               "id": "b13_soul-kixdwb3ksh8",
               "title": "Funky Boxstep",
               "artist": "Kevin MacLeod",
@@ -1390,16 +1637,6 @@
               "length": 316,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=KixDwB3ksh8"
-            },
-            {
-              "id": "b13_soul-qcsfjsotauo",
-              "title": "Funky Chunk",
-              "artist": "Kevin MacLeod",
-              "videoId": "qcSFJSoTauo",
-              "focus": 4,
-              "length": 241,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=qcSFJSoTauo"
             },
             {
               "id": "b13_soul-s9qlz6dviwu",
@@ -1512,16 +1749,6 @@
               "source": "https://www.youtube.com/watch?v=58ISMD33IuQ"
             },
             {
-              "id": "b13_soul-kjmaelp4lvi",
-              "title": "AcidJazz",
-              "artist": "Kevin MacLeod",
-              "videoId": "kJmAelp4lVI",
-              "focus": 3,
-              "length": 180,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=kJmAelp4lVI"
-            },
-            {
               "id": "b13_soul-wse9bkkdghi",
               "title": "Boogie Woogie Bed",
               "artist": "Audionautix / Jason Shaw",
@@ -1542,16 +1769,6 @@
               "source": "https://www.youtube.com/watch?v=KyvXdEu8fYY"
             },
             {
-              "id": "b13_soul-x5cdq4zyzom",
-              "title": "C-Funk - Funkorama",
-              "artist": "Kevin MacLeod",
-              "videoId": "X5cDq4ZyZoM",
-              "focus": 3,
-              "length": 171,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=X5cDq4ZyZoM"
-            },
-            {
               "id": "b13_soul-a37a7a2pbwm",
               "title": "Funky Gameplay",
               "artist": "Eric Matyas (Soundimage.org)",
@@ -1560,16 +1777,6 @@
               "length": 137,
               "license": "Free with attribution",
               "source": "https://www.youtube.com/watch?v=a37a7A2PBwM"
-            },
-            {
-              "id": "b13_soul-gimbmtwbv1s",
-              "title": "Laser Groove",
-              "artist": "Kevin MacLeod",
-              "videoId": "GImBmTwBV1s",
-              "focus": 3,
-              "length": 168,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=GImBmTwBV1s"
             },
             {
               "id": "b13_soul-2lkoboatetg",
@@ -1632,6 +1839,16 @@
               "source": "https://www.youtube.com/watch?v=W8-bRfQuku4"
             },
             {
+              "id": "b13_soul-_pvxp9xx05q",
+              "title": "Funk Game",
+              "artist": "Kevin MacLeod",
+              "videoId": "_pVxP9xX05Q",
+              "focus": 1,
+              "length": 59,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=_pVxP9xX05Q"
+            },
+            {
               "id": "b13_soul-hx0cphltu10",
               "title": "Funky Streets",
               "artist": "Eric Matyas (Soundimage.org)",
@@ -1659,14 +1876,14 @@
               "source": "https://www.youtube.com/watch?v=5B9a2W5eFTM"
             },
             {
-              "id": "b14_noir-soj9xucvmbg",
+              "id": "b14_noir-wfbiexutm6a",
               "title": "Darkest Child",
               "artist": "Kevin MacLeod",
-              "videoId": "soJ9xucVMbg",
+              "videoId": "WfBIexUTm6A",
               "focus": 5,
               "length": 239,
               "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=soJ9xucVMbg"
+              "source": "https://www.youtube.com/watch?v=WfBIexUTm6A"
             },
             {
               "id": "b14_noir-fzi1o9dhmzg",
@@ -1778,7 +1995,7 @@
         {
           "id": "C1_lounge",
           "name": "미드나잇 라운지",
-          "count": 18,
+          "count": 17,
           "tracks": [
             {
               "id": "c1_lounge-_tro5l3ong0",
@@ -1911,16 +2128,6 @@
               "source": "https://www.youtube.com/watch?v=L7iqnW3iA4U"
             },
             {
-              "id": "c1_lounge-wnjjizk7h28",
-              "title": "Wallpaper",
-              "artist": "Kevin MacLeod",
-              "videoId": "wNjJiZk7H28",
-              "focus": 5,
-              "length": 180,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=wNjJiZk7H28"
-            },
-            {
               "id": "c1_lounge-6q-ffdlztvm",
               "title": "Hong Kong Midnight",
               "artist": "Eric Matyas (Soundimage.org)",
@@ -1965,7 +2172,7 @@
         {
           "id": "C2_cafe",
           "name": "브런치 카페",
-          "count": 3,
+          "count": 4,
           "tracks": [
             {
               "id": "c2_cafe-8dtq21bwvyq",
@@ -1996,6 +2203,16 @@
               "length": 193,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=7FsKlW3xYN8"
+            },
+            {
+              "id": "c2_cafe-c7cfpg08_yo",
+              "title": "Stable yetl - PIano Jazz",
+              "artist": "MusMus",
+              "videoId": "C7CFPG08_Yo",
+              "focus": 5,
+              "length": 165,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=C7CFPG08_Yo"
             }
           ]
         },
@@ -2083,8 +2300,39 @@
         {
           "id": "C6_studio",
           "name": "스튜디오 세션",
-          "count": 0,
-          "tracks": []
+          "count": 3,
+          "tracks": [
+            {
+              "id": "c6_studio-aim9xzttkfi",
+              "title": "Bass Vibes",
+              "artist": "Kevin MacLeod",
+              "videoId": "Aim9XZttkFI",
+              "focus": 5,
+              "length": 170,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=Aim9XZttkFI"
+            },
+            {
+              "id": "c6_studio-tjqwsv4cgge",
+              "title": "Cool Vibes",
+              "artist": "Kevin MacLeod",
+              "videoId": "TjqwSV4CggE",
+              "focus": 5,
+              "length": 219,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=TjqwSV4CggE"
+            },
+            {
+              "id": "c6_studio-jcwdxbctu_w",
+              "title": "Hat the Jazz",
+              "artist": "Twin Musicom",
+              "videoId": "JcWDxBCtu_w",
+              "focus": 4,
+              "length": 49,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=JcWDxBCtu_w"
+            }
+          ]
         },
         {
           "id": "C7_dance",
@@ -2198,14 +2446,14 @@
               "source": "https://www.youtube.com/watch?v=AxPHs1MoRwo"
             },
             {
-              "id": "d3_uplift-blubf0viane",
-              "title": "Shades of Spring",
-              "artist": "Kevin MacLeod",
-              "videoId": "bLuBF0vianE",
+              "id": "d3_uplift-rbj56gngyb0",
+              "title": "気分上々ジャズ",
+              "artist": "MusMus",
+              "videoId": "rBJ56gnGYB0",
               "focus": 4,
-              "length": 180,
-              "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=bLuBF0vianE"
+              "length": 208,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=rBJ56gnGYB0"
             },
             {
               "id": "d3_uplift-plqvzi9kfwm",
@@ -2286,8 +2534,69 @@
         {
           "id": "D6_elegant",
           "name": "엘레강스 / 블랙타이",
-          "count": 0,
-          "tracks": []
+          "count": 6,
+          "tracks": [
+            {
+              "id": "d6_elegant-fogsfh0s5uu",
+              "title": "Wallpaper",
+              "artist": "Kevin MacLeod",
+              "videoId": "fOgsFH0s5uU",
+              "focus": 5,
+              "length": 221,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=fOgsFH0s5uU"
+            },
+            {
+              "id": "d6_elegant-im3k4nfdywk",
+              "title": "sleepin’ maple syrup jazz",
+              "artist": "MusMus",
+              "videoId": "Im3K4nFdyWk",
+              "focus": 5,
+              "length": 73,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=Im3K4nFdyWk"
+            },
+            {
+              "id": "d6_elegant-dzkl4---jhm",
+              "title": "George Duff/ /John Martin - 'Belltable Waltz set'",
+              "artist": "Kevin MacLeod",
+              "videoId": "DzKL4---JhM",
+              "focus": 4,
+              "length": 246,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=DzKL4---JhM"
+            },
+            {
+              "id": "d6_elegant-zbisc7u-2om",
+              "title": "Joey's Formal Waltz",
+              "artist": "Kevin MacLeod",
+              "videoId": "zBisC7u-2OM",
+              "focus": 4,
+              "length": 305,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=zBisC7u-2OM"
+            },
+            {
+              "id": "d6_elegant-otpekonp6us",
+              "title": "古き良き日々",
+              "artist": "MusMus",
+              "videoId": "OtPeKoNp6us",
+              "focus": 4,
+              "length": 203,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=OtPeKoNp6us"
+            },
+            {
+              "id": "d6_elegant-3rwrzy2jupa",
+              "title": "Light Up delight",
+              "artist": "MusMus",
+              "videoId": "3rwrZY2JupA",
+              "focus": 3,
+              "length": 138,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=3rwrZY2JupA"
+            }
+          ]
         },
         {
           "id": "D7_rainy",

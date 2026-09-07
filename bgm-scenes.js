@@ -7,37 +7,37 @@
 //   { id, title, artist, videoId, focus, length, license }
 
 export const SCENES = [
-  { id: "A1_curtain", category: "오프닝·신호", name: "커튼콜 / 개장", count: 0 },
+  { id: "A1_curtain", category: "오프닝·신호", name: "커튼콜 / 개장", count: 1 },
   { id: "A2_intro", category: "오프닝·신호", name: "밴드 인트로 / 테마", count: 3 },
-  { id: "A3_break", category: "오프닝·신호", name: "브레이크 / 인터미션", count: 0 },
+  { id: "A3_break", category: "오프닝·신호", name: "브레이크 / 인터미션", count: 2 },
   { id: "A4_close", category: "오프닝·신호", name: "라스트콜 / 클로징", count: 1 },
-  { id: "B1_swing", category: "장르·결", name: "스윙 / 빅밴드", count: 20 },
-  { id: "B2_bebop", category: "장르·결", name: "비밥", count: 0 },
-  { id: "B3_cool", category: "장르·결", name: "쿨 재즈", count: 4 },
-  { id: "B4_hardbop", category: "장르·결", name: "하드밥", count: 0 },
-  { id: "B5_modal", category: "장르·결", name: "모달", count: 0 },
+  { id: "B1_swing", category: "장르·결", name: "스윙 / 빅밴드", count: 18 },
+  { id: "B2_bebop", category: "장르·결", name: "비밥", count: 5 },
+  { id: "B3_cool", category: "장르·결", name: "쿨 재즈", count: 2 },
+  { id: "B4_hardbop", category: "장르·결", name: "하드밥", count: 4 },
+  { id: "B5_modal", category: "장르·결", name: "모달", count: 4 },
   { id: "B6_latin", category: "장르·결", name: "라틴 / 보사 / 삼바", count: 16 },
   { id: "B7_blues", category: "장르·결", name: "재즈 블루스", count: 17 },
   { id: "B8_ballad", category: "장르·결", name: "발라드", count: 3 },
   { id: "B9_smooth", category: "장르·결", name: "스무스 / 컨템포러리", count: 45 },
-  { id: "B10_fusion", category: "장르·결", name: "퓨전 / 일렉트릭", count: 0 },
-  { id: "B11_free", category: "장르·결", name: "프리 / 아방가르드", count: 0 },
-  { id: "B12_dixie", category: "장르·결", name: "딕실랜드 / 트래디셔널", count: 4 },
-  { id: "B13_soul", category: "장르·결", name: "소울 재즈 / 펑키", count: 39 },
+  { id: "B10_fusion", category: "장르·결", name: "퓨전 / 일렉트릭", count: 10 },
+  { id: "B11_free", category: "장르·결", name: "프리 / 아방가르드", count: 2 },
+  { id: "B12_dixie", category: "장르·결", name: "딕실랜드 / 트래디셔널", count: 6 },
+  { id: "B13_soul", category: "장르·결", name: "소울 재즈 / 펑키", count: 34 },
   { id: "B14_noir", category: "장르·결", name: "누아르 / 탐정", count: 12 },
-  { id: "C1_lounge", category: "장소", name: "미드나잇 라운지", count: 18 },
-  { id: "C2_cafe", category: "장소", name: "브런치 카페", count: 3 },
+  { id: "C1_lounge", category: "장소", name: "미드나잇 라운지", count: 17 },
+  { id: "C2_cafe", category: "장소", name: "브런치 카페", count: 4 },
   { id: "C3_speakeasy", category: "장소", name: "스피크이지", count: 2 },
   { id: "C4_rooftop", category: "장소", name: "루프탑 / 시티 라이트", count: 2 },
   { id: "C5_festival", category: "장소", name: "야외 페스티벌", count: 2 },
-  { id: "C6_studio", category: "장소", name: "스튜디오 세션", count: 0 },
+  { id: "C6_studio", category: "장소", name: "스튜디오 세션", count: 3 },
   { id: "C7_dance", category: "장소", name: "댄스플로어", count: 1 },
   { id: "D1_melancholy", category: "감정·시간", name: "멜랑콜리 / 블루", count: 1 },
   { id: "D2_romance", category: "감정·시간", name: "로맨스", count: 3 },
   { id: "D3_uplift", category: "감정·시간", name: "업리프트 / 선데이 모닝", count: 5 },
   { id: "D4_tense", category: "감정·시간", name: "텐스 / 서스펜스", count: 4 },
   { id: "D5_playful", category: "감정·시간", name: "플레이풀 / 위트", count: 1 },
-  { id: "D6_elegant", category: "감정·시간", name: "엘레강스 / 블랙타이", count: 0 },
+  { id: "D6_elegant", category: "감정·시간", name: "엘레강스 / 블랙타이", count: 6 },
   { id: "D7_rainy", category: "감정·시간", name: "비 오는 창가", count: 2 },
   { id: "D8_afterhours", category: "감정·시간", name: "애프터아워 / 라스트 세트", count: 1 },
   { id: "D9_dawn", category: "감정·시간", name: "새벽 / 빈 클럽", count: 2 },
@@ -50,6 +50,7 @@ const L = ["CC BY 4.0", "Free with attribution (musmus.main.jp)", "Free with att
 const RAW = {
   // 오프닝·신호 / 커튼콜 / 개장
   "A1_curtain": [
+    ["a1_curtain-kwu7wrw3muy", "Hot Swing", 0, "kWU7wrW3muY", 3, 51, 0],
   ],
   // 오프닝·신호 / 밴드 인트로 / 테마
   "A2_intro": [
@@ -59,6 +60,8 @@ const RAW = {
   ],
   // 오프닝·신호 / 브레이크 / 인터미션
   "A3_break": [
+    ["a3_break-5hpus4kcrfs", "Vibe Ace", 0, "5hPus4kCrFs", 5, 64, 0],
+    ["a3_break-3fmbcuoroby", "Bass Soli", 0, "3fMbCuORobY", 4, 66, 0],
   ],
   // 오프닝·신호 / 라스트콜 / 클로징
   "A4_close": [
@@ -69,7 +72,6 @@ const RAW = {
     ["b1_swing-xqo5gppa2vi", "As I Figure", 0, "XQo5Gppa2vI", 4, 217, 0],
     ["b1_swing-3szoxbcjnle", "Big Swing Band", 3, "3SZoXbcJNlE", 4, 111, 0],
     ["b1_swing-v0gc7fience", "Don't Mean a Thing - Electro Swing", 2, "v0Gc7FIENcE", 4, 207, 0],
-    ["b1_swing-rvul_vskwne", "Faster Does It", 0, "RVUl_VskWNE", 4, 183, 0],
     ["b1_swing-ddmilm0cxg4", "George Street Shuffle", 0, "DDmILM0cxg4", 4, 180, 0],
     ["b1_swing-bxdmpakyxrg", "Hep Cats by", 0, "BxDmPAKyxrg", 4, 251, 0],
     ["b1_swing-vli9812n9v8", "Hep cats", 0, "vLI9812N9V8", 4, 250, 0],
@@ -85,23 +87,33 @@ const RAW = {
     ["b1_swing-rtahc_olxje", "Swing Machine", 0, "Rtahc_olXjE", 4, 138, 0],
     ["b1_swing-1zzqio6jprq", "Wat Dat Dee - Electro Swing", 2, "1Zzqio6jPRQ", 4, 201, 0],
     ["b1_swing-b3kfmtgnbqg", "Big Band Swingin' ( )", 4, "b3kfMTgnBqg", 3, 85, 2],
-    ["b1_swing-hqdfeqoap6q", "Hot Swing", 0, "HqDFEqoap6Q", 2, 52, 0],
   ],
   // 장르·결 / 비밥
   "B2_bebop": [
+    ["b2_bebop-jdmsi3iokqc", "Awesome Call", 0, "JDMsI3iOKqc", 3, 153, 0],
+    ["b2_bebop-rqeyyi9p4bk", "Be Bop 25", 3, "rqeYYi9P4Bk", 2, 143, 0],
+    ["b2_bebop-v99vsacpgai", "Dispersion Relation", 0, "v99vSaCpgAI", 2, 245, 0],
+    ["b2_bebop-1glncqepziq", "Faster Does It", 0, "1glncQEPzIQ", 2, 184, 0],
+    ["b2_bebop-egttmzsexhg", "No Good Layabout", 0, "egTTMzSeXHg", 2, 187, 0],
   ],
   // 장르·결 / 쿨 재즈
   "B3_cool": [
     ["b3_cool-htvctalhgvu", "'s - Royalty Free Song (Laid Back) Elevator Music?", 2, "htvCtAlhGvU", 5, 270, 0],
-    ["b3_cool-tjqwsv4cgge", "Cool Vibes", 0, "TjqwSV4CggE", 5, 219, 0],
     ["b3_cool-_q3nyfldjvs", "Natural Vibes", 0, "_q3NYfldJvs", 5, 132, 0],
-    ["b3_cool-45ghq2g4vl8", "Vibe Ace", 0, "45ghQ2G4vl8", 5, 180, 0],
   ],
   // 장르·결 / 하드밥
   "B4_hardbop": [
+    ["b4_hardbop-qcsfjsotauo", "Funky Chunk", 0, "qcSFJSoTauo", 4, 241, 0],
+    ["b4_hardbop-ohor51cs_js", "Closer To Jazz", 3, "OHor51cs_Js", 3, 143, 0],
+    ["b4_hardbop-thlyvvldah0", "Sidewalk Shade", 0, "thLYvVLdAh0", 3, 183, 0],
+    ["b4_hardbop-balbvu8zlvq", "Sidewalk Shade - Note for Note", 0, "balbVu8zlvQ", 3, 157, 0],
   ],
   // 장르·결 / 모달
   "B5_modal": [
+    ["b5_modal-ifrf3b2shdu", "Intractable", 0, "IFrf3B2sHDU", 5, 271, 0],
+    ["b5_modal-sfxuva3gmia", "Mellowtron", 0, "sfxUvA3GMiA", 5, 54, 0],
+    ["b5_modal-blubf0viane", "Shades of Spring", 0, "bLuBF0vianE", 4, 180, 0],
+    ["b5_modal-kqcvcoz8wno", "Mellowtron by", 0, "kqcvcoz8Wno", 3, 54, 0],
   ],
   // 장르·결 / 라틴 / 보사 / 삼바
   "B6_latin": [
@@ -119,7 +131,7 @@ const RAW = {
     ["b6_latin-8fbvi38gvjq", "Sad Bossa /", 1, "8fbvI38gVJQ", 5, 139, 1],
     ["b6_latin-jy81kvouwpo", "Samba Isobel", 0, "JY81kVOuwPo", 5, 251, 0],
     ["b6_latin-ltblurpmmdy", "Sideways Samba", 3, "ltblurPMmdY", 5, 191, 0],
-    ["b6_latin-2a1m4orjy2k", "Sugary lie / Jazz Bossa /", 1, "2a1M4ORJY2k", 5, 172, 1],
+    ["b6_latin-2a1m4orjy2k", "柔らかな嘘", 1, "2a1M4ORJY2k", 5, 172, 1],
     ["b6_latin-ou-moaztxhe", "Samba Stings", 0, "OU-MOAZtXHE", 3, 47, 0],
   ],
   // 장르·결 / 재즈 블루스
@@ -186,26 +198,40 @@ const RAW = {
     ["b9_smooth-lfsn0blcuqa", "Wheels", 3, "lfsn0BlCUqA", 5, 212, 0],
     ["b9_smooth-wm7fxpwi-ly", "With a Stamp", 5, "Wm7fXPwI-LY", 5, 282, 0],
     ["b9_smooth-tgmdouoy-yk", "turns into George Lucas...again", 2, "tGMDouOy-yk", 5, 665, 0],
+    ["b9_smooth-ecfvi2ebav0", "ジャズで聴くファイナルファンタジー4", 1, "EcfVi2EBaV0", 5, 196, 1],
     ["b9_smooth-clzw4fdx7ug", "卒業（体育館 ）", 1, "CLzw4fDx7ug", 5, 236, 1],
     ["b9_smooth-mfawighzage", "卒業（音楽室 ）", 1, "MfaWiGHZAgE", 5, 236, 1],
     ["b9_smooth-wz_2ur4j4eo", "怠惰の果実", 1, "wZ_2uR4j4eo", 5, 327, 1],
     ["b9_smooth-rlx6i2fnqk4", "手描きアート Koichi Morita Art 004 Alien Sorting Soul", 7, "rlX6i2fNQK4", 5, 739, 4],
     ["b9_smooth-otgdebate2q", "暗いジャズのアコースティック02", 7, "otGDEbATe2Q", 5, 105, 4],
-    ["b9_smooth-rbj56gngyb0", "気分上々ジャズ", 1, "rBJ56gnGYB0", 5, 208, 1],
     ["b9_smooth-3xjqtmpqvoc", "Classical Carnivale", 5, "3XJQtMPQvoc", 4, 91, 0],
     ["b9_smooth-h3ylvrgmkam", "ややジャズぃ〜なアコースティック15", 7, "h3YLVRGmkaM", 4, 61, 4],
     ["b9_smooth-slhv2v6c64u", "心地よいジャズのアコースティック11", 7, "slhV2v6C64U", 4, 87, 4],
   ],
   // 장르·결 / 퓨전 / 일렉트릭
   "B10_fusion": [
+    ["b10_fusion-kisszsqu7nq", "Cold Funk - Funkorama", 0, "KISsZSqU7nQ", 4, 289, 0],
+    ["b10_fusion-dmio-dt5bfw", "Funkorama", 0, "dmIO-dT5BFw", 4, 203, 0],
+    ["b10_fusion-wrw5uaagnw8", "Local Forecast", 0, "wRw5uAAGnw8", 4, 190, 0],
+    ["b10_fusion-5iyl1l34pis", "Local Forecast - Elevator", 0, "5IyL1l34PIs", 4, 192, 0],
+    ["b10_fusion-3jvixh3tmp0", "Local Forecast - Slower", 0, "3JVIxh3tMp0", 4, 201, 0],
+    ["b10_fusion-deb5zrrsaz4", "Local Forecast Elevator", 0, "dEb5zRrSAZ4", 4, 190, 0],
+    ["b10_fusion-kjmaelp4lvi", "AcidJazz", 0, "kJmAelp4lVI", 3, 180, 0],
+    ["b10_fusion-x5cdq4zyzom", "C-Funk - Funkorama", 0, "X5cDq4ZyZoM", 3, 171, 0],
+    ["b10_fusion-gimbmtwbv1s", "Laser Groove", 0, "GImBmTwBV1s", 3, 168, 0],
+    ["b10_fusion-hywhvtkxo6u", "Local Forecast (Normal)", 0, "HYWhvTkXO6U", 3, 166, 0],
   ],
   // 장르·결 / 프리 / 아방가르드
   "B11_free": [
+    ["b11_free-urgd-inuywy", "2017.12.08 Atonal", 0, "uRGd-INuYWY", 1, 344, 0],
+    ["b11_free-ke3wr5d1fua", "Atonal in C-ish", 0, "kE3WR5d1fuA", 1, 42, 0],
   ],
   // 장르·결 / 딕실랜드 / 트래디셔널
   "B12_dixie": [
+    ["b12_dixie-b1wiejj99xa", "Fig Leaf Rag - distressed", 0, "B1WIEJj99XA", 4, 212, 0],
     ["b12_dixie-01afmksqzu0", "Fig Leaf Times Two", 0, "01AFmkSqZu0", 4, 381, 0],
     ["b12_dixie-uahft4fw0hm", "2007 04 & Dan Beimborn - Ragtime Annie", 0, "uaHFt4Fw0HM", 3, 160, 0],
+    ["b12_dixie-vhh1qd6-r0m", "Fig Leaf Rag", 0, "vHh1Qd6-r0M", 3, 211, 0],
     ["b12_dixie--2l1yqnjuku", "Frogs Legs Rag", 0, "-2L1YqnJuKU", 3, 169, 0],
     ["b12_dixie-b1izxvfdjis", "Maple Leaf Rag", 0, "B1izxvFdJis", 3, 152, 0],
   ],
@@ -219,13 +245,10 @@ const RAW = {
     ["b13_soul-thihnuqjhf4", "Clean Soul (EP and Bass Duet)", 0, "THihnuQJHF4", 4, 307, 0],
     ["b13_soul-m822dtfvpae", "Clean Soul - Calming", 0, "M822DtfVpaE", 4, 307, 0],
     ["b13_soul-0gp8kimr1zy", "Cold Funk", 0, "0GP8kImr1zY", 4, 291, 0],
-    ["b13_soul-kisszsqu7nq", "Cold Funk - Funkorama", 0, "KISsZSqU7nQ", 4, 289, 0],
     ["b13_soul-eb1zg49ulio", "Funk Japan / Copyright", 1, "EB1zg49Ulio", 4, 207, 1],
     ["b13_soul-yicqegdwca0", "Funk You O - Funk/Alternative", 2, "yiCQeGdwcA0", 4, 232, 0],
     ["b13_soul-mk1l2xyxuv4", "Funk the Chilldown - Funk/Chill", 2, "mK1L2xyXuV4", 4, 258, 0],
-    ["b13_soul-lpeuzeht0qm", "Funkorama", 0, "LpEUZEHt0qM", 4, 202, 0],
     ["b13_soul-kixdwb3ksh8", "Funky Boxstep", 0, "KixDwB3ksh8", 4, 316, 0],
-    ["b13_soul-qcsfjsotauo", "Funky Chunk", 0, "qcSFJSoTauo", 4, 241, 0],
     ["b13_soul-s9qlz6dviwu", "Funky One", 0, "S9QLZ6dVIWU", 4, 183, 0],
     ["b13_soul-v3e3_pfja44", "Got Funk", 0, "v3E3_pFJA44", 4, 282, 0],
     ["b13_soul-f-k7kk7xeim", "Groove Grove", 0, "f-k7Kk7XeIM", 4, 207, 0],
@@ -237,24 +260,22 @@ const RAW = {
     ["b13_soul-_fuxd7mw2xo", "Palm and Soul", 0, "_fuXd7mW2xo", 4, 242, 0],
     ["b13_soul-6eoummyzf9s", "Shifting Sands - Funk/Easy", 2, "6EouMmYZf9s", 4, 233, 0],
     ["b13_soul-58ismd33iuq", "Simpler Times - Funk/Alternative", 2, "58ISMD33IuQ", 4, 226, 0],
-    ["b13_soul-kjmaelp4lvi", "AcidJazz", 0, "kJmAelp4lVI", 3, 180, 0],
     ["b13_soul-wse9bkkdghi", "Boogie Woogie Bed", 3, "wSe9BkkDGhI", 3, 147, 0],
     ["b13_soul-kyvxdeu8fyy", "C-Funk", 0, "KyvXdEu8fYY", 3, 173, 0],
-    ["b13_soul-x5cdq4zyzom", "C-Funk - Funkorama", 0, "X5cDq4ZyZoM", 3, 171, 0],
     ["b13_soul-a37a7a2pbwm", "Funky Gameplay", 4, "a37a7A2PBwM", 3, 137, 2],
-    ["b13_soul-gimbmtwbv1s", "Laser Groove", 0, "GImBmTwBV1s", 3, 168, 0],
     ["b13_soul-2lkoboatetg", "Captain Glouglou & their beautiful keyboard - Organ", 6, "2lkoboAtETg", 2, 93, 3],
     ["b13_soul-j5bjczyyhic", "Funky Goat Store", 1, "J5bJCZyyHIc", 2, 61, 1],
     ["b13_soul-xd9v_0kqjc4", "Funky Monster Mischief", 4, "Xd9V_0kQjC4", 2, 76, 2],
     ["b13_soul-j5yc2j9kjgu", "Funky Runnin'", 4, "j5yc2j9KjgU", 2, 93, 2],
     ["b13_soul-d4kfviefv6m", "Future Funk", 4, "D4KFvIefV6M", 2, 86, 2],
     ["b13_soul-w8-brfquku4", "Unconventional Organ", 1, "W8-bRfQuku4", 2, 90, 1],
+    ["b13_soul-_pvxp9xx05q", "Funk Game", 0, "_pVxP9xX05Q", 1, 59, 0],
     ["b13_soul-hx0cphltu10", "Funky Streets", 4, "hX0cPhLTu10", 1, 51, 2],
   ],
   // 장르·결 / 누아르 / 탐정
   "B14_noir": [
     ["b14_noir-5b9a2w5eftm", "Dances and Dames", 0, "5B9a2W5eFTM", 5, 180, 0],
-    ["b14_noir-soj9xucvmbg", "Darkest Child", 0, "soJ9xucVMbg", 5, 239, 0],
+    ["b14_noir-wfbiexutm6a", "Darkest Child", 0, "WfBIexUTm6A", 5, 239, 0],
     ["b14_noir-fzi1o9dhmzg", "Darkest Child (var A)", 0, "fZi1O9dHMZg", 5, 200, 0],
     ["b14_noir-ncwyta2kt8g", "Darkest Child A", 0, "nCwYta2Kt8g", 5, 198, 0],
     ["b14_noir-3xieyu0qxzg", "I Knew a Guy", 0, "3XiEYu0Qxzg", 5, 180, 0],
@@ -281,7 +302,6 @@ const RAW = {
     ["c1_lounge-i73dqey-aea", "Mystery Sax", 0, "I73DQEy-aEA", 5, 285, 0],
     ["c1_lounge-5y2icwvl06m", "Night on the Docks - Piano", 0, "5y2iCWVL06M", 5, 177, 0],
     ["c1_lounge-l7iqnw3ia4u", "Ultralounge", 0, "L7iqnW3iA4U", 5, 318, 0],
-    ["c1_lounge-wnjjizk7h28", "Wallpaper", 0, "wNjJiZk7H28", 5, 180, 0],
     ["c1_lounge-6q-ffdlztvm", "Hong Kong Midnight", 4, "6Q-FfDlZtvM", 4, 63, 2],
     ["c1_lounge-fy7ktglkeom", "Midnight Crawlers", 4, "fy7kTGLKeoM", 4, 63, 2],
     ["c1_lounge-rj0jwldy0xw", "Midnight Mist_LoFi ( Track)", 4, "rj0jwLdy0Xw", 3, 48, 2],
@@ -292,6 +312,7 @@ const RAW = {
     ["c2_cafe-8dtq21bwvyq", "Jazz Brunch", 0, "8DtQ21BWvyQ", 5, 180, 0],
     ["c2_cafe-wtfovv1bafk", "Little Monster’s Cafe / Copyright", 1, "WTFoVv1BaFk", 5, 142, 1],
     ["c2_cafe-7fsklw3xyn8", "Lobby Time", 0, "7FsKlW3xYN8", 5, 193, 0],
+    ["c2_cafe-c7cfpg08_yo", "Stable yetl - PIano Jazz", 1, "C7CFPG08_Yo", 5, 165, 1],
   ],
   // 장소 / 스피크이지
   "C3_speakeasy": [
@@ -310,6 +331,9 @@ const RAW = {
   ],
   // 장소 / 스튜디오 세션
   "C6_studio": [
+    ["c6_studio-aim9xzttkfi", "Bass Vibes", 0, "Aim9XZttkFI", 5, 170, 0],
+    ["c6_studio-tjqwsv4cgge", "Cool Vibes", 0, "TjqwSV4CggE", 5, 219, 0],
+    ["c6_studio-jcwdxbctu_w", "Hat the Jazz", 5, "JcWDxBCtu_w", 4, 49, 0],
   ],
   // 장소 / 댄스플로어
   "C7_dance": [
@@ -330,7 +354,7 @@ const RAW = {
     ["d3_uplift-z4dq5qmabn0", "'s - Royalty Free Song (Lucid Morning) Thematic Music", 2, "z4Dq5qMabN0", 4, 262, 0],
     ["d3_uplift-smcwoajfuw0", "Carefree", 0, "sMcWOaJFuw0", 4, 206, 0],
     ["d3_uplift-axphs1morwo", "Carefree Days in Groovyville", 4, "AxPHs1MoRwo", 4, 109, 2],
-    ["d3_uplift-blubf0viane", "Shades of Spring", 0, "bLuBF0vianE", 4, 180, 0],
+    ["d3_uplift-rbj56gngyb0", "気分上々ジャズ", 1, "rBJ56gnGYB0", 4, 208, 1],
     ["d3_uplift-plqvzi9kfwm", "Carefree Days at Pelican Shores", 4, "PlqVzi9kFwM", 3, 92, 2],
   ],
   // 감정·시간 / 텐스 / 서스펜스
@@ -346,6 +370,12 @@ const RAW = {
   ],
   // 감정·시간 / 엘레강스 / 블랙타이
   "D6_elegant": [
+    ["d6_elegant-fogsfh0s5uu", "Wallpaper", 0, "fOgsFH0s5uU", 5, 221, 0],
+    ["d6_elegant-im3k4nfdywk", "sleepin’ maple syrup jazz", 1, "Im3K4nFdyWk", 5, 73, 1],
+    ["d6_elegant-dzkl4---jhm", "George Duff/ /John Martin - 'Belltable Waltz set'", 0, "DzKL4---JhM", 4, 246, 0],
+    ["d6_elegant-zbisc7u-2om", "Joey's Formal Waltz", 0, "zBisC7u-2OM", 4, 305, 0],
+    ["d6_elegant-otpekonp6us", "古き良き日々", 1, "OtPeKoNp6us", 4, 203, 1],
+    ["d6_elegant-3rwrzy2jupa", "Light Up delight", 1, "3rwrZY2JupA", 3, 138, 1],
   ],
   // 감정·시간 / 비 오는 창가
   "D7_rainy": [
