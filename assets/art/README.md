@@ -3,6 +3,7 @@
 | 파일 | 쓰이는 곳 | 만든 것 |
 |---|---|---|
 | `dj-{idle,talk,dig,play}.webp` | 무대의 DJ 니키 | **ChatGPT `gpt-image-2`** (Grok 키 없음·비교 시 OpenAI 우위) → `.art-work/make_dj_art_v2.mjs` |
+| `promo.jpg` / `promo-banner.jpg` / `promo-square.jpg` | 홍보·OG | 클럽 배경(gpt-image-2) + 니키 합성 |
 | `wall-stone.webp` | 벽과 바 카운터 둘레의 돌결 | soft-light 텍스처 |
 | `hearth-*.webp` | **미사용 (레거시)** — 예전 난로·간식. UI 는 CSS/SVG 네온·바이닐·칵테일 잔으로 대체 | `tools/gen_hearth_art.mjs` 등 |
 
@@ -111,3 +112,13 @@ assets/art/dj-idle.webp  첫 프레임
 - **다리 겹침**: CSS에서 idle 을 항상 `opacity:1` 로 깔아 두던 버그 수정 + 풀바디 다리 아티팩트를 피하려고 **허리 위 크롭**으로 맞춤 (원본 rpg 바드와 같은 무대 구도).
 - **흰 테두리**: 가장자리 flood + 닫힌 흰 구멍 제거 + 가장자리 despill 3회.
 - 모닥불 `hearth-*.webp` 는 UI에서 제거. 바는 네온·바이닐·칵테일(CSS/SVG).
+
+## 홍보 배너
+
+| 파일 | 크기 | 용도 |
+|---|---|---|
+| `promo.jpg` | 1600×1000 | OG/Twitter 카드 (`index.html` og:image) |
+| `promo-banner.jpg` | 1920×640 | 와이드 배너 |
+| `promo-square.jpg` | 1200×1200 | 정사각 SNS |
+
+URL `https://progh2.github.io/jazz-bgm-dj/` 를 배너에 넣었다. 재생성은 `.art-work/promo/` 작업물 + ImageMagick 합성.
