@@ -1,7 +1,7 @@
 // sounds.js — 클럽에서 나는 소리들.
 //
 // 음원 파일을 두지 않고 그 자리에서 합성한다. 라이선스를 따질 것도, 내려받을 것도,
-// CSP 에 구멍을 낼 것도 없다. 종·잔·장작 정도는 신시사이저로 흉내 내기 좋은 축에 든다.
+// CSP 에 구멍을 낼 것도 없다. 종·잔·셰이커 정도는 신시사이저로 흉내 내기 좋은 축에 든다.
 //
 // 종소리의 요령은 **배음을 정수배로 두지 않는 것**이다. 1:2:3:4 로 쌓으면 오르간이 된다.
 // 실제 금속은 부분음이 어긋나 있고 높은 부분음일수록 빨리 사그라진다. 그 둘만 지켜도
@@ -37,7 +37,7 @@ function partial(c, freq, gain, decay, delay = 0, type = 'sine') {
   osc.stop(t0 + decay + 0.05);
 }
 
-/** 잡음 한 줌 — 장작 튀는 소리, 잔 부딪는 소리의 재료 */
+/** 잡음 한 줌 — 네온 스파크, 잔 부딪는 소리의 재료 */
 function noise(c, { gain = 0.12, decay = 0.12, delay = 0, hp = 900 } = {}) {
   const t0 = c.currentTime + delay;
   const len = Math.max(1, Math.floor(c.sampleRate * decay));
@@ -77,7 +77,7 @@ export function counterBell() {
   }
 }
 
-/** 장작 튀는 소리 — 바 난로를 쿡 찔렀을 때 */
+/** 네온 스파크 — 바 카운터를 톡 건드렸을 때 (예전 장작 crackle 자리) */
 export function crackle() {
   const c = audio(); if (!c) return;
   const n = 3 + Math.floor(Math.random() * 4);
@@ -89,8 +89,23 @@ export function crackle() {
       hp: 1200 + Math.random() * 2600,
     });
   }
-  // 낮은 웅웅거림 한 겹
-  partial(c, 90 + Math.random() * 40, 0.05, 0.5, 0, 'triangle');
+  // 네온 트랜스의 짧은 윙
+  partial(c, 420 + Math.random() * 80, 0.04, 0.35, 0, 'sine');
+  partial(c, 90 + Math.random() * 40, 0.04, 0.45, 0, 'triangle');
+}
+
+/** 셰이커 — Shake 버튼 */
+export function shake() {
+  const c = audio(); if (!c) return;
+  for (let i = 0; i < 5; i++) {
+    noise(c, {
+      gain: 0.07 + Math.random() * 0.05,
+      decay: 0.05 + Math.random() * 0.04,
+      delay: i * 0.07,
+      hp: 1800 + Math.random() * 2000,
+    });
+    partial(c, 180 + Math.random() * 40, 0.03, 0.08, i * 0.07, 'triangle');
+  }
 }
 
 /** 잔 부딪는 소리 — 건배 */
@@ -122,38 +137,25 @@ export function flourish() {
 }
 
 
-/** 씹는 소리 — 바에 걸린 것을 먹었을 때 */
+/** 한 모금 — 완성된 칵테일을 마셨을 때 (예전 munch 자리) */
 export function munch() {
   const c = audio(); if (!c) return;
-  // 짧은 잡음 두어 번 + 낮은 울림. 씹는 소리는 이 정도면 귀가 알아듣는다.
-  const n = 2 + Math.floor(Math.random() * 2);
-  for (let i = 0; i < n; i++) {
-    noise(c, { gain: 0.10, decay: 0.07 + Math.random() * 0.04, delay: i * 0.13, hp: 600 + Math.random() * 700 });
-    partial(c, 120 + Math.random() * 50, 0.06, 0.10, i * 0.13, 'triangle');
-  }
-  // 만족스러운 한숨
-  partial(c, 210, 0.04, 0.4, n * 0.13, 'sine');
+  // 잔에서 입술로 — 짧은 글라스 링 + 삼키는 낮은 울림
+  partial(c, 1244, 0.06, 0.35);
+  partial(c, 2488, 0.03, 0.22, 0.01);
+  noise(c, { gain: 0.04, decay: 0.08, hp: 900 });
+  partial(c, 160, 0.05, 0.35, 0.12, 'sine');
 }
 
-/** 마른 것을 씹는 소리 — 태워 먹은 것을 먹었을 때.
- *  munch 와 반대로 간다. 낮은 울림을 빼고 잡음을 높게 깎아 짧게 끊으면
- *  물기 없이 바스러지는 소리로 들린다. 끝의 한숨도 없다. */
+/** 김 빠진 잔을 마셨을 때 — 탁한 잔 소리 */
 export function crumble() {
   const c = audio(); if (!c) return;
-  const n = 4 + Math.floor(Math.random() * 3);
-  for (let i = 0; i < n; i++) {
-    noise(c, {
-      gain: 0.07 + Math.random() * 0.05,
-      decay: 0.03 + Math.random() * 0.03,          // 짧게 — 바삭 끊긴다
-      delay: i * 0.075 + Math.random() * 0.03,
-      hp: 2600 + Math.random() * 2200,             // 높게 — 물기가 없다
-    });
-  }
-  // 재가 떨어지는 꼬리
-  noise(c, { gain: 0.03, decay: 0.3, delay: n * 0.075, hp: 5000 });
+  noise(c, { gain: 0.06, decay: 0.12, hp: 700 });
+  partial(c, 220, 0.04, 0.25, 0, 'triangle');
+  partial(c, 180, 0.03, 0.4, 0.08, 'sine');
 }
 
-/** 아직 안 익었을 때 — 손을 뻗다 만 소리.
+/** 아직 조율 전 — 손을 뻗다 만 소리.
  *  두 음을 짧은 단3도로 내려 긋는다. 말로 하면 "아직" 쯤 되는 억양이다. */
 export function notYet() {
   const c = audio(); if (!c) return;
@@ -177,13 +179,16 @@ export function musicBox() {
   noise(c, { gain: 0.025, decay: 0.09, hp: 2200 });
 }
 
-/** 지글거리는 소리 — 음식이 익을 때 한 번씩 */
+/** 얼음이 부딪히는 소리 — 조율 성공 직후 */
 export function sizzle() {
   const c = audio(); if (!c) return;
-  noise(c, { gain: 0.035, decay: 0.5, hp: 3500 });
+  for (let i = 0; i < 3; i++) {
+    noise(c, { gain: 0.04, decay: 0.08, delay: i * 0.06, hp: 4000 });
+    partial(c, 1800 + Math.random() * 600, 0.03, 0.12, i * 0.06);
+  }
 }
 
-/** 냄비 끓는 소리 */
+/** 잔에 따르는 소리 */
 export function bubble() {
   const c = audio(); if (!c) return;
   for (let i = 0; i < 3; i++) {
@@ -202,6 +207,6 @@ export function setSfxMuted(v) {
 
 /** 음소거 상태를 존중하는 래퍼 */
 export const sfx = new Proxy(
-  { doorBell, counterBell, crackle, clink, pluck, flourish, munch, crumble, notYet, sizzle, bubble, musicBox },
+  { doorBell, counterBell, crackle, shake, clink, pluck, flourish, munch, crumble, notYet, sizzle, bubble, musicBox },
   { get: (t, k) => (...a) => { if (!sfxMuted() && t[k]) t[k](...a); } },
 );

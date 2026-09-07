@@ -1,20 +1,20 @@
-// hearth.js — 시각에 따라 클럽의 밝기와 바 난로 불을 정한다.
+// hearth.js — 시각에 따라 클럽의 밝기와 바 네온을 정한다.
 //
-// 낮에는 창으로 볕이 들어 불을 크게 지필 일이 없고, 해가 지면 난로에 장작을 더 넣는다.
+// 낮에는 창으로 볕이 들어 네온을 크게 켤 일이 없고, 해가 지면 카운터에 불이 들어온다.
 // 바뀌는 것은 두 가지다.
 //
-//   --night   0(한낮) ~ 1(한밤).  클럽 가장자리의 어둠과 불빛의 세기를 정한다.
-//   data-lit  난로에 불이 붙어 있는가. 끄면 잉걸만 남는다.
+//   --night   0(한낮) ~ 1(한밤).  클럽 가장자리의 어둠과 네온의 세기를 정한다.
+//   data-lit  바에 네온이 들어와 있는가. 끄면 희미한 튜브만 남는다.
 //
 // **글자와 가구는 어둡게 하지 않는다.** 이 재생기는 새벽에 켜 두고 일하는 쓰임이라,
 // 분위기를 낸다고 읽기 어렵게 만들면 앞뒤가 바뀐다.
 
 export const PHASES = [
-  { id: 'deep_night', label: '깊은 밤',   from: 0,  night: 1.00, lit: true,  greet: '이 시간까지 깨어 계셨습니까. 불은 꺼뜨리지 않았습니다.' },
+  { id: 'deep_night', label: '깊은 밤',   from: 0,  night: 1.00, lit: true,  greet: '이 시간까지 깨어 계셨습니까. 네온은 꺼뜨리지 않았습니다.' },
   { id: 'dawn',       label: '동트기 전', from: 5,  night: 0.62, lit: true,  greet: '곧 해가 뜹니다. 한 곡 더 하고 눈 좀 붙이시지요.' },
   { id: 'morning',    label: '아침',      from: 8,  night: 0.18, lit: false, greet: '좋은 아침입니다. 오늘 몫의 일이 기다리고 있겠군요.' },
   { id: 'day',        label: '한낮',      from: 11, night: 0.00, lit: false, greet: '볕이 좋습니다. 창가 자리가 비어 있습니다.' },
-  { id: 'dusk',       label: '해질녘',    from: 16, night: 0.24, lit: false, greet: '해가 기웁니다. 슬슬 난로에 불을 지필까요.' },
+  { id: 'dusk',       label: '해질녘',    from: 16, night: 0.24, lit: false, greet: '해가 기웁니다. 슬슬 네온을 켤까요.' },
   { id: 'evening',    label: '저녁',      from: 19, night: 0.72, lit: true,  greet: '저녁입니다. 자리 잡으시면 한 세트 뽑아 드리지요.' },
   { id: 'night',      label: '밤',        from: 22, night: 0.92, lit: true,  greet: '늦은 시각이군요. 조용한 걸로 골라 드리겠습니다.' },
 ];

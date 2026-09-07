@@ -9,7 +9,7 @@ import { icon } from './icons.js';
 import { startLight, setPhase, currentPhase, PHASES } from './hearth.js';
 import { sfx, sfxMuted } from './sounds.js';
 import * as secrets from './secrets.js';
-import { startRoast, DISHES, EATABLE_STAGES } from './roast.js';
+import { startCocktails, DISHES, EATABLE_STAGES } from './cocktails.js';
 
 /* 클릭재킹 방어.
    CSP frame-ancestors 는 <meta> 로 전달하면 브라우저가 무시하고, GitHub Pages 는
@@ -193,11 +193,11 @@ function scrollToCurrent() {
   row?.scrollIntoView?.({ block: 'nearest' });
 }
 
-/* ---------------------------------------------------------------- 바 난로와 셋리스트 대 */
+/* ---------------------------------------------------------------- 바 카운터와 셋리스트 대 */
 
 function setBurning(on) {
   $('hearth').classList.toggle('burning', on);
-  $('hearth-tag').textContent = on ? '활활' : '잉걸';
+  $('hearth-tag').textContent = on ? '라이브' : '네온';
 }
 
 function turnParchment(t) {
@@ -666,13 +666,13 @@ function initSecrets() {
     say(currentPhase().greet, 'talk');
   });
 
-  // 바 난로 — 걸린 게 있으면 먹고, 없으면 쿡 찌른다
+  // 바 카운터 — 잔이 있으면 마시고, 없으면 네온/바이닐을 톡 건드린다
   const hearth = $('hearth');
 
-  // 난로 그 자리에서 한마디. 휴대폰에서는 니키의 말칸이 화면 밖이라
-  // 눌렀을 때의 반응을 난로 위에서 바로 보여 준다. 니키도 같이 말한다.
+  // 카운터 그 자리에서 한마디. 휴대폰에서는 니키의 말칸이 화면 밖이라
+  // 눌렀을 때의 반응을 바 위에서 바로 보여 준다. 니키도 같이 말한다.
   let hearthSayTimer = null;
-  const hearthSay = (text) => {
+  hearthSay = (text) => {
     const el = $('hearth-say');
     el.textContent = text;
     el.classList.add('show');
@@ -682,13 +682,13 @@ function initSecrets() {
   const onHearth = () => {
     const { id: dishId, dish, stage } = roast.peek();
 
-    if (!dish.img) {            // 빈 바 — 장작만 쑤신다
+    if (!dish.img) {            // 빈 레일 — 네온을 톡
       sfx.crackle();
       hearth.classList.add('poked');
       setTimeout(() => hearth.classList.remove('poked'), 1200);
       secrets.find('hearth');
-      hearthSay(dish.done);
-      say(dish.done);
+      hearthSay(dish.done || '네온만 숨 쉬고 있습니다.');
+      say(dish.done || '네온만 숨 쉬고 있습니다.');
       return;
     }
 
@@ -696,11 +696,11 @@ function initSecrets() {
     const res = roast.bite();
 
     if (!res.ate) {
-      if (res.why === 'notyet') {   // 덜 익었다 — 손만 뻗었다 만다
+      if (res.why === 'notyet') {
         sfx.notYet();
         slot.classList.add('notyet');
         setTimeout(() => slot.classList.remove('notyet'), 620);
-        const line = `${res.stage.id === 'raw' ? dish.raw : dish.cooking} 아직 이릅니다.`;
+        const line = `${res.stage?.id === 'mixing' ? dish.cooking : dish.raw} 아직 이릅니다.`;
         hearthSay(line);
         say(line);
       } else {
@@ -711,34 +711,33 @@ function initSecrets() {
       return;
     }
 
-    if (dishId === 'cauldron') sfx.bubble();
-    // 태워 먹은 것은 물기가 없어 바스러진다
-    if (res.stage.id === 'burnt') sfx.crumble(); else sfx.munch();
+    if (res.stage.id === 'flat') sfx.crumble(); else sfx.munch();
+    sfx.clink();
     secrets.find('hearth');
     noteEaten(res.dish);
 
-    const line = `${res.stage.id === 'burnt' ? dish.burnt : dish.done} ${dish.eaten}`;
+    const line = `${res.stage.id === 'flat' ? dish.burnt : dish.done} ${dish.eaten}`;
     hearthSay(line);
     say(line);
   };
   hearth.addEventListener('click', onHearth);
   hearth.addEventListener('keydown', (e) => {
-    if (e.target !== hearth) return;   // 맨틀 위 오르골에서 누른 키까지 받지 않게
+    if (e.target !== hearth) return;   // 선반·조율 UI에서 누른 키까지 받지 않게
     if (e.code === 'Enter' || e.code === 'Space') { e.preventDefault(); onHearth(); }
   });
 
-  // 맨틀 위의 등불·열쇠 — 진짜 단추의 겉모습일 뿐, 일은 그쪽이 한다
+  // 선반 위의 등불·열쇠 — 진짜 단추의 겉모습일 뿐, 일은 그쪽이 한다
   for (const [id, target] of [['mantel-lantern', 'btn-wakelock'], ['mantel-key', 'btn-ytaccount']]) {
     $(id).addEventListener('click', (e) => {
-      e.stopPropagation();             // 난로 클릭(먹기/찌르기)까지 내려가지 않게
+      e.stopPropagation();             // 카운터 클릭(마시기/톡)까지 내려가지 않게
       $(target).click();
     });
   }
 
-  // 맨틀 위의 오르골 — 감으면 작은 가락이 돌고 야사에 적힌다
+  // 선반 위의 오르골 — 감으면 작은 가락이 돌고 야사에 적힌다
   const trinket = $('mantel-thing');
   trinket.addEventListener('click', (e) => {
-    e.stopPropagation();               // 난로 클릭(먹기/찌르기)까지 내려가지 않게
+    e.stopPropagation();               // 카운터 클릭(마시기/톡)까지 내려가지 않게
     sfx.musicBox();
     trinket.classList.add('wound');
     setTimeout(() => trinket.classList.remove('wound'), 550);
@@ -800,17 +799,18 @@ function initSecrets() {
 }
 
 
-/* ---------------------------------------------------------------- 바에 걸어 둔 것 */
+/* ---------------------------------------------------------------- 바 칵테일 레일 */
 
 let roast = null;
 
-/** 먹어 본 요리를 세어 둔다 — 다 먹어 보면 야사에 적힌다 */
-const EATEN_KEY = 'jazzbgm.eaten';
+/** 마셔 본 칵테일을 세어 둔다 — 종류대로 비우면 야사에 적힌다.
+ *  키를 jazzbgm.drunk 로 둔다 (예전 jazzbgm.eaten 은 난로 간식 이름이라 섞이면 안 된다). */
+const DRUNK_KEY = 'jazzbgm.drunk';
 function noteEaten(dish) {
   try {
-    const v = new Set(JSON.parse(localStorage.getItem(EATEN_KEY) || '[]'));
+    const v = new Set(JSON.parse(localStorage.getItem(DRUNK_KEY) || '[]'));
     v.add(dish.label);
-    localStorage.setItem(EATEN_KEY, JSON.stringify([...v]));
+    localStorage.setItem(DRUNK_KEY, JSON.stringify([...v]));
     const total = Object.values(DISHES).filter((d) => d.eatable).length;
     if (v.size >= total) secrets.find('gourmet');
   } catch { /* noop */ }
@@ -820,22 +820,47 @@ function initRoast() {
   const slot = $('roast');
   const tag = $('hearth-dish');
   const hearth = $('hearth');
-  roast = startRoast({
+  roast = startCocktails({
     slot,
     onChange: (dish, stage) => {
-      tag.textContent = stage ? `${dish.label} · ${stage.label}` : dish.label;
-      // 먹을 수 있을 때만 손가락 커서와 불빛이 든다. 덜 익었으면 눌러도 안 먹힌다.
+      tag.textContent = stage && dish.img
+        ? `${dish.label} · ${stage.label}`
+        : (stage?.id === 'mixing' ? `${dish.label} · 조율` : '빈 바');
       const ready = !!(dish.img && dish.eatable && stage && EATABLE_STAGES.has(stage.id));
       hearth.dataset.bite = ready ? '1' : '0';
-      hearth.setAttribute('aria-label', stage
-        ? (ready
-            ? `바 난로. ${dish.label}이(가) ${stage.label} 상태입니다. 눌러서 먹습니다.`
-            : `바 난로. ${dish.label}이(가) ${stage.label} 상태입니다. 아직 먹을 수 없습니다.`)
-        : '바 난로. 눌러서 장작을 쑤셔 봅니다.');
+      hearth.setAttribute('aria-label', ready
+        ? `바 카운터. ${dish.label}이(가) ${stage.label} 상태입니다. 눌러서 마십니다.`
+        : stage?.id === 'mixing'
+          ? `바 카운터. ${dish.label} 조율 중. 비율을 맞추고 Shake.`
+          : '바 카운터. 네온을 톡 건드리거나 칵테일을 조율합니다.');
     },
-    onSizzle: () => { if (!document.hidden) sfx.sizzle(); },
+    onShake: ({ ok, dish, phase }) => {
+      if (phase === 'start') { sfx.shake(); return; }
+      if (ok) {
+        sfx.sizzle();
+        sfx.clink();
+        const line = `${dish.done} 레일에 올렸습니다.`;
+        hearthSay(line);
+        say(line);
+      } else {
+        sfx.notYet();
+        const line = dish.muddled || '머들링이 과했습니다. 다시.';
+        hearthSay(line);
+        say(line);
+      }
+    },
+    onMixed: (id) => {
+      secrets.noteMixed(id);
+      if (id === 'dawn_espresso' && currentPhase().id === 'deep_night') {
+        secrets.find('lastcall');
+      }
+    },
   });
 }
+
+// hearthSay 는 initSecrets 안에서만 정의되므로, onShake 에서 쓰기 위해 모듈 스코프 훅을 둔다
+let hearthSay = (text) => { /* initSecrets 가 덮어쓴다 */ };
+
 
 /* ---------------------------------------------------------------- 시각 */
 
@@ -1019,8 +1044,8 @@ function boot() {
   initWake();
   initMobileNote();
   initSceneBrowser();
-  initRoast();
   initSecrets();
+  initRoast();
 
   const seed = buildFromAnswers(DEFAULT_ANSWERS, BGM_BY_SCENE, 40);
   loadQueue(seed.tracks);

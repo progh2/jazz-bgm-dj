@@ -19,7 +19,7 @@ def track(t):
 
 lines = [
  "// bgm-scenes.js — auto-generated %s" % today,
- "// 고전 콘솔 RPG 장면 분류(34종) 기반 무료 라이선스 BGM 목록.",
+ "// 재즈·라운지 장면 분류(34종) 기반 무료 라이선스 BGM 목록.",
  "// focus: 1(집중 방해) ~ 5(작업용 최적)",
  "//",
  "// 전송량을 줄이려고 아티스트·라이선스는 표로 빼고 트랙은 색인만 갖는다.",
@@ -64,7 +64,7 @@ lines += [
  "/** 작업용 기본 재생목록: 집중도 4 이상만, 장면을 섞어 셔플 */",
  "export const FOCUS_PLAYLIST = ALL_TRACKS.filter(t => t.focus >= 4);",
  "",
- "/** 장면 id 배열로 재생목록 만들기. 예: buildPlaylist(['B2_town','A4_inn'], 4) */",
+ "/** 장면 id 배열로 재생목록 만들기. 예: buildPlaylist(['B3_cool','C1_lounge'], 4) */",
  "export function buildPlaylist(sceneIds, minFocus = 1) {",
  "  return sceneIds.flatMap(id => (BGM_BY_SCENE[id] || []).filter(t => t.focus >= minFocus));",
  "}",

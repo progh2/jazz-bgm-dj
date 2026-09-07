@@ -8,6 +8,9 @@
 // 항목마다 두 가지를 들고 있다.
 //   nudge — 아직 못 찾았을 때 보여 주는 귀띔.
 //   done  — 찾고 나서 적히는 문장.
+//
+// id 를 바꿀 때: 예전 키(hearth·gourmet)는 그대로 둔다. localStorage 의
+// jazzbgm.found 에 이미 적힌 사람이 다시 깨지 않게. 새 항목(bartender·lastcall)만 추가.
 
 import { sfx } from './sounds.js';
 
@@ -25,14 +28,26 @@ export const SECRETS = {
     done: '잔을 부딪쳤다',
   },
   hearth: {
-    label: '불씨',
-    nudge: '빈 바 난로라고 그냥 두지 마십시오. 쿡 찔러 보면 뭔가 튑니다.',
-    done: '바 난로를 쿡 찔러 보았다',
+    // id 유지 — 예전엔 난로 찌르기, 지금은 네온/바이닐 톡
+    label: '네온 스파크',
+    nudge: '바 카운터의 네온이나 바이닐을 빈손일 때 톡 건드려 보십시오.',
+    done: '네온을 톡 건드려 스파크를 보았다',
   },
   gourmet: {
-    label: '단골 미식가',
-    nudge: '바 난로에는 여섯 가지가 번갈아 걸립니다. 다 익기를 기다렸다가 종류대로.',
-    done: '바에 걸린 것을 종류대로 다 먹어 보았다',
+    // id 유지 — 예전엔 음식 전부, 지금은 칵테일 전부 마시기
+    label: '칵테일 마스터',
+    nudge: '바에는 열이 넘는 레시피가 돕니다. 맞춰서 올린 잔을 종류대로 비워 보십시오.',
+    done: '레시피대로 맞춘 칵테일을 종류별로 다 마셔 보았다',
+  },
+  bartender: {
+    label: '바텐더',
+    nudge: '비율을 맞춰 Shake 에 성공한 레시피가 다섯 가지면 야사에 적힙니다.',
+    done: '서로 다른 레시피 다섯 잔을 성공적으로 조율했다',
+  },
+  lastcall: {
+    label: '라스트 콜',
+    nudge: '깊은 밤에 Dawn Espresso 를 맞춰 보십시오. (머리말의 시간대를 눌러 돌려 볼 수도 있습니다)',
+    done: '깊은 밤에 Dawn Espresso 를 조율했다',
   },
   bard: {
     label: '수다쟁이',
@@ -46,8 +61,8 @@ export const SECRETS = {
   },
   trinket: {
     label: '태엽 오르골',
-    nudge: '바 맨틀 위에 놓인 작은 것, 장식만은 아닐 겁니다.',
-    done: '맨틀 위 오르골의 태엽을 감았다',
+    nudge: '바 선반 위에 놓인 작은 것, 장식만은 아닐 겁니다.',
+    done: '선반 위 오르골의 태엽을 감았다',
   },
   patron: {
     label: '단골',
@@ -128,7 +143,7 @@ export function noteSkipped() {
   straightCount(0);
 }
 
-/** 깊은 밤에 앉아 있으면 */
+/** 깊은 밤에 앉아 있다면 */
 export function checkNightOwl(phaseId) {
   if (phaseId === 'deep_night') find('nightowl');
 }
@@ -161,6 +176,18 @@ export function noteTalk() {
   talks += 1;
   if (talks >= 7) find('bard');
   return talks;
+}
+
+/** 조율에 성공한 레시피를 세어 둔다 — 다섯 가지면 바텐더 */
+const MIXED_KEY = 'jazzbgm.mixed';
+const MIXED_NEEDED = 5;
+export function noteMixed(recipeId) {
+  try {
+    const v = new Set(JSON.parse(localStorage.getItem(MIXED_KEY) || '[]'));
+    v.add(recipeId);
+    localStorage.setItem(MIXED_KEY, JSON.stringify([...v]));
+    if (v.size >= MIXED_NEEDED) find('bartender');
+  } catch { /* noop */ }
 }
 
 /** 단골에게 열리는 셋 — 각 장면에서 집중도가 가장 높은 한 곡씩 */

@@ -3,24 +3,17 @@
 | 파일 | 쓰이는 곳 | 만든 것 |
 |---|---|---|
 | `dj-{idle,talk,dig,play}.webp` | 무대의 DJ 니키 | **ChatGPT `gpt-image-2`** (Grok 키 없음·비교 시 OpenAI 우위) → `.art-work/make_dj_art_v2.mjs` |
-| `hearth-{skewer,pig,marshmallow,fish}.webp` | 걸이대에 봉으로 걸리는 것들 | `gpt-image-2` → `tools/make_hearth_art.mjs` |
-| `hearth-cauldron.webp` | S자 고리로 가로대에 매달리는 냄비(펀치) | 〃 |
-| `hearth-corn.webp` | 잉걸 위의 간식 (제 잿더미 포함) | 〃 |
-| `hearth-flame-{a,b,c}.webp` | 불꽃 세 모양 — 곧게 솟는 것·부푸는 것·눕는 것 | 〃 |
-| `hearth-logs.webp` · `hearth-embers.webp` | 장작 더미와 잉걸 바닥 | 〃 |
-| `wall-stone.webp` | 벽과 바 난로 둘레의 돌결 | 〃 |
+| `wall-stone.webp` | 벽과 바 카운터 둘레의 돌결 | soft-light 텍스처 |
+| `hearth-*.webp` | **미사용 (레거시)** — 예전 난로·간식. UI 는 CSS/SVG 네온·바이닐·칵테일 잔으로 대체 | `tools/gen_hearth_art.mjs` 등 |
 
-난로 쪽 **프롬프트는 `tools/gen_hearth_art.mjs` 에 그대로** 들어 있습니다.
-`OPENAI_API_KEY` 를 두고 `cd .art-work && node ../tools/gen_hearth_art.mjs [이름…]`
-으로 그 장만 다시 뽑을 수 있습니다. 뽑힌 raw-*.png 는
-`tools/make_hearth_art.mjs` 가 다듬어 이 폴더에 넣습니다.
+바 카운터의 네온 튜브·바이닐·셰이커·잔은 **CSS/SVG** 입니다. 머무는 곳에 따라
+`--flame` / `--metal` / `--drink-*` 가 같이 변해야 해서 그림으로 박지 않았습니다.
 
-**CSS/SVG 로 남겨 둔 것** — 꼬치걸이대, 불씨, 냄비 거품, 불꽃의 흔들림, 그리고
-맨틀 위의 물건들(등불·열쇠·오르골 — `index.html` 안 인라인 SVG). 머무는 곳에 따라
-쇠 빛과 불빛이 같이 변해야 하는 것들이라, 그림으로 박아 두면 일곱 곳 중 여섯 곳에서 겉돕니다.
+**CSS/SVG 로 남겨 둔 것** — 네온 튜브, 바이닐, 칵테일 잔·조율 UI, 그리고
+선반 위의 물건들(등불·열쇠·오르골 — `index.html` 안 인라인 SVG).
 
-**크기는 그림이 아니라 CSS 가 정합니다.** `tavern.css` 의 `--dish-w` 를 보세요.
-
+예전 난로 파이프라인은 `tools/gen_hearth_art.mjs` / `make_hearth_art.mjs` 에 남아 있으나
+재생기는 더 이상 `hearth-*.webp` 를 참조하지 않습니다.
 ---
 
 # DJ 니키 그림 갈아 끼우기
@@ -112,3 +105,9 @@ assets/art/dj-idle.webp  첫 프레임
 
 **색이 따라 변하지 않습니다.** SVG 폴백은 CSS 변수를 참조해 머무는 곳과 곡 분위기를 따라 바뀝니다.
 그림으로 바꾸면 그 색은 고정됩니다. 일곱 장소와 맞추려면 **중간색(갈색·네이비·베이지)** 로 그리는 편이 무난합니다.
+
+## 2026-09-07 수정 (이슈 #9)
+
+- **다리 겹침**: CSS에서 idle 을 항상 `opacity:1` 로 깔아 두던 버그 수정 + 풀바디 다리 아티팩트를 피하려고 **허리 위 크롭**으로 맞춤 (원본 rpg 바드와 같은 무대 구도).
+- **흰 테두리**: 가장자리 flood + 닫힌 흰 구멍 제거 + 가장자리 despill 3회.
+- 모닥불 `hearth-*.webp` 는 UI에서 제거. 바는 네온·바이닐·칵테일(CSS/SVG).

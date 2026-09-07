@@ -63,10 +63,10 @@
 
   <main id="main">
 
-    <!-- 바 난로와 셋리스트 대 -->
-    <section class="board" aria-label="바 난로">
+    <!-- 바 카운터와 셋리스트 대 -->
+    <section class="board" aria-label="바 카운터">
       <div class="board-head">
-        <span>바 · 난 로</span>
+        <span>바 · 카 운 터</span>
         <span class="rope" aria-hidden="true"></span>
         <button class="board-btn" id="btn-shuffle-all" title="아무 곡이나 마흔 곡 뽑기" aria-label="아무 곡이나 마흔 곡 뽑기"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 8a5.5 5.5 0 1 1-1.7-4"/><path d="M13.8 1.5v3h-3"/></svg></button>
       </div>
@@ -88,13 +88,13 @@
 
         <div class="hearth-row">
           <div class="hearth" id="hearth" role="button" tabindex="0"
-               aria-label="바 난로. 눌러서 불씨를 튀겨 봅니다.">
-            <span class="hearth-tag" id="hearth-tag">잉걸</span>
-            <!-- 맨틀 위의 태엽 오르골. 장식처럼 놓여 있지만 감아 볼 수 있다.
+               aria-label="바 카운터. 네온을 톡 건드리거나 칵테일을 조율합니다.">
+            <span class="hearth-tag" id="hearth-tag">네온</span>
+            <!-- 선반 위의 태엽 오르골. 장식처럼 놓여 있지만 감아 볼 수 있다.
                  색이 CSS 변수를 물고 있어 머무는 곳을 따라간다. -->
             <!-- 등불 — 화면 켜두기의 상태이자 스위치. 아래 등불 단추와 같은 일을 한다. -->
             <button class="mantel-thing mantel-lantern" id="mantel-lantern" type="button"
-                    aria-pressed="false" aria-label="맨틀 위의 등불 — 화면 켜두기"
+                    aria-pressed="false" aria-label="선반 위의 등불 — 화면 켜두기"
                     title="등불 — 켜 두면 재생하는 동안 화면이 꺼지지 않습니다">
               <svg viewBox="0 0 26 38" aria-hidden="true">
                 <path d="M13 2v4" stroke="var(--metal)" stroke-width="2.4" stroke-linecap="round"/>
@@ -108,7 +108,7 @@
             </button>
             <!-- 놋쇠 열쇠 — 유튜브 계정 연결의 상태이자 스위치. 꽂혀 있으면 연결. -->
             <button class="mantel-thing mantel-key" id="mantel-key" type="button"
-                    aria-pressed="false" aria-label="맨틀 위의 열쇠 — 유튜브 계정 연결"
+                    aria-pressed="false" aria-label="선반 위의 열쇠 — 유튜브 계정 연결"
                     title="놋쇠 열쇠 — 유튜브 계정 연결. 프리미엄이면 광고가 빠집니다">
               <svg viewBox="0 0 40 16" aria-hidden="true">
                 <circle cx="8" cy="8" r="5.4" fill="none" stroke="var(--metal)" stroke-width="2.6"/>
@@ -117,7 +117,7 @@
               </svg>
             </button>
             <button class="mantel-thing" id="mantel-thing" type="button"
-                    aria-label="맨틀 위의 태엽 오르골" title="맨틀 위의 작은 상자">
+                    aria-label="선반 위의 태엽 오르골" title="선반 위의 작은 상자">
               <svg viewBox="0 0 44 32" aria-hidden="true">
                 <rect x="4" y="12" width="30" height="16" rx="2"
                       fill="var(--wood-light)" stroke="var(--ink)" stroke-width="2"/>
@@ -130,38 +130,30 @@
                 <path d="M42 17v6" stroke="var(--metal)" stroke-width="2.4" stroke-linecap="round"/>
               </svg>
             </button>
-            <!-- 불이 자리잡는 칸. 난로가 세로로 길어져도 이 칸의 비율은 고정이라
-                 장작·걸이대·음식의 자리가 흐트러지지 않는다. 남는 높이는 위쪽
-                 여유가 되어 불꽃이 아궁이 천장에 닿지 않는다. -->
-            <div class="firebox" aria-hidden="true">
-            <div class="sparks"><i></i><i></i><i></i><i></i></div>
-            <!-- 불멍용. 불꽃 세 모양을 다섯 자리에 놓되 장작을 사이에 끼운다 —
-                 큰 불은 장작 뒤에서 솟고 작은 불이 앞에서 핥아야 깊이가 생긴다.
-                 한 장을 반복하면 몇 초만 봐도 같은 실루엣이 도는 게 보인다. -->
-            <img class="embers" src="assets/art/hearth-embers.webp" alt="" aria-hidden="true" decoding="async">
-            <div class="fire back" aria-hidden="true">
-              <img class="f1" src="assets/art/hearth-flame-b.webp" alt="" decoding="async">
-              <img class="f2" src="assets/art/hearth-flame-a.webp" alt="" decoding="async">
-              <img class="f3" src="assets/art/hearth-flame-c.webp" alt="" decoding="async">
-            </div>
-            <img class="logs" src="assets/art/hearth-logs.webp" alt="" aria-hidden="true" decoding="async">
-            <div class="fire front" aria-hidden="true">
-              <img class="f4" src="assets/art/hearth-flame-a.webp" alt="" decoding="async">
-              <img class="f5" src="assets/art/hearth-flame-c.webp" alt="" decoding="async">
-            </div>
-            <!-- 꼬치걸이대. 음식이 공중에 뜨지 않게 받친다. 머무는 곳에 따라
-                 쇠 빛이 같이 변해야 해서 그림이 아니라 CSS 로 그린다. -->
-            <div class="spit" aria-hidden="true"><i class="bar"></i><i class="leg l"></i><i class="leg r"></i></div>
-            <div class="roast" id="roast"></div>
-            </div><!-- /firebox -->
-            <!-- 난로 그 자리에서 뜨는 한마디. 휴대폰에서는 니키의 말칸이 화면
-                 밖에 있어서, 먹었는지 덜 익었는지를 여기서 바로 알려 준다. -->
+            <!-- 네온·바이닐·칵테일 레일이 자리잡는 칸. 카운터 비율이 고정이라
+                 안쪽 %% 가 흐트러지지 않는다. -->
+            <div class="firebox barbox">
+              <div class="neon-tubes" aria-hidden="true">
+                <i class="tube t-amber"></i>
+                <i class="tube t-teal"></i>
+                <i class="tube t-crimson"></i>
+              </div>
+              <div class="sparks" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+              <div class="vinyl" aria-hidden="true">
+                <i class="vinyl-disc"></i>
+                <i class="vinyl-label"></i>
+              </div>
+              <div class="bar-rail" aria-hidden="true"></div>
+              <div class="roast" id="roast"></div>
+            </div><!-- /barbox -->
+            <!-- 카운터 그 자리에서 뜨는 한마디. 휴대폰에서는 니키의 말칸이 화면
+                 밖에 있어서, 조율·한 모금 반응을 여기서 바로 알려 준다. -->
             <span class="hearth-say" id="hearth-say" role="status" aria-live="polite"></span>
             <span class="hearth-dish" id="hearth-dish">빈 바</span>
           </div>
 
           <div class="lectern">
-            <!-- 셋리스트는 여기, 카드 아래 — 난로가 세로로 길어지며 남던 자리다 -->
+            <!-- 셋리스트는 여기, 카드 아래 — 카운터가 세로로 길어지며 남던 자리다 -->
             <div class="parchment" id="parchment">
               <span class="scene-name" id="pc-scene">—</span>
               <p class="song" id="pc-song">아직 아무것도 틀지 않았습니다</p>
