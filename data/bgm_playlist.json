@@ -1,0 +1,497 @@
+{
+  "title": "Jazz BGM by scene (seed)",
+  "generated": "2026-09-07",
+  "note": "Starter seed — Kevin MacLeod CC BY 4.0 jazz/lounge tracks. Expand via tools/.",
+  "categories": [
+    {
+      "name": "오프닝·신호",
+      "subcategories": [
+        {
+          "id": "A1_curtain",
+          "name": "커튼콜 / 개장",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "A2_intro",
+          "name": "밴드 인트로 / 테마",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "A3_break",
+          "name": "브레이크 / 인터미션",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "A4_close",
+          "name": "라스트콜 / 클로징",
+          "count": 0,
+          "tracks": []
+        }
+      ]
+    },
+    {
+      "name": "장르·결",
+      "subcategories": [
+        {
+          "id": "B1_swing",
+          "name": "스윙 / 빅밴드",
+          "count": 3,
+          "tracks": [
+            {
+              "id": "b1_swing-mrii-atk4pm",
+              "title": "As I Figure",
+              "artist": "Kevin MacLeod",
+              "videoId": "mRIi-aTk4pM",
+              "focus": 4,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=mRIi-aTk4pM"
+            },
+            {
+              "id": "b1_swing-1glncqepziq",
+              "title": "Faster Does It",
+              "artist": "Kevin MacLeod",
+              "videoId": "1glncQEPzIQ",
+              "focus": 3,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=1glncQEPzIQ"
+            },
+            {
+              "id": "b1_swing-ddmilm0cxg4",
+              "title": "George Street Shuffle",
+              "artist": "Kevin MacLeod",
+              "videoId": "DDmILM0cxg4",
+              "focus": 4,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=DDmILM0cxg4"
+            }
+          ]
+        },
+        {
+          "id": "B2_bebop",
+          "name": "비밥",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "B3_cool",
+          "name": "쿨 재즈",
+          "count": 2,
+          "tracks": [
+            {
+              "id": "b3_cool-45ghq2g4vl8",
+              "title": "Vibe Ace",
+              "artist": "Kevin MacLeod",
+              "videoId": "45ghQ2G4vl8",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=45ghQ2G4vl8"
+            },
+            {
+              "id": "b3_cool-wkpdxspi9ru",
+              "title": "Cool Vibes",
+              "artist": "Kevin MacLeod",
+              "videoId": "wKPdxsPi9rU",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=wKPdxsPi9rU"
+            }
+          ]
+        },
+        {
+          "id": "B4_hardbop",
+          "name": "하드밥",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "B5_modal",
+          "name": "모달",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "B6_latin",
+          "name": "라틴 / 보사 / 삼바",
+          "count": 2,
+          "tracks": [
+            {
+              "id": "b6_latin-g8yx6ufl7zy",
+              "title": "Off to Osaka",
+              "artist": "Kevin MacLeod",
+              "videoId": "G8yx6ufl7zY",
+              "focus": 4,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=G8yx6ufl7zY"
+            },
+            {
+              "id": "b6_latin-a25zuqfejr4",
+              "title": "Bossa Antigua",
+              "artist": "Kevin MacLeod",
+              "videoId": "A25zUqFEJr4",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=A25zUqFEJr4"
+            }
+          ]
+        },
+        {
+          "id": "B7_blues",
+          "name": "재즈 블루스",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "B8_ballad",
+          "name": "발라드",
+          "count": 1,
+          "tracks": [
+            {
+              "id": "b8_ballad-z6j690yzffy",
+              "title": "Smooth Lovin",
+              "artist": "Kevin MacLeod",
+              "videoId": "z6j690YzFFY",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=z6j690YzFFY"
+            }
+          ]
+        },
+        {
+          "id": "B9_smooth",
+          "name": "스무스 / 컨템포러리",
+          "count": 2,
+          "tracks": [
+            {
+              "id": "b9_smooth-ou5azerx0dm",
+              "title": "Backed Vibes Clean",
+              "artist": "Kevin MacLeod",
+              "videoId": "OU5azErx0dM",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=OU5azErx0dM"
+            },
+            {
+              "id": "b9_smooth-bdrkpsis0qs",
+              "title": "Easy Lemon",
+              "artist": "Kevin MacLeod",
+              "videoId": "BDrkPsiS0qs",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=BDrkPsiS0qs"
+            }
+          ]
+        },
+        {
+          "id": "B10_fusion",
+          "name": "퓨전 / 일렉트릭",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "B11_free",
+          "name": "프리 / 아방가르드",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "B12_dixie",
+          "name": "딕실랜드 / 트래디셔널",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "B13_soul",
+          "name": "소울 재즈 / 펑키",
+          "count": 1,
+          "tracks": [
+            {
+              "id": "b13_soul-kjmaelp4lvi",
+              "title": "AcidJazz",
+              "artist": "Kevin MacLeod",
+              "videoId": "kJmAelp4lVI",
+              "focus": 3,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=kJmAelp4lVI"
+            }
+          ]
+        },
+        {
+          "id": "B14_noir",
+          "name": "누아르 / 탐정",
+          "count": 3,
+          "tracks": [
+            {
+              "id": "b14_noir-5b9a2w5eftm",
+              "title": "Dances and Dames",
+              "artist": "Kevin MacLeod",
+              "videoId": "5B9a2W5eFTM",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=5B9a2W5eFTM"
+            },
+            {
+              "id": "b14_noir-3xieyu0qxzg",
+              "title": "I Knew a Guy",
+              "artist": "Kevin MacLeod",
+              "videoId": "3XiEYu0Qxzg",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=3XiEYu0Qxzg"
+            },
+            {
+              "id": "b14_noir-irgqbbpr1ke",
+              "title": "Hard Boiled",
+              "artist": "Kevin MacLeod",
+              "videoId": "irgqBbPR1kE",
+              "focus": 4,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=irgqBbPR1kE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "장소",
+      "subcategories": [
+        {
+          "id": "C1_lounge",
+          "name": "미드나잇 라운지",
+          "count": 2,
+          "tracks": [
+            {
+              "id": "c1_lounge-pyga-csn8vi",
+              "title": "Night on the Docks - Sax",
+              "artist": "Kevin MacLeod",
+              "videoId": "pYga-CSN8vI",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=pYga-CSN8vI"
+            },
+            {
+              "id": "c1_lounge-wnjjizk7h28",
+              "title": "Wallpaper",
+              "artist": "Kevin MacLeod",
+              "videoId": "wNjJiZk7H28",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=wNjJiZk7H28"
+            }
+          ]
+        },
+        {
+          "id": "C2_cafe",
+          "name": "브런치 카페",
+          "count": 2,
+          "tracks": [
+            {
+              "id": "c2_cafe-a8pyrvliis0",
+              "title": "Lobby Time",
+              "artist": "Kevin MacLeod",
+              "videoId": "a8PyrVLIIS0",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=a8PyrVLIIS0"
+            },
+            {
+              "id": "c2_cafe-8dtq21bwvyq",
+              "title": "Jazz Brunch",
+              "artist": "Kevin MacLeod",
+              "videoId": "8DtQ21BWvyQ",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=8DtQ21BWvyQ"
+            }
+          ]
+        },
+        {
+          "id": "C3_speakeasy",
+          "name": "스피크이지",
+          "count": 1,
+          "tracks": [
+            {
+              "id": "c3_speakeasy-cd6j49covig",
+              "title": "Whiskey on the Mississippi",
+              "artist": "Kevin MacLeod",
+              "videoId": "CD6j49COvig",
+              "focus": 4,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=CD6j49COvig"
+            }
+          ]
+        },
+        {
+          "id": "C4_rooftop",
+          "name": "루프탑 / 시티 라이트",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "C5_festival",
+          "name": "야외 페스티벌",
+          "count": 1,
+          "tracks": [
+            {
+              "id": "c5_festival--9magnskyd0",
+              "title": "Beach Party",
+              "artist": "Kevin MacLeod",
+              "videoId": "-9mAgnSkYD0",
+              "focus": 3,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=-9mAgnSkYD0"
+            }
+          ]
+        },
+        {
+          "id": "C6_studio",
+          "name": "스튜디오 세션",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "C7_dance",
+          "name": "댄스플로어",
+          "count": 0,
+          "tracks": []
+        }
+      ]
+    },
+    {
+      "name": "감정·시간",
+      "subcategories": [
+        {
+          "id": "D1_melancholy",
+          "name": "멜랑콜리 / 블루",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "D2_romance",
+          "name": "로맨스",
+          "count": 1,
+          "tracks": [
+            {
+              "id": "d2_romance-htd1sl4g4o8",
+              "title": "Romantic",
+              "artist": "Kevin MacLeod",
+              "videoId": "HTd1sl4G4O8",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=HTd1sl4G4O8"
+            }
+          ]
+        },
+        {
+          "id": "D3_uplift",
+          "name": "업리프트 / 선데이 모닝",
+          "count": 1,
+          "tracks": [
+            {
+              "id": "d3_uplift-blubf0viane",
+              "title": "Shades of Spring",
+              "artist": "Kevin MacLeod",
+              "videoId": "bLuBF0vianE",
+              "focus": 4,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=bLuBF0vianE"
+            }
+          ]
+        },
+        {
+          "id": "D4_tense",
+          "name": "텐스 / 서스펜스",
+          "count": 1,
+          "tracks": [
+            {
+              "id": "d4_tense-1xbxoe_xtiu",
+              "title": "Spy Glass",
+              "artist": "Kevin MacLeod",
+              "videoId": "1XbXOE_XTIU",
+              "focus": 3,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=1XbXOE_XTIU"
+            }
+          ]
+        },
+        {
+          "id": "D5_playful",
+          "name": "플레이풀 / 위트",
+          "count": 1,
+          "tracks": [
+            {
+              "id": "d5_playful-afgtxzdwupq",
+              "title": "Slow Ska",
+              "artist": "Kevin MacLeod",
+              "videoId": "AFgTxZDwUPQ",
+              "focus": 3,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=AFgTxZDwUPQ"
+            }
+          ]
+        },
+        {
+          "id": "D6_elegant",
+          "name": "엘레강스 / 블랙타이",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "D7_rainy",
+          "name": "비 오는 창가",
+          "count": 0,
+          "tracks": []
+        },
+        {
+          "id": "D8_afterhours",
+          "name": "애프터아워 / 라스트 세트",
+          "count": 1,
+          "tracks": [
+            {
+              "id": "d8_afterhours-f27zdjekrq8",
+              "title": "Mining by Moonlight",
+              "artist": "Kevin MacLeod",
+              "videoId": "f27zdJeKrQ8",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=f27zdJeKrQ8"
+            }
+          ]
+        },
+        {
+          "id": "D9_dawn",
+          "name": "새벽 / 빈 클럽",
+          "count": 0,
+          "tracks": []
+        }
+      ]
+    }
+  ]
+}

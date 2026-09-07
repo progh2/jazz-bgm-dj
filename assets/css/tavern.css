@@ -1,0 +1,1405 @@
+/* tavern.css — 미드나잇 재즈 클럽.
+ *
+ * 재질은 나무와 돌 둘뿐이다. 나뭇결은 각도를 달리한 repeating-linear-gradient 를 겹쳐 내고,
+ * 돌은 그림 한 장(assets/art/wall-stone.webp)을 soft-light 로 얹어 결만 빌려 온다.
+ * 색은 여전히 --stone-dark 가 내므로, 그림을 깔아도 일곱 장소를 그대로 갈아입는다.
+ *
+ * 조명 원칙 하나: **글자와 가구는 어둡게 하지 않는다.** (assets/js/hearth.js 참고)
+ * 새벽에 켜 두고 일하는 쓰임이라 분위기 낸다고 읽기 어려워지면 앞뒤가 바뀐다.
+ * 어두워지는 것은 벽과 클럽 가장자리뿐이다.
+ *
+ * 기본값은 미드나잇 라운지(navy/amber). halls.js 가 덮어쓴다.
+ */
+
+:root {
+  /* 장소가 덮어쓴다 (assets/js/halls.js) — midnight_lounge 기본 */
+  --wood:       #3a2e22;
+  --wood-light: #7a6248;
+  --wood-dark:  #1a1410;
+  --stone:      #2a3344;
+  --stone-dark: #151c28;
+  --metal:      #d4a84b;
+  --metal-dark: #6e5320;
+  --sign-bg:    #1e2430;
+  --sign-ink:   #f0d9a0;
+  --sign-dim:   #a88850;
+  --beam:       linear-gradient(180deg, #4a3a28, #1a1410);
+  --text:       #f2e8d4;
+  --text-dim:   #b8a890;
+  --page-bg:    #121820;
+
+  /* 분위기가 덮어쓴다 (assets/js/moods.js) */
+  --accent:      #d8a544;
+  --accent-deep: #4a2f10;
+  --accent-glow: #ffe1a4;
+  --ember:       #b55a1e;
+  /* 불꽃은 장소가 정한다. 분위기(무드) 색을 따라가면 청록색 불이 되어 버린다. */
+  --flame:       #ffb445;
+  --flame-low:   #c25a12;
+
+  --ink: #1b0f07;
+
+  /* 모서리 — 나무에 닿는 빛과 그늘 */
+  --edge-out: inset 1px 1px 0 var(--wood-light), inset -1px -1px 0 var(--wood-dark);
+  --edge-in:  inset -1px -1px 0 var(--wood-light), inset 1px 1px 0 var(--wood-dark);
+  --gilt: 0 0 0 1px color-mix(in srgb, var(--metal) 50%, transparent);
+
+  /* 글꼴 되돌림은 글자 단위로 일어난다 — 한글은 앞쪽 명조에서 받고,
+     앞쪽 한글 글꼴에 없는 가나·한자는 뒤쪽 일본어 명조로 넘어간다.
+     곡의 절반 가까이가 일본 작곡가 것이라 일본어 명조가 반드시 있어야 한다.
+     (魔王魂 · 森田交一 · しゃろう …) 없으면 제목이 네모로 뜬다.
+     자체 호스팅은 하지 않는다. 서브셋해도 한자 때문에 한 벌에 500KB 라
+     페이지 전체(140KB)보다 무거워진다. */
+  --font-ko: "Iropke Batang", "Noto Serif KR", "Noto Serif CJK KR",
+             "Nanum Myeongjo", "Apple SD Gothic Neo", "Batang";
+  --font-ja: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "YuMincho",
+             "Noto Serif JP", "Noto Serif CJK JP", "Source Han Serif JP",
+             "IPAexMincho", "MS PMincho", "MS Mincho";
+
+  --font-display: var(--font-ko), var(--font-ja), "Times New Roman", serif;
+  --font-body: var(--font-ko), var(--font-ja), "Malgun Gothic", serif;
+  --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+
+  /* 시각이 정한다 (assets/js/hearth.js). 0 = 한낮, 1 = 한밤. */
+  --night: 0;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--page-bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.7;
+  transition: background-color 1.4s var(--ease), color .6s var(--ease);
+}
+
+/* ── 벽: 돌을 쌓고 나뭇결을 얹는다 ─────────────────────────── */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-color: var(--stone-dark);
+  background-image:
+    /* 돌 재질 (assets/art/wall-stone.webp). soft-light 로 얹어 밝고 어두운 결만
+       빌려 온다 — 색은 밑의 --stone-dark 가 내므로 일곱 장소를 그대로 갈아입는다. */
+    url("../art/wall-stone.webp"),
+    /* 밤이 되면 벽만 어두워진다 */
+    linear-gradient(rgba(12, 6, 2, calc(.34 * var(--night))), rgba(12, 6, 2, calc(.34 * var(--night)))),
+    /* 바 난로와 창에서 오는 빛 */
+    radial-gradient(90% 70% at 12% -6%, var(--accent-deep) 0%, transparent 60%),
+    radial-gradient(80% 70% at 104% 108%, var(--accent-deep) 0%, transparent 56%),
+    /* 나뭇결 두 겹 */
+    repeating-linear-gradient(48deg, rgba(255,255,255,.026) 0 2px, transparent 2px 21px),
+    repeating-linear-gradient(-48deg, rgba(0,0,0,.05) 0 2px, transparent 2px 21px),
+    /* 돌 이음매 */
+    repeating-linear-gradient(0deg, rgba(0,0,0,.07) 0 1px, transparent 1px 74px),
+    repeating-linear-gradient(90deg, rgba(0,0,0,.05) 0 1px, transparent 1px 118px);
+  background-size: 620px 620px, auto, auto, auto, auto, auto, auto, auto;
+  background-repeat: repeat, no-repeat, no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+  background-blend-mode: soft-light, normal, normal, normal, normal, normal, normal, normal;
+  transition: background-color 1.6s var(--ease);
+}
+
+/* 바 난로 불 — 밤에 가장자리를 데운다 */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 26vmax 9vmax rgba(255, 152, 56, calc(.10 * var(--night)));
+  opacity: 1;
+  transition: box-shadow 1.6s var(--ease);
+}
+:root[data-lit="true"] body::after { animation: hearthBreath 7s ease-in-out infinite; }
+@keyframes hearthBreath {
+  0%, 100% { box-shadow: inset 0 0 26vmax 9vmax rgba(255, 152, 56, calc(.10 * var(--night))); }
+  50%      { box-shadow: inset 0 0 30vmax 11vmax rgba(255, 168, 74, calc(.15 * var(--night))); }
+}
+
+.stage {
+  position: relative;
+  z-index: 1;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 22px 16px 70px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 316px;
+  gap: 20px;
+  align-items: start;
+}
+
+/* ── 가구: 나무 판을 짜 맞춘 것 ─────────────────────────────── */
+.board {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.05), rgba(0,0,0,.06) 60%),
+    repeating-linear-gradient(92deg, rgba(0,0,0,.055) 0 1px, transparent 1px 8px),
+    var(--wood);
+  box-shadow: var(--edge-out), var(--gilt), 0 10px 26px rgba(0,0,0,.42);
+  border-radius: 3px;
+  margin-bottom: 18px;
+  transition: background-color 1s var(--ease);
+}
+
+/* 가로대 — 창틀 대신 들보 */
+.board-head {
+  background: var(--beam);
+  padding: 7px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .22em;
+  color: var(--metal);
+  text-shadow: 0 1px 0 rgba(0,0,0,.65);
+  border-bottom: 1px solid var(--wood-dark);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.12);
+  user-select: none;
+  border-radius: 3px 3px 0 0;
+}
+/* 들보에 박은 못 */
+.board-head::before,
+.board-head::after {
+  content: "";
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, var(--metal), var(--metal-dark));
+  box-shadow: 0 1px 1px rgba(0,0,0,.5);
+  flex: none;
+}
+.board-head .rope {
+  flex: 1;
+  height: 6px;
+  background: repeating-linear-gradient(64deg,
+    color-mix(in srgb, var(--metal) 42%, transparent) 0 3px, transparent 3px 7px);
+  opacity: .5;
+  border-radius: 3px;
+}
+.board-body { padding: 14px; }
+
+.board-btn {
+  width: 20px; height: 18px;
+  background: var(--wood);
+  box-shadow: var(--edge-out);
+  border: 0;
+  color: var(--metal);
+  font: 700 11px/1 var(--font-display);
+  cursor: pointer;
+  padding: 0;
+  border-radius: 2px;
+  flex: none;
+}
+.board-btn:active { box-shadow: var(--edge-in); }
+.board-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* ── 나무 팻말: 지금 무슨 노래인지 ──────────────────────────── */
+.sign {
+  background:
+    repeating-linear-gradient(90deg, rgba(0,0,0,.05) 0 1px, transparent 1px 6px),
+    var(--sign-bg);
+  box-shadow: var(--edge-in), inset 0 0 22px rgba(0,0,0,.5);
+  padding: 13px 15px;
+  color: var(--sign-ink);
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+}
+/* 인두로 지진 자국 */
+.sign::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: repeating-linear-gradient(174deg, rgba(0,0,0,.05) 0 2px, transparent 2px 9px);
+  pointer-events: none;
+}
+
+.sign-top {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.sign-time {
+  font-family: var(--font-display);
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 0 14px color-mix(in srgb, var(--accent) 45%, transparent);
+}
+.sign-tags { display: flex; gap: 7px; flex-wrap: wrap; }
+.sign-tag {
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: .14em;
+  padding: 3px 8px;
+  border: 1px solid var(--sign-dim);
+  color: var(--sign-dim);
+  border-radius: 2px;
+}
+.sign-tag.on {
+  color: var(--sign-ink);
+  border-color: var(--accent);
+  box-shadow: 0 0 9px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+/* 흐르는 곡목 */
+.scroll {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 15px;
+  height: 22px;
+  position: relative;
+  mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+}
+.scroll > span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scrollBy 20s linear infinite;
+}
+.scroll.short > span { padding-left: 0; animation: none; }
+@keyframes scrollBy { to { transform: translateX(-100%); } }
+
+/* 소리결 — 촛불처럼 흔들리는 막대 */
+.flames {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 34px;
+  margin-top: 10px;
+}
+.flames i {
+  flex: 1;
+  display: block;
+  height: 8%;
+  border-radius: 2px 2px 0 0;
+  background: linear-gradient(180deg, var(--flame), var(--flame-low));
+  transition: height .12s linear;
+}
+
+/* ── 바 난로: 재생 중이면 타오른다 ─────────────────────────────── */
+.hearth-row {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.hearth {
+  position: relative;
+  /* 세로로 길다. 불을 바라보라고 있는 자리라 정사각으로는 갑갑하다.
+     다만 너무 길면 위쪽이 빈 아치만 된다 — 그 높이는 걸이대를 올려서 쓴다. */
+  aspect-ratio: 1 / 1.34;
+  container-type: size;   /* .firebox 가 cqw/cqh 로 이 칸을 잰다 */
+  border-radius: 3px;
+  display: grid;
+  place-items: end center;
+  overflow: hidden;
+  cursor: pointer;
+  /* 벽난로를 두른 돌 — 벽과 같은 재질을 소축척으로 얹어 결을 맞춘다 */
+  background:
+    url("../art/wall-stone.webp"),
+    repeating-linear-gradient(0deg,  rgba(0,0,0,.10) 0 1px, transparent 1px 27px),
+    repeating-linear-gradient(90deg, rgba(0,0,0,.08) 0 1px, transparent 1px 44px),
+    linear-gradient(180deg, color-mix(in srgb, var(--stone) 88%, #fff 12%), var(--stone));
+  background-size: 300px 300px, auto, auto, auto;
+  background-blend-mode: soft-light, normal, normal, normal;
+  box-shadow: var(--edge-out), var(--gilt);
+}
+/* 아궁이 — 안쪽으로 파인 아치 */
+.hearth::before {
+  content: "";
+  position: absolute;
+  left: 12%; right: 12%; bottom: 0;
+  height: 78%;
+  border-radius: 46% 46% 4px 4px / 34% 34% 4px 4px;
+  /* 아궁이 속 불빛. 밤이 깊을수록 짙어진다 — 한밤의 불멍이 이 재생기의 쓰임이다. */
+  background:
+    radial-gradient(70% 52% at 50% 100%,
+      color-mix(in srgb, var(--flame-low) calc(46% + 34% * var(--night)), transparent) 0%, transparent 66%),
+    linear-gradient(180deg, #120a06, #241408);
+  box-shadow: inset 0 8px 20px rgba(0,0,0,.8), 0 0 0 3px var(--stone-dark);
+}
+/* 아궁이 위 맨틀 — 벽면을 가로지르는 선반. 예전에는 아치와 사이가 떠서
+   허공에 매달린 널빤지처럼 보였다. 어귀 꼭대기(위에서 22%)에 살짝 겹치게
+   내려 걸치면 벽에 박아 넣은 선반으로 읽힌다. */
+.hearth::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 16.5%;
+  height: 6.5%;
+  border-radius: 2px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.10), rgba(0,0,0,.14)),
+    linear-gradient(180deg, var(--wood-light), var(--wood-dark));
+  box-shadow: 0 3px 7px rgba(0,0,0,.55), inset 0 1px 0 rgba(255,255,255,.14);
+}
+.hearth:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+/* 맨틀 위의 오르골 — 선반(top 16.5%) 위에 올라앉는다 */
+.mantel-thing {
+  position: absolute;
+  top: 16.5%;
+  right: 13%;
+  width: clamp(30px, 12%, 46px);
+  translate: 0 -92%;          /* 바닥만 선반에 걸치고 몸은 위로 */
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  z-index: 2;
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,.5));
+  transition: filter .2s;
+}
+.mantel-thing svg { display: block; width: 100%; height: auto; }
+
+/* 등불 — 왼쪽. 켜지면 불꽃이 살고 유리가 물든다. */
+.mantel-lantern { left: 11%; right: auto; width: clamp(20px, 8%, 30px); }
+.mantel-lantern .lamp-flame { opacity: 0; transition: opacity .3s var(--ease); }
+.mantel-lantern[aria-pressed="true"] .lamp-flame { opacity: 1; }
+.mantel-lantern[aria-pressed="true"] {
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,.5))
+          drop-shadow(0 0 8px color-mix(in srgb, var(--flame) 65%, transparent));
+}
+
+/* 놋쇠 열쇠 — 등불 옆. 꽂혀 있으면(연결) 홈의 붉은 보석이 빛난다. */
+.mantel-key { left: 24%; right: auto; width: clamp(26px, 11%, 42px); translate: 0 -130%; }
+.mantel-key .key-gem { opacity: .18; transition: opacity .3s var(--ease); }
+.mantel-key[aria-pressed="true"] .key-gem { opacity: 1; }
+.mantel-key[aria-pressed="true"] {
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,.5))
+          drop-shadow(0 0 7px rgba(238, 51, 51, .5));
+}
+.mantel-key[aria-pressed="false"] { opacity: .82; }
+.mantel-thing:hover { filter: drop-shadow(0 2px 3px rgba(0,0,0,.5))
+  drop-shadow(0 0 7px color-mix(in srgb, var(--accent-glow) 55%, transparent)); }
+.mantel-thing:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* 감을 때 태엽이 도는 느낌으로 까딱 */
+.mantel-thing.wound { animation: windUp .5s var(--ease); }
+@keyframes windUp {
+  0%, 100% { rotate: 0deg; }
+  30%      { rotate: -6deg; }
+  65%      { rotate: 4deg; }
+}
+
+/* 장작 */
+/* 장작·잉걸·불꽃은 그림이다 (assets/art/hearth-*.webp).
+   흔들림은 그림에 굽지 않고 CSS 가 얹는다.
+
+   이 난로는 틀어 놓고 바라보라고 있는 것이라(불멍) 반복이 드러나면 안 된다.
+   그래서 불꽃을 세 모양으로 뽑아 다섯 자리에 뒤에서 앞으로 겹치고,
+   주기를 2.3 · 1.9 · 1.7 · 1.3 · 1.1 초로 서로 안 나누어떨어지게 두었다.
+   최소공배수가 길어 같은 모양이 다시 맞아떨어지는 데 한참 걸린다. */
+
+/* 잉걸 바닥 — 장작보다 넓고 낮게 깔려 밑동에서 새어 나온다.
+   불을 안 지핀 시간대에도 이것만은 남아 난로가 빈 상자로 보이지 않게 한다. */
+.embers {
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  translate: -50% 0;
+  width: 44%;
+  z-index: 1;
+  pointer-events: none;
+  filter: drop-shadow(0 0 13px color-mix(in srgb, var(--flame) 50%, transparent));
+  animation: emberGlow 6.5s ease-in-out infinite;
+}
+@keyframes emberGlow { 0%, 100% { opacity: .72; } 50% { opacity: 1; } }
+.hearth.burning .embers { animation-duration: 4.2s; }
+
+.logs {
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  translate: -50% 0;
+  width: 34%;
+  z-index: 3;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,.6));
+  pointer-events: none;
+}
+
+/* 불꽃 */
+.fire {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  translate: -50% 0;
+  width: 46%;
+  height: 44%;
+  opacity: .2;
+  pointer-events: none;
+  transition: opacity 1.1s var(--ease);
+}
+.fire.back  { z-index: 2; }   /* 장작 뒤에서 솟는 큰 불 */
+.fire.front { z-index: 4; }   /* 장작 앞을 핥는 작은 불 */
+.fire img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: auto;
+  transform-origin: 50% 100%;
+}
+/* 뒤에서 앞으로. 뒤는 크고 어둡고 느리게, 앞은 작고 밝고 빠르게 — 깊이가 생긴다. */
+/* 뒷불은 장작 뒤에서 은은히 받치는 몫이다. 너무 키우면 배경이 아니라
+   주인공이 되어 난로 전체가 불기둥처럼 보인다. */
+.fire .f1 { height: 74%; opacity: .42; translate: -50% 0; filter: saturate(.65) brightness(.66); }
+.fire .f2 { height: 60%; opacity: .5;  translate: -84% 0; filter: saturate(.8) brightness(.8); }
+.fire .f3 { height: 66%; opacity: .5;  translate: -16% 0; filter: saturate(.8) brightness(.8); }
+.fire .f4 { height: 56%;  opacity: .9; translate: -64% 0; }
+.fire .f5 { height: 44%;  opacity: 1;  translate: -32% 0; }
+
+.hearth.burning .fire { opacity: 1; }
+.hearth.burning .fire .f1 { animation: flickerA 2.3s ease-in-out infinite; }
+.hearth.burning .fire .f2 { animation: flickerB 1.9s ease-in-out infinite .3s; }
+.hearth.burning .fire .f3 { animation: flickerA 1.7s ease-in-out infinite .7s; }
+.hearth.burning .fire .f4 { animation: flickerB 1.3s ease-in-out infinite .2s; }
+.hearth.burning .fire .f5 { animation: flickerA 1.1s ease-in-out infinite .5s; }
+@keyframes flickerA {
+  0%, 100% { transform: scaleY(1) scaleX(1) skewX(0deg); }
+  28%      { transform: scaleY(1.16) scaleX(.9) skewX(4deg); }
+  62%      { transform: scaleY(.9) scaleX(1.08) skewX(-4deg); }
+}
+@keyframes flickerB {
+  0%, 100% { transform: scaleY(1) scaleX(1) skewX(0deg); }
+  35%      { transform: scaleY(.88) scaleX(1.1) skewX(-5deg); }
+  70%      { transform: scaleY(1.2) scaleX(.92) skewX(3deg); }
+}
+
+
+/* 잉걸 — 불씨가 위로 */
+.sparks { position: absolute; inset: 0; pointer-events: none; z-index: 3; }
+.sparks i {
+  position: absolute;
+  bottom: 20%;
+  width: 3px; height: 3px;
+  border-radius: 50%;
+  background: var(--flame);
+  opacity: 0;
+}
+.hearth.burning .sparks i { animation: rise 3.4s linear infinite; }
+.sparks i:nth-child(1) { left: 38%; animation-delay: 0s; }
+.sparks i:nth-child(2) { left: 50%; animation-delay: 1.1s; }
+.sparks i:nth-child(3) { left: 60%; animation-delay: 2.2s; }
+.sparks i:nth-child(4) { left: 45%; animation-delay: 1.7s; }
+@keyframes rise {
+  0%   { opacity: 0; transform: translateY(0) translateX(0) scale(1); }
+  12%  { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-190px) translateX(18px) scale(.4); }
+}
+/* 쿡 찔렀을 때 한 번 튀는 불씨 */
+.hearth.poked .sparks i { animation: rise 1.1s linear 1; }
+
+.hearth-tag {
+  position: absolute;
+  top: 8px; left: 10px;
+  z-index: 2;
+  padding: 3px 8px;
+  background: var(--sign-bg);
+  box-shadow: var(--edge-in);
+  font: 700 10px/1 var(--font-display);
+  letter-spacing: .16em;
+  color: var(--sign-dim);
+  border-radius: 2px;
+}
+.hearth.burning .hearth-tag { color: var(--sign-ink); }
+
+/* ── 악보대: 양피지에 지금 곡을 적어 둔다 ───────────────────── */
+.lectern {
+  position: relative;
+  border-radius: 3px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  gap: 8px;
+  /* 높이는 난로가 정한다. height:0 이 없으면 셋리스트 마흔 줄이 그리드 줄
+     높이를 되정의해서(내용→줄→내용 순환) 판이 1800px 까지 자란다 —
+     내용을 줄 높이 계산에서 빼고, min-height 로 난로 높이만 받는다. */
+  height: 0;
+  min-height: 100%;
+  background:
+    linear-gradient(184deg, rgba(255,255,255,.06), transparent 40%),
+    repeating-linear-gradient(91deg, rgba(0,0,0,.035) 0 1px, transparent 1px 9px),
+    var(--wood);
+  box-shadow: var(--edge-out), var(--gilt);
+  overflow: hidden;
+}
+
+.parchment {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    radial-gradient(120% 90% at 50% 0%, rgba(255,246,224,.10), transparent 70%),
+    repeating-linear-gradient(178deg, rgba(0,0,0,.035) 0 1px, transparent 1px 11px),
+    var(--sign-bg);
+  box-shadow: var(--edge-in), inset 0 0 20px rgba(0,0,0,.42);
+  border-radius: 2px;
+  padding: 14px 16px;
+  color: var(--sign-ink);
+  transform-origin: 50% 0%;
+  transition: opacity .45s var(--ease), transform .45s var(--ease);
+}
+/* 곡이 바뀌면 종이가 넘어간다 */
+.parchment.turning { opacity: 0; transform: rotateX(78deg) translateY(-6px); }
+
+.parchment .scene-name {
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: .2em;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 7px;
+}
+.parchment .song {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.45;
+  margin: 0 0 4px;
+  overflow-wrap: anywhere;
+}
+.parchment .by { font-size: 13px; color: var(--sign-dim); }
+.parchment .meta { font-size: 11.5px; color: var(--sign-dim); margin-top: 9px; }
+
+/* 원곡으로 나가는 자리 — 양피지 아래 귀퉁이에 눌러 찍은 낙관처럼 */
+.pc-src {
+  display: inline-block;
+  margin-top: 8px;
+  font-family: var(--font-display);
+  font-size: 11.5px;
+  letter-spacing: .04em;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted color-mix(in srgb, var(--accent) 55%, transparent);
+  padding-bottom: 1px;
+  transition: color .18s, border-color .18s;
+}
+.pc-src:hover { color: var(--accent-glow); border-bottom-color: var(--accent-glow); }
+.pc-src:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.pc-src[hidden] { display: none; }
+
+/* 글자 대신 SVG 를 넣은 단추.
+   .tbtn 에는 flex 를 주지 않는다 — 「등불 <span>꺼짐</span>」처럼 글자와 span 이
+   같이 있는 단추가 있어서, 플렉스로 바꾸면 그 사이 공백이 사라져 붙어 버린다. */
+.board-btn { display: inline-flex; align-items: center; justify-content: center; }
+.board-btn svg { display: block; }
+.tbtn svg { display: inline-block; vertical-align: -2px; }
+
+/* 악보대 안 곡목 소제목 — 판머리(board-head)의 작은 판 */
+.list-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .22em;
+  color: var(--metal);
+}
+
+/* ── 조작대 ─────────────────────────────────────────────────── */
+.controls {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.tbtn {
+  min-width: 40px;
+  height: 34px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.13), rgba(0,0,0,.09)),
+    var(--wood);
+  box-shadow: var(--edge-out), var(--gilt);
+  border: 0;
+  border-radius: 3px;
+  color: var(--metal);
+  font: 700 14px/1 var(--font-display);
+  cursor: pointer;
+  transition: color .18s, filter .18s, transform .12s var(--ease);
+}
+.tbtn:hover { color: var(--accent-glow); filter: brightness(1.12); }
+.tbtn:active { box-shadow: var(--edge-in); transform: translateY(1px); }
+.tbtn[aria-pressed="true"] { box-shadow: var(--edge-in); color: var(--accent); }
+.tbtn.wide { min-width: 54px; }
+.tbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.tbtn:disabled { opacity: .45; cursor: not-allowed; }
+
+.dials { display: flex; gap: 16px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
+.dial {
+  display: flex; align-items: center; gap: 8px;
+  font-family: var(--font-display);
+  font-size: 11px; letter-spacing: .16em; color: var(--text-dim);
+}
+
+input[type="range"] {
+  -webkit-appearance: none; appearance: none;
+  width: 118px; height: 20px; background: transparent; cursor: pointer;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 7px; border-radius: 4px;
+  background: var(--sign-bg); box-shadow: var(--edge-in);
+}
+input[type="range"]::-moz-range-track {
+  height: 7px; border-radius: 4px;
+  background: var(--sign-bg); box-shadow: var(--edge-in);
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none;
+  width: 13px; height: 20px; margin-top: -7px; border-radius: 3px;
+  background: linear-gradient(180deg, var(--metal), var(--metal-dark));
+  box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 13px; height: 20px; border: 0; border-radius: 3px;
+  background: linear-gradient(180deg, var(--metal), var(--metal-dark));
+}
+input[type="range"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.vol-num { min-width: 2.4em; display: inline-block; }
+
+/* ── 곡목 두루마리 ──────────────────────────────────────────── */
+.songlist {
+  background:
+    repeating-linear-gradient(179deg, rgba(0,0,0,.035) 0 1px, transparent 1px 12px),
+    var(--sign-bg);
+  box-shadow: var(--edge-in), inset 0 0 20px rgba(0,0,0,.4);
+  border-radius: 2px;
+  /* 악보대에서 남는 높이를 전부 가져간다. min-height:0 이 없으면
+     플렉스가 내용만큼 늘어나 스크롤이 아니라 판이 길어진다. */
+  flex: 1;
+  min-height: 140px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--metal-dark) var(--sign-bg);
+}
+.songlist::-webkit-scrollbar { width: 11px; }
+.songlist::-webkit-scrollbar-track { background: var(--sign-bg); }
+.songlist::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--metal), var(--metal-dark));
+  border-radius: 5px;
+}
+
+.song-row {
+  display: flex;
+  gap: 10px;
+  padding: 7px 12px;
+  color: var(--sign-dim);
+  cursor: pointer;
+  align-items: baseline;
+  border: 0;
+  background: none;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  font-size: 13.5px;
+  border-bottom: 1px solid color-mix(in srgb, var(--wood-dark) 40%, transparent);
+  transition: color .15s, background-color .15s;
+}
+.song-row:last-child { border-bottom: 0; }
+.song-row:hover { color: var(--sign-ink); background: rgba(255,255,255,.05); }
+.song-row.current {
+  color: var(--sign-ink);
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+.song-row .n {
+  width: 2.4em; flex: none; text-align: right;
+  font-family: var(--font-display); opacity: .75;
+  font-variant-numeric: tabular-nums;
+}
+.song-row .t { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.song-row .d { flex: none; opacity: .75; font-variant-numeric: tabular-nums; font-size: 12.5px; }
+.song-row.spicy .n::after { content: "⚔"; margin-left: 3px; color: var(--ember); }
+
+.list-foot {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 9px 3px 0; font-size: 12px; color: var(--text-dim);
+  font-family: var(--font-display); letter-spacing: .06em;
+}
+
+/* ── 곡 내력 ────────────────────────────────────────────────── */
+.ledger dl { margin: 0; display: grid; grid-template-columns: 5.6em 1fr; gap: 7px 12px; font-size: 13.5px; }
+.ledger dt { color: var(--text-dim); font-family: var(--font-display); letter-spacing: .08em; }
+.ledger dd { margin: 0; color: var(--text); overflow-wrap: anywhere; }
+.ledger a { color: var(--accent); }
+.ledger .scene-chip {
+  display: inline-block; padding: 2px 9px; border-radius: 2px;
+  background: var(--accent); color: var(--ink);
+  font: 700 11px/1.6 var(--font-display); letter-spacing: .06em;
+}
+.warn-note {
+  margin-top: 11px; padding: 9px 12px; border-radius: 2px;
+  background: color-mix(in srgb, var(--ember) 16%, transparent);
+  border-left: 3px solid var(--ember);
+  font-size: 12.5px; color: var(--accent-glow);
+}
+
+/* ── 무대: 바드가 서는 자리 ─────────────────────────────────── */
+.stage-side { position: sticky; top: 22px; }
+
+/* 무대와 턴테이블 자리를 함께 담는다 — 단추가 그림 위에 얹히려면
+   기준이 될 상자가 필요한데, 무대 안쪽은 상태가 바뀔 때마다 갈린다. */
+.bard-wrap { position: relative; }
+
+/* 턴테이블 자리 — 그림에서 덱이 차지하는 칸. 보이지는 않고 눌리기만 한다. */
+.lute-spot {
+  position: absolute;
+  left: 50%;
+  translate: -50% 0;
+  width: min(50%, 116px);
+  top: 63%;
+  bottom: 7%;
+  margin-left: 8px;       /* 턴테이블이 니키의 오른쪽으로 살짝 치우쳐 있다 */
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 40% 40% 46% 46%;
+  z-index: 2;
+}
+.lute-spot:hover { background: radial-gradient(60% 60% at 50% 50%,
+  color-mix(in srgb, var(--accent-glow) 22%, transparent), transparent 72%); }
+.lute-spot:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.bard-stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 8px 0 0;
+  background: radial-gradient(76% 58% at 50% 100%, var(--accent-deep), transparent 70%);
+  cursor: pointer;
+}
+.bard-art { width: 100%; max-width: 232px; height: auto; overflow: visible; }
+
+.bd-glow { animation: bardGlow 5.5s ease-in-out infinite; transform-origin: 50% 50%; }
+@keyframes bardGlow { 0%,100% { opacity: .5; transform: scale(1); } 50% { opacity: .88; transform: scale(1.05); } }
+
+.bd-eyes-closed { opacity: 0; }
+.bd-eyes { animation: bardBlink 6.5s infinite; transform-origin: 50% 50%; }
+@keyframes bardBlink { 0%, 93%, 100% { transform: scaleY(1); } 96% { transform: scaleY(.08); } }
+
+/* 변형 기준을 각 요소 제 몸통(fill-box)에 백분율로 못박는다.
+   transform-box 초기값은 브라우저·버전마다 달라, 맡겨 두면 회전축이 엇갈린다. */
+.bd-body, .bd-lute, .bd-head, .bd-hat, .bd-neck,
+.bd-feather, .bd-hand, .bd-eyes, .bd-mouth, .bd-glow {
+  transform-box: fill-box;
+}
+.bd-body    { transform-origin: 50% 100%; }
+.bd-lute    { transform-origin: 50% 100%; }
+.bd-head    { transform-origin: 50% 100%; }
+.bd-hat     { transform-origin: 50% 100%; }
+.bd-neck    { transform-origin: 50% 100%; }
+.bd-feather { transform-origin: 0% 100%; }
+.bd-hand    { transform-origin: 50% 50%; }
+.bd-mouth   { transform-origin: 50% 50%; }
+
+[data-state="idle"] .bd-head,
+[data-state="idle"] .bd-hat  { animation: bardBob 5.5s ease-in-out infinite; }
+[data-state="idle"] .bd-neck { animation: bardBobNeck 5.5s ease-in-out infinite; }
+@keyframes bardBob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+@keyframes bardBobNeck { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-1.5px); } }
+
+/* d: path() 로 입 모양을 바꾸면 크롬 계열에서만 움직인다. 변형으로 낸다. */
+[data-state="talk"] .bd-mouth { animation: bardTalk .42s ease-in-out infinite; }
+@keyframes bardTalk {
+  0%,100% { transform: scaleY(1)   translateY(0); }
+  50%     { transform: scaleY(2.1) translateY(-1px); }
+}
+[data-state="talk"] .bd-head,
+[data-state="talk"] .bd-hat  { animation: bardNod 1.15s ease-in-out infinite; }
+@keyframes bardNod { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(-2.5deg); } }
+
+[data-state="dig"] .bd-head,
+[data-state="dig"] .bd-hat { animation: bardTilt .95s ease-in-out infinite; }
+@keyframes bardTilt { 0%,100% { transform: rotate(-6deg); } 50% { transform: rotate(6deg); } }
+[data-state="dig"] .bd-eyes { opacity: 0; }
+[data-state="dig"] .bd-eyes-closed { opacity: 1; }
+
+[data-state="play"] .bd-body { animation: bardSway 1.1s ease-in-out infinite; }
+[data-state="play"] .bd-head,
+[data-state="play"] .bd-hat  { animation: bardSwayHead 1.1s ease-in-out infinite; }
+[data-state="play"] .bd-neck { animation: bardSwayNeck 1.1s ease-in-out infinite; }
+[data-state="play"] .bd-hand { animation: bardPluck .55s ease-in-out infinite; }
+[data-state="play"] .bd-feather { animation: bardFeather 2.2s ease-in-out infinite; }
+[data-state="play"] .bd-strings path { animation: stringBuzz .28s linear infinite; }
+@keyframes bardSway { 0%,100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-2px) rotate(1.4deg); } }
+@keyframes bardSwayHead { 0%,100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-4px) rotate(2deg); } }
+@keyframes bardSwayNeck { 0%,100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-2px) rotate(1deg); } }
+@keyframes bardPluck { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+@keyframes bardFeather { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(-7deg); } }
+@keyframes stringBuzz { 0%,100% { opacity: .85; } 50% { opacity: .35; } }
+
+.bd-notes { opacity: 0; }
+[data-state="play"] .bd-notes { opacity: 1; }
+.bd-note { opacity: 0; }
+[data-state="play"] .bd-note-1 { animation: bardNote 2.7s ease-out infinite; }
+[data-state="play"] .bd-note-2 { animation: bardNote 2.7s ease-out .9s infinite; }
+[data-state="play"] .bd-note-3 { animation: bardNote 2.7s ease-out 1.8s infinite; }
+@keyframes bardNote {
+  0%   { opacity: 0; transform: translate(72px, 150px) scale(.6); }
+  15%  { opacity: 1; }
+  100% { opacity: 0; transform: translate(34px, 40px) scale(1.15); }
+}
+
+/* 말풍선 — 벽에 붙인 쪽지 */
+.note {
+  position: relative;
+  margin-top: 14px;
+  background:
+    repeating-linear-gradient(177deg, rgba(0,0,0,.03) 0 1px, transparent 1px 10px),
+    var(--sign-bg);
+  box-shadow: var(--edge-in), inset 0 0 16px rgba(0,0,0,.4);
+  border-radius: 2px;
+  padding: 12px 14px;
+  font-size: 13.5px;
+  line-height: 1.75;
+  color: var(--sign-ink);
+  min-height: 3.6em;
+}
+.note::before {
+  content: "";
+  position: absolute;
+  top: -9px; left: 34px;
+  border: 9px solid transparent;
+  border-bottom-color: var(--sign-bg);
+  border-top: 0;
+}
+.note .who {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 10.5px;
+  letter-spacing: .2em;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
+/* ── 문답 ───────────────────────────────────────────────────── */
+.ask { margin-top: 12px; display: grid; gap: 7px; }
+.ask-hint { font-size: 12px; color: var(--text-dim); margin: 0 0 3px; }
+.ask-opt {
+  display: flex; align-items: center; gap: 11px;
+  width: 100%; text-align: left;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.10), rgba(0,0,0,.06)),
+    var(--wood);
+  box-shadow: var(--edge-out), var(--gilt);
+  border: 0; border-radius: 3px; padding: 10px 12px;
+  color: var(--text); cursor: pointer;
+  font: inherit; font-size: 13.5px;
+  transition: color .18s, transform .18s var(--ease), filter .18s;
+}
+.ask-opt:hover { color: var(--accent-glow); transform: translateX(3px); filter: brightness(1.1); }
+.ask-opt:active { box-shadow: var(--edge-in); }
+.ask-opt:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ask-opt .em {
+  flex: none;
+  width: 28px; height: 28px;
+  display: grid; place-items: center;
+  color: var(--accent);
+  background: var(--sign-bg);
+  box-shadow: var(--edge-in);
+  border-radius: 2px;
+}
+.ask-opt:hover .em { color: var(--accent-glow); }
+.ask-opt .lbl { display: block; font-weight: 700; font-family: var(--font-display); }
+.ask-opt .sub { display: block; font-size: 11.5px; color: var(--text-dim); margin-top: 2px; }
+
+.ask-beads { display: flex; gap: 5px; margin-top: 12px; }
+.ask-beads i {
+  flex: 1; height: 4px; border-radius: 2px;
+  background: var(--wood-dark);
+  transition: background-color .3s var(--ease);
+}
+.ask-beads i.done { background: var(--accent); }
+
+/* ── 장소 고르기 ────────────────────────────────────────────── */
+.hall-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(86px, 1fr)); gap: 7px; }
+.hall-btn {
+  border: 0; padding: 9px 5px; cursor: pointer; border-radius: 3px;
+  background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(0,0,0,.06)), var(--wood);
+  box-shadow: var(--edge-out), var(--gilt);
+  color: var(--text);
+  font: 700 11px/1.35 var(--font-display); letter-spacing: .04em;
+  display: grid; gap: 6px; justify-items: center;
+  transition: color .18s, filter .18s;
+}
+.hall-btn:hover { filter: brightness(1.12); color: var(--accent-glow); }
+.hall-btn:active { box-shadow: var(--edge-in); }
+.hall-btn[aria-pressed="true"] { box-shadow: var(--edge-in); color: var(--accent); }
+.hall-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.swatch { display: flex; width: 100%; height: 13px; border-radius: 2px; box-shadow: var(--edge-in); overflow: hidden; }
+.swatch i { flex: 1; background: var(--sw); }
+
+.hall-lock { display: flex; align-items: center; gap: 8px; margin-top: 11px; font-size: 12px; color: var(--text-dim); cursor: pointer; }
+.hall-lock input { accent-color: var(--accent); width: 15px; height: 15px; }
+
+/* ── 장면 서랍 ──────────────────────────────────────────────── */
+.scene-intro { margin: 0 0 11px; font-size: 12.5px; color: var(--text-dim); line-height: 1.75; }
+.scene-multi { display: inline-flex; align-items: center; gap: 7px; margin-left: 7px; cursor: pointer; white-space: nowrap; }
+.scene-multi input { accent-color: var(--accent); width: 14px; height: 14px; }
+
+.scene-browser { display: grid; gap: 14px; }
+.scene-group h3 {
+  margin: 0 0 8px;
+  font: 700 11px/1 var(--font-display);
+  letter-spacing: .2em;
+  color: var(--accent);
+}
+.scene-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(174px, 1fr)); gap: 6px; }
+/* 긴 장면 이름이 열을 밀어내지 않게 — 그리드 항목의 자동 최소 너비를 죽인다 */
+.scene-grid > * { min-width: 0; }
+.scene-btn {
+  display: flex; align-items: baseline; gap: 8px;
+  width: 100%; text-align: left;
+  border: 0; padding: 8px 11px; cursor: pointer; border-radius: 3px;
+  background: linear-gradient(180deg, rgba(255,255,255,.09), rgba(0,0,0,.05)), var(--wood);
+  box-shadow: var(--edge-out);
+  color: var(--text);
+  font: inherit; font-size: 12.5px;
+  transition: color .16s, transform .16s var(--ease), filter .16s;
+}
+.scene-btn:hover { color: var(--accent-glow); transform: translateX(3px); filter: brightness(1.1); }
+.scene-btn:active { box-shadow: var(--edge-in); }
+.scene-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.scene-btn[aria-pressed="true"] { box-shadow: var(--edge-in); color: var(--accent); }
+.scene-btn[aria-pressed="true"]::before { content: "✓ "; }
+.scene-btn .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.scene-btn .ct { flex: none; font: 700 11px/1 var(--font-display); color: var(--text-dim); }
+.scene-btn.is-current { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+.scene-actions { display: flex; align-items: center; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+.scene-picked { font-size: 12px; color: var(--text-dim); }
+
+/* ── 손님 명부 (찾은 것들) ──────────────────────────────────── */
+.ledger-secrets { display: grid; gap: 6px; }
+.secret-row {
+  display: flex; align-items: baseline; gap: 9px;
+  font-size: 12.5px; color: var(--text-dim);
+  padding: 5px 9px; border-radius: 2px;
+  background: color-mix(in srgb, var(--wood-dark) 32%, transparent);
+}
+.secret-row.got { color: var(--sign-ink); background: color-mix(in srgb, var(--accent) 13%, transparent); }
+.secret-row .mark { flex: none; width: 1.4em; text-align: center; color: var(--accent); }
+.secret-row .nm { flex: none; font-family: var(--font-display); font-weight: 700; }
+.secret-row .ht { flex: 1; opacity: .8; font-size: 11.5px; }
+.secret-count { font-size: 12px; color: var(--text-dim); margin: 0 0 10px; }
+
+/* ── 머리말 ─────────────────────────────────────────────────── */
+.site-head {
+  grid-column: 1 / -1;
+  display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap;
+  padding-bottom: 6px;
+}
+.site-head h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: var(--accent);
+  text-shadow: 0 2px 10px var(--accent-deep);
+}
+.site-head .tag { font-size: 13px; color: var(--text-dim); }
+.site-head .links { margin-left: auto; display: flex; gap: 14px; font-size: 12.5px; align-items: center; }
+.site-head a { color: var(--text-dim); text-decoration: none; border-bottom: 1px dotted currentColor; }
+.site-head a:hover { color: var(--accent); }
+
+.mood-chip {
+  font: 700 11px/1 var(--font-display);
+  letter-spacing: .14em;
+  padding: 5px 10px; border-radius: 2px;
+  background: var(--accent); color: var(--ink);
+}
+.phase-chip {
+  font: 700 11px/1 var(--font-display);
+  letter-spacing: .14em;
+  padding: 5px 10px; border-radius: 2px;
+  background: var(--sign-bg); color: var(--sign-ink);
+  box-shadow: var(--edge-in);
+  border: 0; cursor: pointer;
+}
+.phase-chip:hover { color: var(--accent); }
+.phase-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* 문간 종 */
+.doorbell {
+  background: none; border: 0; cursor: pointer;
+  color: var(--metal); font-size: 17px; line-height: 1;
+  padding: 4px; border-radius: 2px;
+  transition: transform .18s var(--ease), color .18s;
+}
+.doorbell:hover { color: var(--accent-glow); transform: rotate(-14deg); }
+.doorbell:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+#yt-host { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; left: -9999px; }
+
+.credits {
+  grid-column: 1 / -1;
+  font-size: 12px; color: var(--text-dim); line-height: 1.95;
+  border-top: 1px solid color-mix(in srgb, var(--metal) 26%, transparent);
+  padding-top: 16px; margin-top: 10px;
+}
+.credits h2 {
+  font: 700 12px/1 var(--font-display); letter-spacing: .2em;
+  color: var(--metal); margin: 0 0 10px;
+}
+.credits a { color: var(--text-dim); }
+.credits strong { color: var(--text); }
+
+.empty { color: var(--text-dim); font-size: 12.5px; padding: 16px 8px; text-align: center; }
+
+.mobile-note {
+  margin: 12px 0 0; padding: 10px 12px; border-radius: 2px;
+  background: var(--sign-bg); box-shadow: var(--edge-in);
+  color: var(--sign-dim); font-size: 12px; line-height: 1.75;
+}
+.mobile-note strong { color: var(--sign-ink); }
+.mobile-note a { color: var(--accent); }
+
+/* ── 접근성 ─────────────────────────────────────────────────── */
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%);
+  white-space: nowrap; border: 0;
+}
+.skip-link {
+  position: absolute; left: 8px; top: -60px; z-index: 1000;
+  background: var(--wood); color: var(--text);
+  box-shadow: var(--edge-out); padding: 11px 17px;
+  font-size: 13px; text-decoration: none; border-radius: 3px;
+}
+.skip-link:focus { top: 8px; }
+.songlist:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+/* ── 좁은 화면 ──────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .stage { display: flex; flex-direction: column; }
+  .stage > * { min-width: 0; max-width: 100%; align-self: stretch; }
+  .site-head { order: -2; }
+  .stage-side { order: -1; position: static; }
+  .hearth-row { grid-template-columns: 1fr; }
+  /* 한 칸으로 내려오면 가로를 다 쓰게 된다. 납작하게 두면 불칸이 가운데
+     작게 쪼그라들어 불멍이 안 되고, 그렇다고 정사각으로 두면 태블릿 폭에서
+     난로만 760px 이 된다. 정사각으로 두되 폭을 묶는다. */
+  .hearth { aspect-ratio: 1 / 1; width: 100%; max-width: 420px; justify-self: center; }
+  /* 쌓인 판에서는 옆에 난로가 없다 — height:0 요령을 풀고 셋리스트만 높이를 묶는다 */
+  .lectern { height: auto; min-height: 0; }
+  .songlist { flex: none; max-height: 340px; }
+  .sign-time { font-size: 23px; }
+  .tbtn { min-width: 36px; }
+  input[type="range"] { width: 96px; }
+}
+@media (max-width: 420px) {
+  .stage { padding: 16px 11px 52px; }
+  .site-head h1 { font-size: 21px; }
+  .site-head .links { margin-left: 0; width: 100%; }
+  .songlist { max-height: 280px; }
+  /* minmax(0,…) — 1fr 만 쓰면 최소가 auto 라 긴 이름이 판을 뚫고 나간다 */
+  .scene-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+}
+
+/* ── 모션 최소화 ────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+  .scroll > span { padding-left: 0; }
+  /* 불을 안 지폈어도 잉걸은 남아 있다 — 빈 상자로 보이지 않게 */
+.hearth .fire span:nth-child(1) { animation: emberBreath 4.5s ease-in-out infinite; }
+@keyframes emberBreath { 0%,100% { opacity: .4; } 50% { opacity: .62; } }
+.hearth.burning .fire { opacity: 1; }
+}
+
+/* 곡 내력의 대분류 표시 */
+.ledger .scene-cat { color: var(--text-dim); }
+/* 머리말의 곡 수 — 잔처럼 부딪칠 수 있다 */
+.site-head .cup { cursor: pointer; border-bottom: 1px dotted color-mix(in srgb, var(--metal) 55%, transparent); }
+.site-head .cup:hover { color: var(--accent); }
+
+/* ── 바에 걸어 둔 것 ──────────────────────────────────────────
+   그림은 한 장만 두고, 익은 정도는 filter 로 낸다. */
+/* 불 세간이 들어앉는 칸. 난로 아래쪽에 붙고 비율이 고정이라,
+   난로가 세로로 길어져도 안쪽 %% 값들이 그대로 산다. */
+.firebox {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50% 0;
+  /* 폭에 맞추되, 난로가 납작할 때(좁은 화면에서는 2/1 이다)는 높이에 맞춘다.
+     둘 중 작은 쪽을 따르므로 어느 모양에서도 비율이 무너지지 않는다.
+     92.6 = 100 / 1.08 */
+  width: min(100cqw, 92.6cqh);
+  aspect-ratio: 1 / 1.08;
+  pointer-events: none;
+}
+
+/* 꼬치걸이대 — 두 다리 위에 가로대 하나. 음식은 이 가로대에 얹힌다.
+   가로대 높이가 곧 .roast 상자의 바닥이라, 둘을 같은 값(--spit-y)으로 묶어 둔다.
+   이 값은 **불꽃 끝보다 높아야 한다.** 44% 였을 때는 가장 큰 불꽃이 48% 까지
+   솟아서 음식이 불에 파묻혀 보였다. 불꽃은 흔들릴 때 51% 쯤까지 가므로
+   그보다 여유를 두고 잡는다 — 난로가 세로로 긴 덕에 남는 높이가 여기 쓰인다. */
+.firebox { --spit-y: 62%; }
+
+.spit {
+  position: absolute;
+  left: 50%;
+  translate: -50% 0;
+  bottom: 6%;
+  height: calc(var(--spit-y) - 6%);
+  width: 62%;
+  z-index: 5;
+  pointer-events: none;
+}
+.spit i {
+  position: absolute;
+  background: linear-gradient(180deg, var(--metal), var(--metal-dark));
+  box-shadow: 0 1px 2px rgba(0,0,0,.65);
+  border-radius: 2px;
+}
+.spit .bar { top: 0; left: 0; right: 0; height: 4px; }
+.spit .leg { top: 0; bottom: 0; width: 4px; }
+.spit .leg.l { left: 4%; }
+.spit .leg.r { right: 4%; }
+
+/* 걸린 것 */
+.roast {
+  position: absolute;
+  left: 50%;
+  bottom: var(--spit-y);
+  translate: -50% 0;
+  width: 62%;
+  height: 30%;
+  z-index: 6;
+  pointer-events: none;
+}
+/* 감자와 옥수수는 걸이대가 아니라 잉걸 위에 놓인다 (제 그림에 잿더미가 딸려 있다) */
+.roast[data-seat="ashes"] { bottom: 9%; }
+
+/* 냄비는 고리로 매달린다 — 얹히는 것과 반대로 가로대에서 아래로 내려간다.
+   그래서 상자를 뒤집어 가로대에 위를 붙이고 아래로 자란다. */
+.roast[data-seat="hang"] {
+  bottom: auto;
+  top: calc(100% - var(--spit-y));
+}
+.roast[data-seat="hang"] .dish { bottom: auto; top: 0; }
+
+/* 그림을 상자 바닥(=가로대)에 못 박되, 봉이 있는 것은 봉이 가로대에
+   걸리도록 제 키의 --rod-drop 만큼 아래로 내린다. 그림 바닥을 가로대에
+   앉히면 꼬치봉이 허공에 뜬다 — 봉으로 거는 물건은 봉이 기준이다.
+   (translate 의 Y%% 는 제 높이 기준이라 그림 크기가 변해도 따라온다.)
+   absolute + bottom:0 를 쓰는 이유: flex 정렬은 그림 크기가 잡히기 전의
+   계산에 기대서 휴대폰에서 떠 보인 적이 있다. */
+.roast .dish {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50% var(--rod-drop, 0%);
+  width: var(--dish-w, 60%);
+  height: auto;
+  object-fit: contain;
+  transform-origin: 50% calc(100% - var(--rod-drop, 0%));   /* 봉을 축으로 흔들린다 */
+  animation: dishHang 4.2s ease-in-out infinite;
+}
+/* 크기는 서로에 대해 정한다. 상자에 맞춰 늘리면 마시멜로가 통돼지만 해진다 —
+   가로대 너비를 100 으로 두고 각자 제 몫만큼만 차지하게 한다. */
+/* --rod-drop 은 그림에서 봉 아래에 남는 부분의 비율 (tools/make_hearth_art.mjs
+   를 돌린 뒤 알파가 전폭에 걸치는 행을 재면 나온다) */
+.roast[data-dish="pig"]         { --dish-w: 100%; --rod-drop: 50%; }
+.roast[data-dish="skewer"]      { --dish-w: 84%;  --rod-drop: 50%; }
+.roast[data-dish="fish"]        { --dish-w: 64%;  --rod-drop: 44%; }
+.roast[data-dish="marshmallow"] { --dish-w: 56%;  --rod-drop: 48%; }
+.roast[data-dish="corn"]        { --dish-w: 46%; }
+.roast[data-dish="cauldron"]    { --dish-w: 30%; }
+/* 잿더미에 놓인 것은 흔들리지 않는다 */
+.roast[data-seat="ashes"] .dish { animation: none; }
+@keyframes dishHang {
+  0%, 100% { transform: rotate(-1.4deg); }
+  50%      { transform: rotate(1.4deg); }
+}
+
+/* 익은 정도 */
+.roast[data-stage="raw"]     .dish { filter: drop-shadow(0 3px 5px rgba(0,0,0,.55)) saturate(.5) brightness(1.14); }
+.roast[data-stage="cooking"] .dish { filter: drop-shadow(0 3px 5px rgba(0,0,0,.55)) saturate(1); }
+/* sepia 를 섞어야 마시멜로처럼 흰 것도 노릇해 보인다 */
+.roast[data-stage="done"]    .dish {
+  filter: drop-shadow(0 0 7px color-mix(in srgb, var(--flame) 55%, transparent))
+          drop-shadow(0 3px 5px rgba(0,0,0,.55)) sepia(.38) saturate(1.5) brightness(1.02);
+}
+.roast[data-stage="burnt"]   .dish { filter: drop-shadow(0 3px 5px rgba(0,0,0,.55)) sepia(.6) saturate(.3) brightness(.34); }
+
+/* 다 익으면 살짝 들썩여 눈에 띄게 */
+.roast[data-stage="done"] .dish { animation: dishReady 1.9s ease-in-out infinite; }
+@keyframes dishReady {
+  0%, 100% { transform: rotate(-1.4deg) translateY(0); }
+  50%      { transform: rotate(1.4deg) translateY(-3px); }
+}
+
+/* 냄비 거품 */
+/* 냄비가 끓을 때 올라오는 거품. 예전에는 냄비 SVG 안의 원이었는데,
+   냄비가 그림이 되면서 난로 위에 따로 띄우는 점이 되었다. */
+.bub {
+  position: absolute;
+  bottom: 62%;                 /* 냄비 아가리 언저리 */
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent-glow);
+  opacity: 0;
+  pointer-events: none;
+}
+.bub1 { left: 44%; }
+.bub2 { left: 52%; width: 4px; height: 4px; }
+.bub3 { left: 58%; width: 5px; height: 5px; }
+.roast[data-stage="cooking"] .bub,
+.roast[data-stage="done"] .bub { animation: bubUp 2.2s ease-out infinite; }
+.bub2 { animation-delay: .7s !important; }
+.bub3 { animation-delay: 1.4s !important; }
+@keyframes bubUp {
+  0%   { opacity: 0; transform: translateY(0) scale(.5); }
+  25%  { opacity: .9; }
+  100% { opacity: 0; transform: translateY(-13px) scale(1.1); }
+}
+
+/* 먹을 수 있을 때만 손이 간다 */
+.hearth[data-bite="1"] { cursor: pointer; }
+.hearth[data-bite="1"] .roast { pointer-events: none; }
+
+/* 아직 덜 익어 못 먹는다 — 집으려다 만 것처럼 한 번 물러났다 온다.
+   먹었을 때는 이런 동작이 없다. 먹는 즉시 사라진다. */
+.roast.notyet .dish { animation: dishNotYet .6s var(--ease); }
+@keyframes dishNotYet {
+  0%        { transform: translateY(0)   rotate(0deg); }
+  30%       { transform: translateY(-5px) rotate(-3deg); }
+  55%       { transform: translateY(2px)  rotate(2deg); }
+  100%      { transform: translateY(0)   rotate(0deg); }
+}
+
+/* 난로 그 자리에서 뜨는 한마디 — 팻말 위에 잠깐 떠올랐다 사라진다 */
+.hearth-say {
+  position: absolute;
+  left: 50%;
+  bottom: 13%;
+  translate: -50% 6px;
+  max-width: 86%;
+  padding: 5px 11px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--sign-ink);
+  background: color-mix(in srgb, var(--sign-bg) 88%, #000 12%);
+  border: 1px solid color-mix(in srgb, var(--metal) 45%, transparent);
+  border-radius: 3px;
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 7;
+  transition: opacity .25s var(--ease), translate .25s var(--ease);
+}
+.hearth-say.show { opacity: 1; translate: -50% 0; }
+
+/* 난로 밑 안내 */
+.hearth-dish {
+  position: absolute;
+  bottom: 5px; left: 50%;
+  translate: -50% 0;
+  z-index: 5;
+  padding: 3px 9px;
+  background: var(--sign-bg);
+  box-shadow: var(--edge-in);
+  border-radius: 2px;
+  font: 700 10px/1.5 var(--font-display);
+  letter-spacing: .1em;
+  color: var(--sign-dim);
+  white-space: nowrap;
+  max-width: 92%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hearth[data-bite="1"] .hearth-dish { color: var(--flame); }
+
+/* ── 바드를 그림/영상으로 갈아 끼웠을 때 ────────────────────────
+   SVG 대신 파일을 쓰더라도 흔들림·음표 같은 동작은 그대로 얹힌다.
+   자세한 규격은 assets/art/README.md */
+.bard-art-image,
+.bard-art-video {
+  position: relative;
+  width: 100%;
+  max-width: 232px;
+  aspect-ratio: 240 / 260;
+  display: block;
+}
+
+.bard-img,
+.bard-vid {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* 상태별 그림은 지금 것만 보인다 */
+.bard-img { opacity: 0; transition: opacity .22s var(--ease); }
+[data-state="idle"] .bard-img[data-for="idle"],
+[data-state="talk"] .bard-img[data-for="talk"],
+[data-state="dig"]  .bard-img[data-for="dig"],
+[data-state="play"] .bard-img[data-for="play"] { opacity: 1; }
+/* 대응하는 그림이 없을 때를 대비해 idle 을 바닥에 깔아 둔다 */
+.bard-img[data-for="idle"] { opacity: 1; z-index: 0; }
+.bard-img:not([data-for="idle"]) { z-index: 1; }
+
+/* 그림·영상에도 숨쉬기와 흔들림을 얹는다 */
+.bard-art-image, .bard-art-video { transform-origin: 50% 92%; }
+[data-state="idle"] .bard-art-image,
+[data-state="idle"] .bard-art-video { animation: artBob 5.5s ease-in-out infinite; }
+[data-state="talk"] .bard-art-image,
+[data-state="talk"] .bard-art-video { animation: artNod 1.15s ease-in-out infinite; }
+[data-state="dig"]  .bard-art-image,
+[data-state="dig"]  .bard-art-video { animation: artTilt .95s ease-in-out infinite; }
+[data-state="play"] .bard-art-image,
+[data-state="play"] .bard-art-video { animation: artSway 1.1s ease-in-out infinite; }
+@keyframes artBob  { 0%,100% { transform: translateY(0); }            50% { transform: translateY(-4px); } }
+@keyframes artNod  { 0%,100% { transform: rotate(0deg); }             50% { transform: rotate(-2deg); } }
+@keyframes artTilt { 0%,100% { transform: rotate(-4deg); }            50% { transform: rotate(4deg); } }
+@keyframes artSway { 0%,100% { transform: translateY(0) rotate(-1.5deg); } 50% { transform: translateY(-5px) rotate(1.5deg); } }
+
+/* 노랫가락 — 그림 모드에서도 연주 중에 뜬다 */
+.bard-notes { position: absolute; inset: 0; pointer-events: none; opacity: 0; }
+[data-state="play"] .bard-notes { opacity: 1; }
+.bard-notes i {
+  position: absolute;
+  left: 14%; bottom: 42%;
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: var(--accent-glow);
+  box-shadow: 5px -7px 0 -2px var(--accent-glow);
+  opacity: 0;
+}
+[data-state="play"] .bard-notes i:nth-child(1) { animation: artNote 2.7s ease-out infinite; }
+[data-state="play"] .bard-notes i:nth-child(2) { animation: artNote 2.7s ease-out .9s infinite; left: 20%; }
+[data-state="play"] .bard-notes i:nth-child(3) { animation: artNote 2.7s ease-out 1.8s infinite; left: 9%; }
+@keyframes artNote {
+  0%   { opacity: 0; transform: translateY(0) scale(.6); }
+  15%  { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-92px) translateX(-14px) scale(1.15); }
+}
