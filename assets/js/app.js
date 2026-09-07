@@ -659,14 +659,14 @@ function initSecrets() {
     e.currentTarget.textContent = open ? '▲' : '▼';
   });
 
-  // 문간 종
+  // 도어 차임
   $('doorbell').addEventListener('click', () => {
     sfx.doorBell();
-    secrets.find('bell');
+    secrets.find('doorchime');
     say(currentPhase().greet, 'talk');
   });
 
-  // 바 카운터 — 잔이 있으면 마시고, 없으면 네온/바이닐을 톡 건드린다
+  // 바 카운터 — 잔이 있으면 마시고, 없으면 네온을 톡 건드린다
   const hearth = $('hearth');
 
   // 카운터 그 자리에서 한마디. 휴대폰에서는 니키의 말칸이 화면 밖이라
@@ -686,7 +686,7 @@ function initSecrets() {
       sfx.crackle();
       hearth.classList.add('poked');
       setTimeout(() => hearth.classList.remove('poked'), 1200);
-      secrets.find('hearth');
+      secrets.find('neon');
       hearthSay(dish.done || '네온만 숨 쉬고 있습니다.');
       say(dish.done || '네온만 숨 쉬고 있습니다.');
       return;
@@ -713,7 +713,7 @@ function initSecrets() {
 
     if (res.stage.id === 'flat') sfx.crumble(); else sfx.munch();
     sfx.clink();
-    secrets.find('hearth');
+    secrets.find('neon');
     noteEaten(res.dish);
 
     const line = `${res.stage.id === 'flat' ? dish.burnt : dish.done} ${dish.eaten}`;
@@ -733,19 +733,6 @@ function initSecrets() {
       $(target).click();
     });
   }
-
-  // 선반 위의 오르골 — 감으면 작은 가락이 돌고 야사에 적힌다
-  const trinket = $('mantel-thing');
-  trinket.addEventListener('click', (e) => {
-    e.stopPropagation();               // 카운터 클릭(마시기/톡)까지 내려가지 않게
-    sfx.musicBox();
-    trinket.classList.add('wound');
-    setTimeout(() => trinket.classList.remove('wound'), 550);
-    const first = secrets.find('trinket');
-    if (first) return;                 // 첫 발견 인사는 onSecret 쪽이 한다
-    say(['태엽이 아직 살아 있군요.', '그 가락, 어디서 왔는지는 저도 모릅니다.',
-         '오르골은 감아 주는 사람이 있어야 돕니다.'][Math.floor(Math.random() * 3)], 'talk');
-  });
 
   // DJ에게 말 걸기
   const stage = $('bard-stage');
@@ -773,7 +760,7 @@ function initSecrets() {
     e.stopPropagation();                       // 무대 클릭(말 걸기)까지 겹치지 않게
     setBardState(stage, 'dig');
     sfx.flourish();
-    secrets.find('lute');
+    secrets.find('dropneedle');
     const p = currentPhase();
     const res = pickForPhase(p.id, BGM_BY_SCENE, 30);
     if (!res.tracks.length) { say('…크레이트가 비었군요. 음원 모으는 중입니다. 잠시 뒤에 청해 주십시오.'); return; }
@@ -782,12 +769,12 @@ function initSecrets() {
     play(0);
   });
 
-  // 잔 부딪기 — 머리말의 곡 수를 누르면
+  // 팁 단지 — 머리말의 곡 수를 누르면
   $('stat-count').classList.add('cup');
-  $('stat-count').title = '잔을 부딪쳐 본다';
-  $('stat-count').addEventListener('click', () => { sfx.clink(); secrets.find('toast'); });
+  $('stat-count').title = '팁 단지를 톡 건드려 본다';
+  $('stat-count').addEventListener('click', () => { sfx.clink(); secrets.find('tipjar'); });
 
-  // 단골 — 건너뛰지 않고 다섯 곡을 내리 들으면 아껴 둔 셋이 열린다
+  // 레귤러 — 건너뛰지 않고 다섯 곡을 내리 들으면 아껴 둔 셋이 열린다
   secrets.onBecomePatron(() => {
     const list = secrets.legendaryList(BGM_BY_SCENE);
     loadQueue(list);
@@ -812,7 +799,7 @@ function noteEaten(dish) {
     v.add(dish.label);
     localStorage.setItem(DRUNK_KEY, JSON.stringify([...v]));
     const total = Object.values(DISHES).filter((d) => d.eatable).length;
-    if (v.size >= total) secrets.find('gourmet');
+    if (v.size >= total) secrets.find('fullmenu');
   } catch { /* noop */ }
 }
 

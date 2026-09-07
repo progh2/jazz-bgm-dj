@@ -216,9 +216,6 @@ export function startCocktails({ slot, onChange, onShake, onMixed }) {
           <span class="rc-whisper">${mixing ? d.whisper : (hasGlass ? d.label : '—')}</span>
         </div>
         <div class="mixer" ${hasGlass ? 'hidden' : ''}>
-          <div class="shaker ${shaking ? 'go' : ''}" aria-hidden="true">
-            <i class="shaker-cap"></i><i class="shaker-body"></i>
-          </div>
           <div class="meters" role="group" aria-label="조율">
             ${INGS.map((k) => `
               <div class="meter" data-ing="${k}">
@@ -228,7 +225,7 @@ export function startCocktails({ slot, onChange, onShake, onMixed }) {
                 <button type="button" class="m-btn m-plus" data-ing="${k}" aria-label="${ING_LABEL[k]} 늘리기">+</button>
               </div>`).join('')}
           </div>
-          <button type="button" class="btn-shake">Shake</button>
+          <button type="button" class="btn-shake${shaking ? ' go' : ''}">Shake</button>
         </div>
         <div class="glass-rail" data-hue="${d.hue}" data-stage="${st.id}" ${hasGlass ? '' : 'hidden'}>
           ${hasGlass ? glassSvg(d.hue) : ''}

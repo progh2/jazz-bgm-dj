@@ -5,13 +5,13 @@
 | `dj-{idle,talk,dig,play}.webp` | 무대의 DJ 니키 | **ChatGPT `gpt-image-2`** (Grok 키 없음·비교 시 OpenAI 우위) → `.art-work/make_dj_art_v2.mjs` |
 | `promo.jpg` / `promo-banner.jpg` / `promo-square.jpg` | 홍보·OG | 클럽 배경(gpt-image-2) + 니키 합성 |
 | `wall-stone.webp` | 벽과 바 카운터 둘레의 돌결 | soft-light 텍스처 |
-| `hearth-*.webp` | **미사용 (레거시)** — 예전 난로·간식. UI 는 CSS/SVG 네온·바이닐·칵테일 잔으로 대체 | `tools/gen_hearth_art.mjs` 등 |
+| `hearth-*.webp` | **미사용 (레거시)** — 예전 난로·간식. UI 는 CSS 네온 사인·턴테이블·칵테일 잔으로 대체 | `tools/gen_hearth_art.mjs` 등 |
 
-바 카운터의 네온 튜브·바이닐·셰이커·잔은 **CSS/SVG** 입니다. 머무는 곳에 따라
+바 카운터의 네온 사인·턴테이블·잔은 **CSS/SVG** 입니다. 머무는 곳에 따라
 `--flame` / `--metal` / `--drink-*` 가 같이 변해야 해서 그림으로 박지 않았습니다.
 
-**CSS/SVG 로 남겨 둔 것** — 네온 튜브, 바이닐, 칵테일 잔·조율 UI, 그리고
-선반 위의 물건들(등불·열쇠·오르골 — `index.html` 안 인라인 SVG).
+**CSS/SVG 로 남겨 둔 것** — MIDNIGHT 네온 사인, 턴테이블 덱, 칵테일 잔·조율 UI, 그리고
+선반 위의 물건들(등불·열쇠 — `index.html` 안 인라인 SVG).
 
 예전 난로 파이프라인은 `tools/gen_hearth_art.mjs` / `make_hearth_art.mjs` 에 남아 있으나
 재생기는 더 이상 `hearth-*.webp` 를 참조하지 않습니다.
@@ -111,7 +111,7 @@ assets/art/dj-idle.webp  첫 프레임
 
 - **다리 겹침**: CSS에서 idle 을 항상 `opacity:1` 로 깔아 두던 버그 수정 + 풀바디 다리 아티팩트를 피하려고 **허리 위 크롭**으로 맞춤 (원본 rpg 바드와 같은 무대 구도).
 - **흰 테두리**: 가장자리 flood + 닫힌 흰 구멍 제거 + 가장자리 despill 3회.
-- 모닥불 `hearth-*.webp` 는 UI에서 제거. 바는 네온·바이닐·칵테일(CSS/SVG).
+- 모닥불 `hearth-*.webp` 는 UI에서 제거. 바는 네온 사인·턴테이블·칵테일(CSS/SVG).
 
 ## 홍보 배너
 
