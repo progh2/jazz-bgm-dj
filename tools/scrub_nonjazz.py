@@ -1,8 +1,15 @@
 # -*- coding: utf-8 -*-
-"""Remove non-jazz false positives from data/bgm_playlist.json and regenerate bgm-scenes.js."""
-import json, re, csv, datetime, subprocess
+"""Remove clear non-jazz false positives from data/bgm_playlist.json and regenerate bgm-scenes.js.
+
+Expand already gates with is_jazzish / TITLE_SCENE. This step only drops hard NEG
+(rock/ska/holiday/game false positives). Do not require jazz keywords in the title —
+many MacLeod jazz pieces have opaque names (Hep Cats, As I Figure, …).
+"""
+import json, re, csv, datetime, subprocess, sys
 from pathlib import Path
 from collections import defaultdict
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 KNOWN = {
   'dances and dames', 'i knew a guy', 'vibe ace', 'as i figure', 'faster does it',
@@ -12,27 +19,30 @@ KNOWN = {
   'smooth lovin', 'jazz brunch', 'hard boiled', 'spy glass', 'wallpaper',
   'whiskey on the mississippi', 'airport lounge', 'backbay lounge', 'big band swingin',
   'hot swing', 'acoustic blues', 'bass walker', 'bass walker - film noir', 'hep cats',
-  'hep cats by', 'ultralounge', 'easy lemon',
+  'hep cats by', 'ultralounge', 'easy lemon', 'stomping at midnight', 'palm and soul',
+  'maple leaf rag', 'frogs legs rag', "frog's legs rag", 'tiki bar mixer', 'late night radio',
+  'bossabossa', 'bossa bossa', 'nonstop', 'chillin hard', 'octoblues', 'leopard print elevator',
+  'funky chunk', 'clean soul', 'local forecast', 'mining by moonlight', 'carefree',
+  'groove grove', 'got funk', 'natural vibes', 'blobby samba', 'casa bossa nova',
+  'samba isobel', 'brazilian bittersweet', 'shades of spring', 'thruster', 'funkorama',
+  'jazzy frenchy', 'swinging with the sultan', 'dixie outlandish', 'dig this',
+  'almost in f', 'mellowtron', 'darkest child', 'purely business', 'investigations',
+  'cold funk', 'beach party', 'sneaky snitch', 'romantic', 'lightless dawn', 'bittersweet',
 }
-POS = re.compile(
-  r'(jazz|jazzy|재즈|ジャズ|스윙)|'
-  r'\b(swing|bebop|be-?bop|hardbop|hard-?bop|dixie(land)?|ragtime|stride|'
-  r'bossa|samba|latin jazz|mambo|afro-?cuban|big\s*band|cool jazz|smooth jazz|soul jazz|'
-  r'acid\s*jazz|acidjazz|electro\s*swing|noir|hard[- ]?boiled|film noir|blues|blue note|'
-  r'boogie(?:\s*woogie)?|sax(ophone)?|vibraphone|\bvibes\b|lounge|cocktail|speakeasy|'
-  r'night on the docks|jazz brunch|lobby time|hep cats?|trad(?:itional)?\s*jazz|'
-  r'new orleans|hot jazz|ultralounge|airport lounge|backbay lounge|spy glass|wallpaper\b)\b',
-  re.I)
+
 NEG = re.compile(
   r'\b(chill rock|soft rock|retro/?\s*rock|medium rock|sax,\s*rock|rock/funk|funk/rock|'
   r'pop/funk/rock|indie rock|hard rock|metal|punk(?!\s*jazz)|grunge|hip[- ]?hop|rap\b|trap\b|'
   r'edm|dubstep|techno|trance|chiptune|8[- ]?bit|video\s*game|pixeltown|pixel spy|'
   r'christmas|xmas|holiday|halloween|orchestra/festive|festive/drama|comedy/drama|book club|'
   r'celtic|medieval|fantasy|pirate|viking|scarab|elvish|cretaceous|\bska\b|reggae|islandesque|'
-  r'country\b|bluegrass|horror|zombie|g\s*funk|funkorama|happy go lucky|chilled for the holidays|'
+  r'country\b|bluegrass|horror|zombie|g\s*funk|happy go lucky|chilled for the holidays|'
   r'prancing o snow|midnight tale|light trail|glass lounge|lounge of fuzz|monster chill lounge|'
-  r'playing it cool - saxophone/soft rock|amazing grace|disco lounge|beach party|summer love part)\b',
-  re.I)
+  r'playing it cool - saxophone/soft rock|amazing grace|disco lounge|summer love part|'
+  r'goblin tinker|futuristic detective theme|build your own adventure|'
+  r'epic metal|heavy metal|house/funk/disco|funky house)\b',
+  re.I,
+)
 
 def norm(title):
   return re.sub(r'\s+', ' ', title).strip().lower()
@@ -51,9 +61,7 @@ def main():
     known = any(n == k or n.startswith(k) for k in KNOWN)
     if NEG.search(title) and not known:
       drop.append((t, 'neg')); continue
-    if known or POS.search(title):
-      keep.append(t); continue
-    drop.append((t, 'no-signal'))
+    keep.append(t)
   by_vid = {}
   for t in keep:
     prev = by_vid.get(t['videoId'])
@@ -70,7 +78,7 @@ def main():
   new_doc = {
     'title': 'Jazz BGM by scene (scrubbed)',
     'generated': datetime.date.today().isoformat(),
-    'note': 'Jazz & jazz-adjacent only after scrub_nonjazz.py',
+    'note': 'Jazz & jazz-adjacent after expand + hard NEG scrub (opaque jazz titles kept)',
     'categories': []
   }
   for cat, items in cats.items():

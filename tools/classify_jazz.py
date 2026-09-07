@@ -116,20 +116,18 @@ JAZZISH = re.compile(
     r"smooth|mellow|cool (vibe|jazz)|ballad|fusion|rhodes|organ|hammond|mambo|rumba|"
     r"speakeasy|whiskey|brunch|midnight|after[- ]?hours|night club|nightclub|"
     r"acidjazz|acid jazz|nu[- ]?jazz|trad(itional)?|boogie|rag\b|saloon|"
-    r"late night|chillin|tiki bar|elevator|jazzy|"
-    # known MacLeod / common free jazz titles fragments
-    r"dances and dames|i knew a guy|vibe ace|as i figure|faster does it|george street|"
-    r"backed vibes|easy lemon|off to osaka|bossa antigua|lobby time|jazz brunch|"
-    r"smooth lovin|shades of spring|hard boiled|spy glass|wallpaper|mining by moonlight|"
-    r"slow ska|whiskey on the|beach party|romantic|night on the docks|cool vibes|"
-    r"hep cats|local forecast|thruster|carefree|funkorama|groove groove|"
+    r"late night|chillin|tiki|elevator|stomping|octoblues|got funk|groove grove|"
     r"jazzy frenchy|the elevator|swinging with|bass walker|dixie outlandish|"
     r"samba isobel|almost in f|mellowtron|darkest child|purely business|"
     r"big swing band|sideways samba|closer to jazz|standard jazz|plumber.?s rag|"
-    r"okey dokey|panama hat|jumpin.? boogie|"
+    r"okey dokey|panama hat|jumpin.? boogie|palm and soul|late night radio|"
+    r"maple leaf|frogs? legs|leopard print|funky chunk|clean soul|airport lounge|"
+    r"backbay|ultralounge|hot swing|acoustic blues|hep cats|local forecast|"
+    r"mining by moonlight|carefree|bossa ?bossa|nonstop|blobby samba|"
+    r"casa bossa|swinging pants|lobby time|"
     r"재즈|ジャズ|ブルーズ|ラウンジ|ボサ"
     r")\b|"
-    r"jazz|ジャズ|재즈|blues|블루스|swing|스윙|bossa|보사|lounge|라운지",
+    r"jazz|ジャズ|재즈|blues|블루스|swing|스윙|bossa|보사|lounge|라운지|funk|groove|rag",
     re.I,
 )
 
@@ -231,6 +229,42 @@ TITLE_SCENE = {
     "almost in f": "B8_ballad",
     "tenderness": "D2_romance",
     "love song": "D2_romance",
+    "stomping at midnight": "B1_swing",
+    "palm and soul": "B13_soul",
+    "maple leaf rag": "B12_dixie",
+    "frogs legs rag": "B12_dixie",
+    "frog's legs rag": "B12_dixie",
+    "tiki bar mixer": "C5_festival",
+    "late night radio": "C1_lounge",
+    "bossabossa": "B6_latin",
+    "bossa bossa": "B6_latin",
+    "chillin hard": "B9_smooth",
+    "octoblues": "B7_blues",
+    "leopard print elevator": "B9_smooth",
+    "funky chunk": "B13_soul",
+    "clean soul": "B13_soul",
+    "groove grove": "B13_soul",
+    "got funk": "B13_soul",
+    "airport lounge": "C1_lounge",
+    "backbay lounge": "C1_lounge",
+    "ultralounge": "C1_lounge",
+    "big band swingin": "B1_swing",
+    "acoustic blues": "B7_blues",
+    "blobby samba": "B6_latin",
+    "casa bossa nova": "B6_latin",
+    "natural vibes": "B3_cool",
+    "swinging pants": "B1_swing",
+    "funky boxstep": "B13_soul",
+    "laser groove": "B13_soul",
+    "bittersweet": "D1_melancholy",
+    "fig leaf times two": "B12_dixie",
+    "hot salsa": "B6_latin",
+    "bar street jam": "C3_speakeasy",
+    "digital downtown": "C4_rooftop",
+    "urban flight": "C4_rooftop",
+    "puddle jumping": "D7_rainy",
+    "romantic lands": "D2_romance",
+    "the city without dawn": "D9_dawn",
 }
 
 
@@ -238,6 +272,9 @@ def is_jazzish(title, extra=""):
     text = f"{title} {extra}"
     if REJECT.search(text):
         return False
+    low = clean(title).lower()
+    if any(key in low for key in TITLE_SCENE):
+        return True
     return bool(JAZZISH.search(text))
 
 

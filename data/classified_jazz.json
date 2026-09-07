@@ -353,9 +353,9 @@
 "source": "https://incompetech.com/",
 "length": 122,
 "origin": "channel",
-"sub": "C1_lounge",
+"sub": "B1_swing",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "jlF_vSoM20s",
@@ -365,9 +365,9 @@
 "source": "https://incompetech.com/",
 "length": 119,
 "origin": "channel",
-"sub": "C1_lounge",
+"sub": "B1_swing",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "_fuXd7mW2xo",
@@ -377,9 +377,9 @@
 "source": "https://incompetech.com/",
 "length": 242,
 "origin": "channel",
-"sub": "B9_smooth",
+"sub": "B13_soul",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "_q3NYfldJvs",
@@ -389,7 +389,7 @@
 "source": "https://incompetech.com/",
 "length": 132,
 "origin": "channel",
-"sub": "B9_smooth",
+"sub": "B3_cool",
 "alts": [],
 "focus": 5
 },
@@ -451,10 +451,8 @@
 "source": "https://incompetech.com/",
 "length": 265,
 "origin": "channel",
-"sub": "D8_afterhours",
-"alts": [
-"C1_lounge"
-],
+"sub": "C1_lounge",
+"alts": [],
 "focus": 5
 },
 {
@@ -465,9 +463,9 @@
 "source": "https://incompetech.com/",
 "length": 213,
 "origin": "channel",
-"sub": "B9_smooth",
+"sub": "C5_festival",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "B1izxvFdJis",
@@ -477,9 +475,9 @@
 "source": "https://incompetech.com/",
 "length": 152,
 "origin": "channel",
-"sub": "B9_smooth",
+"sub": "B12_dixie",
 "alts": [],
-"focus": 5
+"focus": 3
 },
 {
 "videoId": "-2L1YqnJuKU",
@@ -489,9 +487,9 @@
 "source": "https://incompetech.com/",
 "length": 169,
 "origin": "channel",
-"sub": "B9_smooth",
+"sub": "B12_dixie",
 "alts": [],
-"focus": 5
+"focus": 3
 },
 {
 "videoId": "VNctLX9oOJc",
@@ -530,13 +528,13 @@
 "focus": 5
 },
 {
-"videoId": "I0gPJrtRHds",
-"title": "Backbay Lounge",
+"videoId": "OYeiE3Re7dk",
+"title": "Kevin MacLeod - Backbay Lounge",
 "artist": "Kevin MacLeod",
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
-"length": 271,
-"origin": "channel",
+"length": 267,
+"origin": "search",
 "sub": "C1_lounge",
 "alts": [],
 "focus": 5
@@ -554,24 +552,48 @@
 "focus": 3
 },
 {
-"videoId": "Hdnz8DRzntk",
-"title": "BossaBossa",
+"videoId": "H6ydejhm4EY",
+"title": "Bittersweet",
 "artist": "Kevin MacLeod",
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
-"length": 167,
+"length": 202,
 "origin": "channel",
+"sub": "D1_melancholy",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "_118WTrzaB0",
+"title": "Kevin MacLeod - BossaBossa",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 168,
+"origin": "search",
+"sub": "B6_latin",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "wcCN8ZhAiW0",
+"title": "Kevin MacLeod: Nonstop",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 194,
+"origin": "search",
 "sub": "B9_smooth",
 "alts": [],
 "focus": 5
 },
 {
-"videoId": "47ZY6GWKP0Y",
-"title": "Nonstop",
+"videoId": "rG5RtLikC7k",
+"title": "Secret of Tiki Island",
 "artist": "Kevin MacLeod",
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
-"length": 192,
+"length": 196,
 "origin": "channel",
 "sub": "B9_smooth",
 "alts": [],
@@ -633,9 +655,9 @@
 "source": "https://incompetech.com/",
 "length": 253,
 "origin": "channel",
-"sub": "B9_smooth",
+"sub": "B7_blues",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "vS5seoVGwrc",
@@ -669,7 +691,7 @@
 "source": "https://incompetech.com/",
 "length": 318,
 "origin": "channel",
-"sub": "B9_smooth",
+"sub": "C1_lounge",
 "alts": [],
 "focus": 5
 },
@@ -693,9 +715,9 @@
 "source": "https://incompetech.com/",
 "length": 307,
 "origin": "channel",
-"sub": "B9_smooth",
+"sub": "B13_soul",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "wRw5uAAGnw8",
@@ -782,6 +804,18 @@
 "focus": 2
 },
 {
+"videoId": "4wwypyji-Tw",
+"title": "Komiku - L'orage et l'aventure",
+"artist": "Loyalty Freak Music / Komiku",
+"license": "CC0",
+"source": "https://loyaltyfreakmusic.com/",
+"length": 212,
+"origin": "channel",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
 "videoId": "1_jPEVyost4",
 "title": "Monplaisir - Well end blues",
 "artist": "Loyalty Freak Music / Komiku",
@@ -852,6 +886,18 @@
 "length": 142,
 "origin": "channel",
 "sub": "C2_cafe",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "N9EE7n03YA4",
+"title": "The City Without Dawn【音楽素材MusMus】",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 256,
+"origin": "channel",
+"sub": "D9_dawn",
 "alts": [],
 "focus": 5
 },
@@ -940,6 +986,18 @@
 "focus": 5
 },
 {
+"videoId": "-VO4ax9FM-I",
+"title": "URBAN FLIGHT【音楽素材MusMus】",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 138,
+"origin": "channel",
+"sub": "C4_rooftop",
+"alts": [],
+"focus": 4
+},
+{
 "videoId": "2a1M4ORJY2k",
 "title": "Sugary lie / Jazz Bossa / MusMus",
 "artist": "MusMus",
@@ -962,6 +1020,18 @@
 "sub": "B13_soul",
 "alts": [],
 "focus": 2
+},
+{
+"videoId": "rYUynwQ38x0",
+"title": "dear Dragon [MusMus]  Example of use: 100% Orange Juice[Sweet Breaker's Theme] etc.",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 195,
+"origin": "channel",
+"sub": "A2_intro",
+"alts": [],
+"focus": 4
 },
 {
 "videoId": "6ydCH18Nsng",
@@ -1076,6 +1146,18 @@
 "focus": 5
 },
 {
+"videoId": "QJ3SluI0V5Q",
+"title": "Koichi Morita - Mirage (Sore ha Shinkiro datta)",
+"artist": "魔王魂 (森田交一)",
+"license": "Free with attribution (maou.audio terms)",
+"source": "https://maou.audio/",
+"length": 293,
+"origin": "channel",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
 "videoId": "slhV2v6C64U",
 "title": "【魔王魂公式】フリーBGM素材 心地よいジャズのアコースティック11",
 "artist": "魔王魂 (森田交一)",
@@ -1110,6 +1192,18 @@
 "sub": "B9_smooth",
 "alts": [],
 "focus": 4
+},
+{
+"videoId": "68Y0DnoZAVo",
+"title": "Just Your Average Wednesday - Breakbeats/Action - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 190,
+"origin": "channel",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
 },
 {
 "videoId": "81NL9DGoeWA",
@@ -1207,6 +1301,18 @@
 "length": 259,
 "origin": "channel",
 "sub": "C1_lounge",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "L8aRJ1FxXa4",
+"title": "Bar Street Jam - Chill/Easy - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 277,
+"origin": "channel",
+"sub": "C3_speakeasy",
 "alts": [],
 "focus": 5
 },
@@ -1547,6 +1653,18 @@
 "focus": 5
 },
 {
+"videoId": "5Rqc913k3kg",
+"title": "Puddle Jumping",
+"artist": "Eric Matyas (Soundimage.org)",
+"license": "Free with attribution",
+"source": "https://soundimage.org/",
+"length": 138,
+"origin": "channel",
+"sub": "D7_rainy",
+"alts": [],
+"focus": 5
+},
+{
 "videoId": "_TRO5l3onG0",
 "title": "10 Past Midnight",
 "artist": "Eric Matyas (Soundimage.org)",
@@ -1643,6 +1761,30 @@
 "sub": "B7_blues",
 "alts": [],
 "focus": 3
+},
+{
+"videoId": "8jvWlU6Uwe4",
+"title": "Dragon Mystery",
+"artist": "Eric Matyas (Soundimage.org)",
+"license": "Free with attribution",
+"source": "https://soundimage.org/",
+"length": 78,
+"origin": "channel",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "oERdo5kEU3E",
+"title": "Tiki Breeze",
+"artist": "Eric Matyas (Soundimage.org)",
+"license": "Free with attribution",
+"source": "https://soundimage.org/",
+"length": 129,
+"origin": "channel",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
 },
 {
 "videoId": "a37a7A2PBwM",
@@ -1856,9 +1998,9 @@
 "source": "https://incompetech.com/",
 "length": 259,
 "origin": "search",
-"sub": "B9_smooth",
+"sub": "B7_blues",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "9WQBzXr4gFc",
@@ -1988,7 +2130,7 @@
 "source": "https://incompetech.com/",
 "length": 229,
 "origin": "search",
-"sub": "B9_smooth",
+"sub": "C1_lounge",
 "alts": [],
 "focus": 5
 },
@@ -2446,9 +2588,9 @@
 "source": "https://incompetech.com/",
 "length": 381,
 "origin": "search",
-"sub": "B9_smooth",
+"sub": "B12_dixie",
 "alts": [],
-"focus": 5
+"focus": 4
 },
 {
 "videoId": "uqkw5byLF2s",
@@ -3281,18 +3423,6 @@
 "focus": 5
 },
 {
-"videoId": "-VO4ax9FM-I",
-"title": "URBAN FLIGHT【音楽素材MusMus】",
-"artist": "MusMus",
-"license": "Free with attribution (musmus.main.jp)",
-"source": "https://musmus.main.jp/",
-"length": 138,
-"origin": "search",
-"sub": "C4_rooftop",
-"alts": [],
-"focus": 4
-},
-{
 "videoId": "gXL1S4xl_TU",
 "title": "雪椿 ｜ 和風戦闘曲 【音楽素材MusMus】",
 "artist": "MusMus",
@@ -3375,18 +3505,6 @@
 "sub": "B9_smooth",
 "alts": [],
 "focus": 4
-},
-{
-"videoId": "N9EE7n03YA4",
-"title": "The City Without Dawn【音楽素材MusMus】",
-"artist": "MusMus",
-"license": "Free with attribution (musmus.main.jp)",
-"source": "https://musmus.main.jp/",
-"length": 256,
-"origin": "search",
-"sub": "D9_dawn",
-"alts": [],
-"focus": 5
 },
 {
 "videoId": "WI9NzB0mXNE",
@@ -4073,18 +4191,6 @@
 "focus": 5
 },
 {
-"videoId": "H6ydejhm4EY",
-"title": "Bittersweet",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 202,
-"origin": "search",
-"sub": "D1_melancholy",
-"alts": [],
-"focus": 5
-},
-{
 "videoId": "biRhH94t4b0",
 "title": "Kevin MacLeod - Chillin Hard",
 "artist": "Kevin MacLeod",
@@ -4253,18 +4359,6 @@
 "focus": 5
 },
 {
-"videoId": "5Rqc913k3kg",
-"title": "Puddle Jumping",
-"artist": "Eric Matyas (Soundimage.org)",
-"license": "Free with attribution",
-"source": "https://soundimage.org/",
-"length": 138,
-"origin": "search",
-"sub": "D7_rainy",
-"alts": [],
-"focus": 5
-},
-{
 "videoId": "fVpVz2UWdb8",
 "title": "THE MUSMUS 「ミュラ ー」",
 "artist": "MusMus",
@@ -4277,24 +4371,24 @@
 "focus": 5
 },
 {
-"videoId": "VrI3at_WqyU",
-"title": "THE MUSMUS 「青葉とワルツ」",
+"videoId": "OtPeKoNp6us",
+"title": "古き良き日々- ジャジーなピアノ曲【音楽素材MusMus】",
 "artist": "MusMus",
 "license": "Free with attribution (musmus.main.jp)",
 "source": "https://musmus.main.jp/",
-"length": 184,
+"length": 203,
 "origin": "search",
 "sub": "B9_smooth",
 "alts": [],
 "focus": 5
 },
 {
-"videoId": "L8aRJ1FxXa4",
-"title": "Bar Street Jam - Chill/Easy - Royalty Free Music",
-"artist": "TeknoAXE",
-"license": "CC BY 4.0",
-"source": "https://teknoaxe.com/",
-"length": 277,
+"videoId": "VrI3at_WqyU",
+"title": "THE MUSMUS 「青葉とワルツ」",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 184,
 "origin": "search",
 "sub": "B9_smooth",
 "alts": [],
@@ -4459,18 +4553,6 @@
 "focus": 5
 },
 {
-"videoId": "rG5RtLikC7k",
-"title": "Secret of Tiki Island",
-"artist": "Kevin MacLeod",
-"license": "CC BY 4.0",
-"source": "https://incompetech.com/",
-"length": 196,
-"origin": "search",
-"sub": "B9_smooth",
-"alts": [],
-"focus": 5
-},
-{
 "videoId": "zo7ytWuCoQU",
 "title": "Envision",
 "artist": "Kevin MacLeod",
@@ -4525,6 +4607,975 @@
 "license": "CC BY 4.0",
 "source": "https://incompetech.com/",
 "length": 219,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "5fE7QH3kbGA",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Song #10 (The Crazyhorse) Zen Song (Circa 2005)",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 273,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "XshGEjvs22E",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #12 (A Date With a Girl in 1790) Hard Techno",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 221,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "Wz59w8-KDPQ",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Background Music #38 (Lone Spaceship) Downtempo/Techno",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 237,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "-5pEbdKUpxc",
+"title": "Waypoint T - Alternative Metal/Rock - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 237,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "4zgJBm3QHJg",
+"title": "Built to Relax - Downtempo/Chill - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 190,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "7FDcvnMD8Rs",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Song #43 (Dubstep Test Patterns) Techno Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 181,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "FgQ77gShN6s",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #77 (A Sparkling Disco) Techno/Disco Dance",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 220,
+"origin": "search",
+"sub": "C7_dance",
+"alts": [],
+"focus": 2
+},
+{
+"videoId": "027TcVVj4Y0",
+"title": "TeknoAXE's Royalty Free Music - #133-A (Chilling on Space Colony 1 [The Dance Remix]) Downtempo",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 262,
+"origin": "search",
+"sub": "C7_dance",
+"alts": [],
+"focus": 2
+},
+{
+"videoId": "IwVTgi3y-RU",
+"title": "TeknoAXE's Royalty Free Music - #179 (Celtic Morning) Orchestra/Tribal/Suspense/Action",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 269,
+"origin": "search",
+"sub": "D4_tense",
+"alts": [
+"D3_uplift"
+],
+"focus": 4
+},
+{
+"videoId": "qlu_8pQot4o",
+"title": "TeknoAXE's Royalty Free Music - #290 (Message in a Bottle) Dubstep/Chillstep/Techno",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 263,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "KJkHxnci548",
+"title": "TeknoAXE's Royalty Free Music - A Lullaby for James -- A Sleepy Song -- PCH Drive",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 214,
+"origin": "search",
+"sub": "B8_ballad",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "NJle-047bZc",
+"title": "Royalty Free Song #25 (Shadow nights W_ Vocals) Downtempo/Electronica Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 259,
+"origin": "search",
+"sub": "B14_noir",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "z4Dq5qMabN0",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Song #15 (Lucid Morning) Thematic Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 262,
+"origin": "search",
+"sub": "D3_uplift",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "FHLcTTFLtuA",
+"title": "Reflections on the Water - Orchestra/Background - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 209,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "K7SNcrn_Bxs",
+"title": "Liter Fluid - LoFi - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 234,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "zOai7WDS44c",
+"title": "TeknoAXE's Royalty Free Music - Basic Blues Stomp -- Rock/Retro -- Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 167,
+"origin": "search",
+"sub": "B7_blues",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "rh-n7qb-pPc",
+"title": "TeknoAXE's Royalty Free Music - #55 (Robert Plant's Woman Problems) Heavy Metal Blues",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 277,
+"origin": "search",
+"sub": "B7_blues",
+"alts": [],
+"focus": 2
+},
+{
+"videoId": "n-O_cXoBrCk",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #48 (Tanked) Nu Metal Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 183,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "qJLouFGlYwA",
+"title": "TeknoAXE's Royalty Free Music - Walking Simulator -- Background #54 -- Grunge/Alternative",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 197,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "cyhXNVOszAE",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Jam Music (Retro With an Attitude) Rock/Metal",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 201,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "DbPs_pIk0XM",
+"title": "TeknoAXE's Royalty Free Music - Jam Music (Fifth Street Parade Jam) Rock/Hard Rock",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 262,
+"origin": "search",
+"sub": "C5_festival",
+"alts": [],
+"focus": 2
+},
+{
+"videoId": "M0gYHATyvgY",
+"title": "Stopping the Madness - Rock/Alternative - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 240,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "09fvYSL9Sgo",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #45 ((Jonathon Davis's Disco) Heavy Metal Techno",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 259,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "Q9mZNqyfevI",
+"title": "TeknoAXE's Royalty Free Music - #268 (Shaking Off the Cobwebs) Rock/Metal",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 250,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "1dGXozoNlGI",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Jam Music (Speaker Stomp Boogie) Rock/Retro/Hard",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 199,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [
+"C7_dance"
+],
+"focus": 4
+},
+{
+"videoId": "ZhXTACf03wU",
+"title": "TeknoAXE's Royalty Free Music - Loop  #23 (Psycho Nu Metal Loop) Heavy Metal/Nu Metal/Alternative",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 250,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "tGMDouOy-yk",
+"title": "TeknoAXE turns into George Lucas...again",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 665,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "7VlL8qiv8H4",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #235 (Bar Stools Hurt Man) Rock/Metal/Alternative",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 208,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "8PdjqIGVBuE",
+"title": "TeknoAXE's Royalty Free Music - Day Finale - circa 2005 - Epic Metal Song Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 438,
+"origin": "search",
+"sub": "A4_close",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "ueESrtQTxGw",
+"title": "The TeknoAXE - Alternative Metal - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 216,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "5AZMctDbqII",
+"title": "TeknoAXE's Royalty Free Music - #188 (Reception) Orchestra/Tension/Drama/Suspense",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 226,
+"origin": "search",
+"sub": "D4_tense",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "lxGzdwHDe8Q",
+"title": "The Year of Clear Vision - Heavy Metal - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 212,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "gA3ncvkPLyI",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Jam Music (Dusty Watering Hole) Rock/Retro/Western",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 207,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "gXUNygsI7B4",
+"title": "TeknoAXE's Royalty Free Music - #83 (Shock Troopers Clone Soundtrack) Metal/Hardcore/Suspense",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 201,
+"origin": "search",
+"sub": "D4_tense",
+"alts": [],
+"focus": 2
+},
+{
+"videoId": "IKqhxf2Jg2g",
+"title": "TeknoAXE's Royalty Free Music - #41 (Grunge Beauty) Rock Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 246,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "IYhEfEnWaCk",
+"title": "TeknoAXE's Royalty Free Music - Loop #1 (Boss Battle Loop 1) bpm 120 Suspense/Action/Orchestra",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 81,
+"origin": "search",
+"sub": "D4_tense",
+"alts": [],
+"focus": 2
+},
+{
+"videoId": "6mTqZt5uww0",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #44 (In A Van Instrumental) Heavy Metal Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 58,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 1
+},
+{
+"videoId": "yiCQeGdwcA0",
+"title": "Funk You Over - Funk/Alternative - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 232,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "Sk883ji5Uas",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #14 (Resonance Experiment) Funky Big Beat Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 257,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "adVSZJS_n_g",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Song #8 (Transient) Get Funky Song",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 320,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "yYpKC7TgRHk",
+"title": "Moped Cruising -- Breakbeats/Funk -- Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 253,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "bNht16GhmaY",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Jam Music (Monday Night Funk Jam) Funk/Rock/Alternative",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 218,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "lF7FoFz3FJ0",
+"title": "TeknoAXE's Royalty Free Music - Deep Six Wub -- Dubstep/Grimestep -- Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 235,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "NWpog4KGcbQ",
+"title": "TeknoAXE's Royalty Free Music - #167 (Run While You Can Boy) Dubstep/Hard/Techno/Vocaloid Sonika",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 310,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "KnClT-L4_dg",
+"title": "TeknoAXE's Royalty Free Music - Loop #15 (Walking With Style) 128bpm House/Funk/Disco/Techno",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 278,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "L9y8m0XVWwQ",
+"title": "Get the Guy With the Stash -- Funk/Rock -- Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 193,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "2kO0bwFvUso",
+"title": "The Red Bass - Alternative Metal/Funk - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 208,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 2
+},
+{
+"videoId": "ZLIWBde7kP8",
+"title": "TeknoAXE's Royalty Free Music - Loop #30 (Cold and Calculating) Dubstep/Funkstep/Techno",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 241,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "wBZRZ6vzT8g",
+"title": "Good Cop Bad Cop - Rock/Funk - Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 172,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 3
+},
+{
+"videoId": "oXNzmxFsZJk",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #323 ( Make a Movement ) Funky House/Techno",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 248,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "oQXcEov28HA",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Intro Music #22 (Funky Walkabout Dubstep)",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 64,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [
+"A2_intro"
+],
+"focus": 1
+},
+{
+"videoId": "SmCDyOyjixg",
+"title": "Bubble G Funk Trance -- Royalty Free Music",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 205,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "rx9KcO_VnSY",
+"title": "TeknoAXE's Royalty Free Music - #197 (Dead Piano Island) Tension/Suspense/Orchestra",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 197,
+"origin": "search",
+"sub": "D4_tense",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "BrkCwQM_UaQ",
+"title": "TeknoAXE's Royalty Free Music - #246 (We Chill All Night) Dubstep/Funkstep/Techno",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 273,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "aF22TVUzNlo",
+"title": "Royalty Free Music #93 (Summer Love Remaster) Funk/Rock Laid Back Downtempo",
+"artist": "TeknoAXE",
+"license": "CC BY 4.0",
+"source": "https://teknoaxe.com/",
+"length": 288,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [
+"B3_cool",
+"D2_romance"
+],
+"focus": 4
+},
+{
+"videoId": "B1WIEJj99XA",
+"title": "Kevin MacLeod: Fig Leaf Rag - distressed",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 212,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "VtEYvt8IMaE",
+"title": "Airport Lounge - Disco Ultralounge",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 308,
+"origin": "search",
+"sub": "C1_lounge",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "9zCY5C2VnZE",
+"title": "Kevin MacLeod: Earnest",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 101,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "0b__Ab9Rteo",
+"title": "Chill - Disco Ultralounge",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 231,
+"origin": "search",
+"sub": "C1_lounge",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "f-k7Kk7XeIM",
+"title": "Groove Grove",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 207,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "jYWKrClkXPc",
+"title": "Nonstop by Kevin MacLeod",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 192,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "wJ0Yu9hxkaA",
+"title": "Kevin MacLeod: Leopard Print Elevator",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 330,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "oWHr4ebSxEE",
+"title": "Leopard Print Elevator by Kevin MacLeod",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 328,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "DmZT2cniLVU",
+"title": "Kevin MacLeod: Clean Soul",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 309,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "M822DtfVpaE",
+"title": "Clean Soul - Calming",
+"artist": "Kevin MacLeod",
+"license": "CC BY 4.0",
+"source": "https://incompetech.com/",
+"length": 307,
+"origin": "search",
+"sub": "B13_soul",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "UP1hobX05TY",
+"title": "Smooth Jazz Night",
+"artist": "Audionautix / Jason Shaw",
+"license": "CC BY 4.0",
+"source": "https://audionautix.com/",
+"length": 111,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "F8ggAY4zDck",
+"title": "Boxcar Rag",
+"artist": "Audionautix / Jason Shaw",
+"license": "CC BY 4.0",
+"source": "https://audionautix.com/",
+"length": 127,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "9G20mM_bTms",
+"title": "Whoopsy",
+"artist": "Audionautix / Jason Shaw",
+"license": "CC BY 4.0",
+"source": "https://audionautix.com/",
+"length": 67,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "hPSgKm3n2aM",
+"title": "Twin Musicom - Old Bossa",
+"artist": "Twin Musicom",
+"license": "CC BY 4.0",
+"source": "https://www.twinmusicom.org/",
+"length": 161,
+"origin": "search",
+"sub": "B6_latin",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "5zEMAA_qd5I",
+"title": "風 - ゆったりピアノ曲【音楽素材MusMus】",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 78,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "xPjpGnYrCAg",
+"title": "Nice Old Tradition【音楽素材MusMus】",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 203,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "MfaWiGHZAgE",
+"title": "卒業（音楽室ver.）【音楽素材MusMus】",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 236,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "CLzw4fDx7ug",
+"title": "卒業（体育館ver.）【音楽素材MusMus】",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 236,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "ZYM4GkcWSOY",
+"title": "wood note【音楽素材MusMus】",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 171,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "23z1funXCB8",
+"title": "内包する大地【音楽素材MusMus】壮大なゲームフィールド風楽曲",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 171,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 5
+},
+{
+"videoId": "vbav36N8oZw",
+"title": "雨の日のガーティ【音楽素材MusMus】",
+"artist": "MusMus",
+"license": "Free with attribution (musmus.main.jp)",
+"source": "https://musmus.main.jp/",
+"length": 61,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "mpeGt1x475Q",
+"title": "The Concrete Bakes",
+"artist": "Eric Matyas (Soundimage.org)",
+"license": "Free with attribution",
+"source": "https://soundimage.org/",
+"length": 92,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "PKZiuhG6PGE",
+"title": "Special Day",
+"artist": "Eric Matyas (Soundimage.org)",
+"license": "Free with attribution",
+"source": "https://soundimage.org/",
+"length": 66,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "pJYagtjvtAY",
+"title": "Retro Sci Fi Planet (Music Track)",
+"artist": "Eric Matyas (Soundimage.org)",
+"license": "Free with attribution",
+"source": "https://soundimage.org/",
+"length": 60,
+"origin": "search",
+"sub": "B9_smooth",
+"alts": [],
+"focus": 4
+},
+{
+"videoId": "F6cccC-xvMY",
+"title": "Gulf Breeze",
+"artist": "Eric Matyas (Soundimage.org)",
+"license": "Free with attribution",
+"source": "https://soundimage.org/",
+"length": 143,
 "origin": "search",
 "sub": "B9_smooth",
 "alts": [],

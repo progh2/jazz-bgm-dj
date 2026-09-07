@@ -346,6 +346,7 @@ body::after {
   z-index: 3;
 }
 .hearth:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.hearth:focus:not(:focus-visible) { outline: none; }
 
 /* 선반 위의 등불·열쇠 — 선반(top 16.5%) 위에 올라앉는다 */
 .mantel-thing {

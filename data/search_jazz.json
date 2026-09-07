@@ -5,7 +5,7 @@
 "channel": "Kevin MacLeod",
 "length": 323,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod jazz|Kevin MacLeod cafe",
+"query": "Kevin MacLeod jazz|Kevin MacLeod cafe|Kevin MacLeod cafe",
 "origin": "search"
 },
 "IaGW8L5S-XA": {
@@ -23,7 +23,7 @@
 "channel": "Kevin MacLeod",
 "length": 7592,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod jazz|Kevin MacLeod swing|Kevin MacLeod lounge",
+"query": "Kevin MacLeod jazz|Kevin MacLeod swing|Kevin MacLeod lounge|\"Backbay Lounge\" Kevin MacLeod",
 "origin": "search"
 },
 "kJmAelp4lVI": {
@@ -167,7 +167,7 @@
 "channel": "Kevin MacLeod",
 "length": 213,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod swing",
+"query": "Kevin MacLeod swing|\"Nonstop\" Kevin MacLeod",
 "origin": "search"
 },
 "zFa4-aULSjY": {
@@ -248,7 +248,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 259,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod blues",
+"query": "Kevin MacLeod blues|\"OctoBlues\" Kevin MacLeod",
 "origin": "search"
 },
 "25xg93vqmNw": {
@@ -257,7 +257,7 @@
 "channel": "Kevin MacLeod",
 "length": 253,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod blues",
+"query": "Kevin MacLeod blues|\"OctoBlues\" Kevin MacLeod",
 "origin": "search"
 },
 "Hdnz8DRzntk": {
@@ -266,7 +266,7 @@
 "channel": "Kevin MacLeod",
 "length": 167,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod bossa",
+"query": "Kevin MacLeod bossa|\"BossaBossa\" Kevin MacLeod|\"Casa Bossa Nova\" Kevin MacLeod",
 "origin": "search"
 },
 "O_TcGPoFwPo": {
@@ -275,7 +275,7 @@
 "channel": "Kevin MacLeod",
 "length": 245,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod bossa",
+"query": "Kevin MacLeod bossa|\"BossaBossa\" Kevin MacLeod|\"Casa Bossa Nova\" Kevin MacLeod",
 "origin": "search"
 },
 "A25zUqFEJr4": {
@@ -293,7 +293,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 3813,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod bossa",
+"query": "Kevin MacLeod bossa|\"Casa Bossa Nova\" Kevin MacLeod",
 "origin": "search"
 },
 "9WQBzXr4gFc": {
@@ -365,7 +365,7 @@
 "channel": "Kevin MacLeod's songs in alphabetical order",
 "length": 243,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod bossa",
+"query": "Kevin MacLeod bossa|\"Casa Bossa Nova\" Kevin MacLeod",
 "origin": "search"
 },
 "f7D5xpdAyjE": {
@@ -374,7 +374,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 310,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod lounge",
+"query": "Kevin MacLeod lounge|\"Airport Lounge\" Kevin MacLeod",
 "origin": "search"
 },
 "VoHShWvWqf4": {
@@ -401,7 +401,7 @@
 "channel": "Kevin MacLeod",
 "length": 308,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod lounge",
+"query": "Kevin MacLeod lounge|\"Airport Lounge\" Kevin MacLeod",
 "origin": "search"
 },
 "liWL0ZwQ2Oc": {
@@ -428,7 +428,7 @@
 "channel": "Kevin MacLeod",
 "length": 229,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod lounge",
+"query": "Kevin MacLeod lounge|\"Ultralounge\" Kevin MacLeod",
 "origin": "search"
 },
 "I0gPJrtRHds": {
@@ -437,7 +437,7 @@
 "channel": "Kevin MacLeod",
 "length": 271,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod lounge",
+"query": "Kevin MacLeod lounge|\"Backbay Lounge\" Kevin MacLeod",
 "origin": "search"
 },
 "BgAMj6Lbe4g": {
@@ -455,7 +455,7 @@
 "channel": "Kevin MacLeod",
 "length": 318,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod lounge",
+"query": "Kevin MacLeod lounge|\"Ultralounge\" Kevin MacLeod",
 "origin": "search"
 },
 "aUQLM6kX9qQ": {
@@ -482,7 +482,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 192,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod lounge",
+"query": "Kevin MacLeod lounge|\"Local Forecast\" Kevin MacLeod|\"Leopard Print Elevator\" Kevin MacLeod",
 "origin": "search"
 },
 "vS5seoVGwrc": {
@@ -491,7 +491,7 @@
 "channel": "Kevin MacLeod",
 "length": 330,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod lounge|\"Hep Cats\" Kevin MacLeod",
+"query": "Kevin MacLeod lounge|\"Hep Cats\" Kevin MacLeod|\"Leopard Print Elevator\" Kevin MacLeod",
 "origin": "search"
 },
 "ydzP_7XqOhM": {
@@ -608,7 +608,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 283,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod funk",
+"query": "Kevin MacLeod funk|\"Got Funk\" Kevin MacLeod",
 "origin": "search"
 },
 "KyvXdEu8fYY": {
@@ -635,7 +635,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 241,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod funk",
+"query": "Kevin MacLeod funk|\"Funky Chunk\" Kevin MacLeod",
 "origin": "search"
 },
 "4Adsq94IGfU": {
@@ -644,7 +644,7 @@
 "channel": "Kevin MacLeod",
 "length": 245,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod funk",
+"query": "Kevin MacLeod funk|\"Funky Chunk\" Kevin MacLeod",
 "origin": "search"
 },
 "_pVxP9xX05Q": {
@@ -671,7 +671,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 183,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod funk",
+"query": "Kevin MacLeod funk|\"Got Funk\" Kevin MacLeod",
 "origin": "search"
 },
 "tkUFeY04gtY": {
@@ -698,7 +698,7 @@
 "channel": "Kevin MacLeod",
 "length": 282,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod funk",
+"query": "Kevin MacLeod funk|\"Got Funk\" Kevin MacLeod",
 "origin": "search"
 },
 "KISsZSqU7nQ": {
@@ -716,7 +716,7 @@
 "channel": "Kevin MacLeod",
 "length": 226,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod funk",
+"query": "Kevin MacLeod funk|\"Funky Chunk\" Kevin MacLeod",
 "origin": "search"
 },
 "KixDwB3ksh8": {
@@ -905,7 +905,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 211,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod ragtime",
+"query": "Kevin MacLeod ragtime|\"Maple Leaf Rag\" Kevin MacLeod",
 "origin": "search"
 },
 "01AFmkSqZu0": {
@@ -914,7 +914,7 @@
 "channel": "Kevin MacLeod",
 "length": 381,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod ragtime",
+"query": "Kevin MacLeod ragtime|\"Maple Leaf Rag\" Kevin MacLeod",
 "origin": "search"
 },
 "B1izxvFdJis": {
@@ -923,7 +923,7 @@
 "channel": "Kevin MacLeod",
 "length": 152,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod ragtime",
+"query": "Kevin MacLeod ragtime|\"Maple Leaf Rag\" Kevin MacLeod|\"Frogs Legs Rag\" Kevin MacLeod",
 "origin": "search"
 },
 "uqkw5byLF2s": {
@@ -959,7 +959,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 382,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod ragtime",
+"query": "Kevin MacLeod ragtime|\"Maple Leaf Rag\" Kevin MacLeod",
 "origin": "search"
 },
 "-2L1YqnJuKU": {
@@ -968,7 +968,7 @@
 "channel": "Kevin MacLeod",
 "length": 169,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod ragtime",
+"query": "Kevin MacLeod ragtime|\"Frogs Legs Rag\" Kevin MacLeod",
 "origin": "search"
 },
 "e-BvDkrLxEg": {
@@ -1139,7 +1139,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 236,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod samba",
+"query": "Kevin MacLeod samba|\"Blobby Samba\" Kevin MacLeod",
 "origin": "search"
 },
 "JY81kVOuwPo": {
@@ -1157,7 +1157,7 @@
 "channel": "Kevin MacLeod",
 "length": 234,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod samba",
+"query": "Kevin MacLeod samba|\"Blobby Samba\" Kevin MacLeod",
 "origin": "search"
 },
 "OU-MOAZtXHE": {
@@ -1175,7 +1175,7 @@
 "channel": "Kevin MacLeod",
 "length": 234,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod samba",
+"query": "Kevin MacLeod samba|\"Blobby Samba\" Kevin MacLeod",
 "origin": "search"
 },
 "vLI9812N9V8": {
@@ -1517,7 +1517,7 @@
 "channel": "Audionautix - Topic",
 "length": 143,
 "artist_hint": "Audionautix",
-"query": "Audionautix jazz",
+"query": "Audionautix jazz|Audionautix \"jazz\"",
 "origin": "search"
 },
 "_45nLn96x_s": {
@@ -1526,7 +1526,7 @@
 "channel": "Audionautix - Topic",
 "length": 96,
 "artist_hint": "Audionautix",
-"query": "Audionautix jazz|Audionautix blues",
+"query": "Audionautix jazz|Audionautix blues|Audionautix \"jazz\"",
 "origin": "search"
 },
 "wSe9BkkDGhI": {
@@ -1544,7 +1544,7 @@
 "channel": "Audionautix - Topic",
 "length": 111,
 "artist_hint": "Audionautix",
-"query": "Audionautix jazz|Audionautix swing",
+"query": "Audionautix jazz|Audionautix swing|Audionautix \"jazz\"|Audionautix big band",
 "origin": "search"
 },
 "nZexS165t7c": {
@@ -1553,7 +1553,7 @@
 "channel": "Audionautix - Topic",
 "length": 202,
 "artist_hint": "Audionautix",
-"query": "Audionautix swing|Audionautix blues",
+"query": "Audionautix swing|Audionautix blues|Audionautix big band",
 "origin": "search"
 },
 "meHoyeMJTbk": {
@@ -1562,7 +1562,7 @@
 "channel": "Audionautix - Topic",
 "length": 195,
 "artist_hint": "Audionautix",
-"query": "Audionautix swing",
+"query": "Audionautix swing|Audionautix big band",
 "origin": "search"
 },
 "CY4TqTierFk": {
@@ -1607,7 +1607,7 @@
 "channel": "Audionautix - Topic",
 "length": 141,
 "artist_hint": "Audionautix",
-"query": "Audionautix swing",
+"query": "Audionautix swing|Audionautix \"jazz\"",
 "origin": "search"
 },
 "33WPtZmunaI": {
@@ -1868,7 +1868,7 @@
 "channel": "MusMus Channel",
 "length": 2306,
 "artist_hint": "MusMus",
-"query": "MusMus jazz|MusMus ジャズ",
+"query": "MusMus jazz|MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "Bh83Eoh0-WA": {
@@ -1886,7 +1886,7 @@
 "channel": "MusMus Channel",
 "length": 73,
 "artist_hint": "MusMus",
-"query": "MusMus jazz|MusMus ジャズ",
+"query": "MusMus jazz|MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "3rwrZY2JupA": {
@@ -1895,7 +1895,7 @@
 "channel": "MusMus Channel",
 "length": 138,
 "artist_hint": "MusMus",
-"query": "MusMus jazz|MusMus ジャズ",
+"query": "MusMus jazz|MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "2a1M4ORJY2k": {
@@ -1904,7 +1904,7 @@
 "channel": "MusMus Channel",
 "length": 172,
 "artist_hint": "MusMus",
-"query": "MusMus jazz|MusMus ジャズ",
+"query": "MusMus jazz|MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "C7CFPG08_Yo": {
@@ -1913,7 +1913,7 @@
 "channel": "MusMus Channel",
 "length": 165,
 "artist_hint": "MusMus",
-"query": "MusMus jazz|MusMus ジャズ",
+"query": "MusMus jazz|MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "rBJ56gnGYB0": {
@@ -1922,7 +1922,7 @@
 "channel": "MusMus Channel",
 "length": 208,
 "artist_hint": "MusMus",
-"query": "MusMus jazz|MusMus ジャズ",
+"query": "MusMus jazz|MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "wZ_2uR4j4eo": {
@@ -1940,7 +1940,7 @@
 "channel": "MusMus Channel",
 "length": 158,
 "artist_hint": "MusMus",
-"query": "MusMus jazz|MusMus ジャズ",
+"query": "MusMus jazz|MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "vbtQoGuccnM": {
@@ -1958,7 +1958,7 @@
 "channel": "MusMus Channel",
 "length": 138,
 "artist_hint": "MusMus",
-"query": "MusMus jazz",
+"query": "MusMus jazz|MusMus ジャズピアノ",
 "origin": "search"
 },
 "gXL1S4xl_TU": {
@@ -2012,7 +2012,7 @@
 "channel": "MusMus Channel",
 "length": 81,
 "artist_hint": "MusMus",
-"query": "MusMus jazz|MusMus ジャズ",
+"query": "MusMus jazz|MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "S9OofzebHno": {
@@ -2021,7 +2021,7 @@
 "channel": "MusMus Channel",
 "length": 125,
 "artist_hint": "MusMus",
-"query": "MusMus jazz",
+"query": "MusMus jazz|MusMus ジャズピアノ",
 "origin": "search"
 },
 "FNmRbPpbZkY": {
@@ -2039,7 +2039,7 @@
 "channel": "MusMus Channel",
 "length": 43,
 "artist_hint": "MusMus",
-"query": "MusMus ジャズ",
+"query": "MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "4-XH-XBYfyM": {
@@ -2066,7 +2066,7 @@
 "channel": "MusMus Channel",
 "length": 174,
 "artist_hint": "MusMus",
-"query": "MusMus ジャズ",
+"query": "MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "rIvXt7-4NHw": {
@@ -2102,7 +2102,7 @@
 "channel": "MusMus Channel",
 "length": 84,
 "artist_hint": "MusMus",
-"query": "MusMus ジャズ",
+"query": "MusMus ジャズ|MusMus ジャズピアノ",
 "origin": "search"
 },
 "Py0WvVrOqo8": {
@@ -2120,7 +2120,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 167,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE lounge",
 "origin": "search"
 },
 "3jUttYxloHs": {
@@ -2129,7 +2129,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 12,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE funk",
 "origin": "search"
 },
 "2Uov7GZeslk": {
@@ -2138,7 +2138,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 315,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE lounge",
 "origin": "search"
 },
 "QX506IrzP3I": {
@@ -2156,7 +2156,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 215,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE lounge",
 "origin": "search"
 },
 "ysvg3ZazOMU": {
@@ -2228,7 +2228,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 138,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE funk",
 "origin": "search"
 },
 "7HjR76oC9u0": {
@@ -2246,7 +2246,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 199,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE blues",
 "origin": "search"
 },
 "zR_hEkiS1DU": {
@@ -2300,7 +2300,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 309,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE blues|TeknoAXE funk",
 "origin": "search"
 },
 "3FJKkjh48JE": {
@@ -2327,7 +2327,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 261,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE funk",
 "origin": "search"
 },
 "IqXDqji_49c": {
@@ -2345,7 +2345,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 231,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE lounge|TeknoAXE blues",
 "origin": "search"
 },
 "3BJ3dL5jqQ8": {
@@ -2354,7 +2354,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 476,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE lounge",
 "origin": "search"
 },
 "1Zzqio6jPRQ": {
@@ -2417,7 +2417,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 222,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE jazz",
+"query": "TeknoAXE jazz|TeknoAXE blues",
 "origin": "search"
 },
 "eleNV_Dj-w4": {
@@ -2975,7 +2975,7 @@
 "channel": "Kevin MacLeod",
 "length": 190,
 "artist_hint": "Kevin MacLeod",
-"query": "\"Local Forecast - Elevator\" Kevin MacLeod",
+"query": "\"Local Forecast - Elevator\" Kevin MacLeod|\"Local Forecast\" Kevin MacLeod|\"Leopard Print Elevator\" Kevin MacLeod",
 "origin": "search"
 },
 "DRIiYrc6uFA": {
@@ -3254,7 +3254,7 @@
 "channel": "MusMus Channel",
 "length": 203,
 "artist_hint": "MusMus",
-"query": "MusMus ブルース",
+"query": "MusMus ブルース|MusMus ジャズピアノ",
 "origin": "search"
 },
 "VrI3at_WqyU": {
@@ -3281,7 +3281,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 280,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE lounge jazz",
+"query": "TeknoAXE lounge jazz|TeknoAXE lounge",
 "origin": "search"
 },
 "L8aRJ1FxXa4": {
@@ -3299,7 +3299,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 266,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE lounge jazz",
+"query": "TeknoAXE lounge jazz|TeknoAXE lounge",
 "origin": "search"
 },
 "tb2t5RpJ0GU": {
@@ -3326,7 +3326,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 259,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE lounge jazz",
+"query": "TeknoAXE lounge jazz|TeknoAXE lounge",
 "origin": "search"
 },
 "653dDteufF8": {
@@ -3335,7 +3335,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 209,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE lounge jazz",
+"query": "TeknoAXE lounge jazz|TeknoAXE lounge",
 "origin": "search"
 },
 "60_L4RN0Dro": {
@@ -3353,7 +3353,7 @@
 "channel": "TeknoAXE's Royalty Free Music",
 "length": 207,
 "artist_hint": "TeknoAXE",
-"query": "TeknoAXE smooth jazz",
+"query": "TeknoAXE smooth jazz|TeknoAXE blues",
 "origin": "search"
 },
 "8P16mqDt2_s": {
@@ -3389,7 +3389,7 @@
 "channel": "Kevin MacLeod",
 "length": 167,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod \"Local Forecast\"",
+"query": "Kevin MacLeod \"Local Forecast\"|\"Local Forecast\" Kevin MacLeod",
 "origin": "search"
 },
 "CJu63gMNhCE": {
@@ -3398,7 +3398,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 167,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod \"Local Forecast\"",
+"query": "Kevin MacLeod \"Local Forecast\"|\"Local Forecast\" Kevin MacLeod",
 "origin": "search"
 },
 "3JVIxh3tMp0": {
@@ -3407,7 +3407,7 @@
 "channel": "Kevin MacLeod Archive",
 "length": 201,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod \"Local Forecast\"",
+"query": "Kevin MacLeod \"Local Forecast\"|\"Local Forecast\" Kevin MacLeod",
 "origin": "search"
 },
 "wRw5uAAGnw8": {
@@ -3416,7 +3416,7 @@
 "channel": "Kevin MacLeod",
 "length": 190,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod \"Local Forecast\"",
+"query": "Kevin MacLeod \"Local Forecast\"|\"Local Forecast\" Kevin MacLeod",
 "origin": "search"
 },
 "HYWhvTkXO6U": {
@@ -3425,7 +3425,7 @@
 "channel": "Kevin MacLeod",
 "length": 166,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod \"Local Forecast\"",
+"query": "Kevin MacLeod \"Local Forecast\"|\"Local Forecast\" Kevin MacLeod",
 "origin": "search"
 },
 "dEb5zRrSAZ4": {
@@ -3434,7 +3434,7 @@
 "channel": "Kevin MacLeod",
 "length": 190,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod \"Local Forecast\"",
+"query": "Kevin MacLeod \"Local Forecast\"|\"Local Forecast\" Kevin MacLeod",
 "origin": "search"
 },
 "6Wrft5Bkx6A": {
@@ -3443,7 +3443,7 @@
 "channel": "Kevin MacLeod",
 "length": 190,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod \"Local Forecast\"",
+"query": "Kevin MacLeod \"Local Forecast\"|\"Local Forecast\" Kevin MacLeod",
 "origin": "search"
 },
 "D_pAU3Idd2I": {
@@ -3452,7 +3452,7 @@
 "channel": "Kevin MacLeod ",
 "length": 190,
 "artist_hint": "Kevin MacLeod",
-"query": "Kevin MacLeod \"Local Forecast\"",
+"query": "Kevin MacLeod \"Local Forecast\"|\"Local Forecast\" Kevin MacLeod",
 "origin": "search"
 },
 "kqcvcoz8Wno": {
@@ -3552,6 +3552,1032 @@
 "length": 235,
 "artist_hint": "Kevin MacLeod",
 "query": "Kevin MacLeod \"Chillin Hard\"",
+"origin": "search"
+},
+"5fE7QH3kbGA": {
+"videoId": "5fE7QH3kbGA",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Song #10 (The Crazyhorse) Zen Song (Circa 2005)",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 273,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"XshGEjvs22E": {
+"videoId": "XshGEjvs22E",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #12 (A Date With a Girl in 1790) Hard Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 221,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"Wz59w8-KDPQ": {
+"videoId": "Wz59w8-KDPQ",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Background Music #38 (Lone Spaceship) Downtempo/Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 237,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"JK4pEvrH79k": {
+"videoId": "JK4pEvrH79k",
+"title": "TeknoAXE Update 2 (Why would I write a Polka Song?)",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 440,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"C1XO1vV-bjg": {
+"videoId": "C1XO1vV-bjg",
+"title": "Royalty Free Music #304 (Part Time Rocket Pilot) Drum and Bass/Drumstep/Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 285,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"-5pEbdKUpxc": {
+"videoId": "-5pEbdKUpxc",
+"title": "Waypoint T - Alternative Metal/Rock - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 237,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"4zgJBm3QHJg": {
+"videoId": "4zgJBm3QHJg",
+"title": "Built to Relax - Downtempo/Chill - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 190,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"7FDcvnMD8Rs": {
+"videoId": "7FDcvnMD8Rs",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Song #43 (Dubstep Test Patterns) Techno Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 181,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge|TeknoAXE funk",
+"origin": "search"
+},
+"FgQ77gShN6s": {
+"videoId": "FgQ77gShN6s",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #77 (A Sparkling Disco) Techno/Disco Dance",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 220,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"027TcVVj4Y0": {
+"videoId": "027TcVVj4Y0",
+"title": "TeknoAXE's Royalty Free Music - #133-A (Chilling on Space Colony 1 [The Dance Remix]) Downtempo",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 262,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"IwVTgi3y-RU": {
+"videoId": "IwVTgi3y-RU",
+"title": "TeknoAXE's Royalty Free Music - #179 (Celtic Morning) Orchestra/Tribal/Suspense/Action",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 269,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"qlu_8pQot4o": {
+"videoId": "qlu_8pQot4o",
+"title": "TeknoAXE's Royalty Free Music - #290 (Message in a Bottle) Dubstep/Chillstep/Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 263,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"KJkHxnci548": {
+"videoId": "KJkHxnci548",
+"title": "TeknoAXE's Royalty Free Music - A Lullaby for James -- A Sleepy Song -- PCH Drive",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 214,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"NJle-047bZc": {
+"videoId": "NJle-047bZc",
+"title": "Royalty Free Song #25 (Shadow nights W_ Vocals) Downtempo/Electronica Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 259,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"IpqiKTURf14": {
+"videoId": "IpqiKTURf14",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Bonus Music (Drum and Bass Glue) Drum and Bass/Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 101,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"d3haUxtpquU": {
+"videoId": "d3haUxtpquU",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Dance Mix (The Day I Die)  House/Electro/Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 319,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"z4Dq5qMabN0": {
+"videoId": "z4Dq5qMabN0",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Song #15 (Lucid Morning) Thematic Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 262,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"FHLcTTFLtuA": {
+"videoId": "FHLcTTFLtuA",
+"title": "Reflections on the Water - Orchestra/Background - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 209,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"VtpSv4lVJC8": {
+"videoId": "VtpSv4lVJC8",
+"title": "New Voices - Synthwave - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 243,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"K7SNcrn_Bxs": {
+"videoId": "K7SNcrn_Bxs",
+"title": "Liter Fluid - LoFi - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 234,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE lounge",
+"origin": "search"
+},
+"zOai7WDS44c": {
+"videoId": "zOai7WDS44c",
+"title": "TeknoAXE's Royalty Free Music - Basic Blues Stomp -- Rock/Retro -- Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 167,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"rh-n7qb-pPc": {
+"videoId": "rh-n7qb-pPc",
+"title": "TeknoAXE's Royalty Free Music - #55 (Robert Plant's Woman Problems) Heavy Metal Blues",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 277,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"n-O_cXoBrCk": {
+"videoId": "n-O_cXoBrCk",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #48 (Tanked) Nu Metal Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 183,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues|TeknoAXE funk",
+"origin": "search"
+},
+"QiD9nEoenbs": {
+"videoId": "QiD9nEoenbs",
+"title": "The Only Blues Riff I Know - Swamp Blues/Alternative Rock - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 194,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"qJLouFGlYwA": {
+"videoId": "qJLouFGlYwA",
+"title": "TeknoAXE's Royalty Free Music - Walking Simulator -- Background #54 -- Grunge/Alternative",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 197,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"G56GYUeLcZA": {
+"videoId": "G56GYUeLcZA",
+"title": "TeknoAXE's Royalty Free Music - Trailer #15 (Doing Hard Time) Rock/Blues/Metal",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 150,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"cyhXNVOszAE": {
+"videoId": "cyhXNVOszAE",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Jam Music (Retro With an Attitude) Rock/Metal",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 201,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"DbPs_pIk0XM": {
+"videoId": "DbPs_pIk0XM",
+"title": "TeknoAXE's Royalty Free Music - Jam Music (Fifth Street Parade Jam) Rock/Hard Rock",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 262,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"zYZiwoqcUa8": {
+"videoId": "zYZiwoqcUa8",
+"title": "TeknoAXE's Royalty Free Music - #292 (Bubble G Funk Electro) Electro/Techno/Pop",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 265,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues|TeknoAXE funk",
+"origin": "search"
+},
+"M0gYHATyvgY": {
+"videoId": "M0gYHATyvgY",
+"title": "Stopping the Madness - Rock/Alternative - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 240,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"09fvYSL9Sgo": {
+"videoId": "09fvYSL9Sgo",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #45 ((Jonathon Davis's Disco) Heavy Metal Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 259,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"Q9mZNqyfevI": {
+"videoId": "Q9mZNqyfevI",
+"title": "TeknoAXE's Royalty Free Music - #268 (Shaking Off the Cobwebs) Rock/Metal",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 250,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"xd5CNr0Yc0s": {
+"videoId": "xd5CNr0Yc0s",
+"title": "TeknoAXE's Royalty Free Music - #88(Tribute to The GlitchMob) Glitch Hop/Dubstep",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 247,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues|TeknoAXE funk",
+"origin": "search"
+},
+"1dGXozoNlGI": {
+"videoId": "1dGXozoNlGI",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Jam Music (Speaker Stomp Boogie) Rock/Retro/Hard",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 199,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"ZhXTACf03wU": {
+"videoId": "ZhXTACf03wU",
+"title": "TeknoAXE's Royalty Free Music - Loop  #23 (Psycho Nu Metal Loop) Heavy Metal/Nu Metal/Alternative",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 250,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"tGMDouOy-yk": {
+"videoId": "tGMDouOy-yk",
+"title": "TeknoAXE turns into George Lucas...again",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 665,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"7VlL8qiv8H4": {
+"videoId": "7VlL8qiv8H4",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #235 (Bar Stools Hurt Man) Rock/Metal/Alternative",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 208,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"8PdjqIGVBuE": {
+"videoId": "8PdjqIGVBuE",
+"title": "TeknoAXE's Royalty Free Music - Day Finale - circa 2005 - Epic Metal Song Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 438,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"ueESrtQTxGw": {
+"videoId": "ueESrtQTxGw",
+"title": "The TeknoAXE - Alternative Metal - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 216,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"5AZMctDbqII": {
+"videoId": "5AZMctDbqII",
+"title": "TeknoAXE's Royalty Free Music - #188 (Reception) Orchestra/Tension/Drama/Suspense",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 226,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"lxGzdwHDe8Q": {
+"videoId": "lxGzdwHDe8Q",
+"title": "The Year of Clear Vision - Heavy Metal - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 212,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"gA3ncvkPLyI": {
+"videoId": "gA3ncvkPLyI",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Jam Music (Dusty Watering Hole) Rock/Retro/Western",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 207,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"gXUNygsI7B4": {
+"videoId": "gXUNygsI7B4",
+"title": "TeknoAXE's Royalty Free Music - #83 (Shock Troopers Clone Soundtrack) Metal/Hardcore/Suspense",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 201,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"IKqhxf2Jg2g": {
+"videoId": "IKqhxf2Jg2g",
+"title": "TeknoAXE's Royalty Free Music - #41 (Grunge Beauty) Rock Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 246,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"Z5bi1_hJOvY": {
+"videoId": "Z5bi1_hJOvY",
+"title": "TeknoAXE's Royalty Free Music - Basic Dancefloor Anthem -- House/Electro --  Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 261,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"IYhEfEnWaCk": {
+"videoId": "IYhEfEnWaCk",
+"title": "TeknoAXE's Royalty Free Music - Loop #1 (Boss Battle Loop 1) bpm 120 Suspense/Action/Orchestra",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 81,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"6mTqZt5uww0": {
+"videoId": "6mTqZt5uww0",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #44 (In A Van Instrumental) Heavy Metal Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 58,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE blues",
+"origin": "search"
+},
+"yiCQeGdwcA0": {
+"videoId": "yiCQeGdwcA0",
+"title": "Funk You Over - Funk/Alternative - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 232,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"Sk883ji5Uas": {
+"videoId": "Sk883ji5Uas",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #14 (Resonance Experiment) Funky Big Beat Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 257,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"adVSZJS_n_g": {
+"videoId": "adVSZJS_n_g",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Song #8 (Transient) Get Funky Song",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 320,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"yYpKC7TgRHk": {
+"videoId": "yYpKC7TgRHk",
+"title": "Moped Cruising -- Breakbeats/Funk -- Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 253,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"58ISMD33IuQ": {
+"videoId": "58ISMD33IuQ",
+"title": "Simpler Times - Funk/Alternative - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 226,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"mK1L2xyXuV4": {
+"videoId": "mK1L2xyXuV4",
+"title": "Funk the Chilldown - Funk/Chill - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 258,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"IdZ12hFw_Ho": {
+"videoId": "IdZ12hFw_Ho",
+"title": "TeknoAXE's Royalty Free Music - Glitchy G Funk Summer -- Glitch Hop -- Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 291,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"bNht16GhmaY": {
+"videoId": "bNht16GhmaY",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Jam Music (Monday Night Funk Jam) Funk/Rock/Alternative",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 218,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"81NL9DGoeWA": {
+"videoId": "81NL9DGoeWA",
+"title": "Jam the Future - Funk/Alternative - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 210,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"lF7FoFz3FJ0": {
+"videoId": "lF7FoFz3FJ0",
+"title": "TeknoAXE's Royalty Free Music - Deep Six Wub -- Dubstep/Grimestep -- Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 235,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"NWpog4KGcbQ": {
+"videoId": "NWpog4KGcbQ",
+"title": "TeknoAXE's Royalty Free Music - #167 (Run While You Can Boy) Dubstep/Hard/Techno/Vocaloid Sonika",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 310,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"16LSrdnszqY": {
+"videoId": "16LSrdnszqY",
+"title": "Lose Yourself on the Floor - Electro/Funk - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 266,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"FrwNQ3pm5K0": {
+"videoId": "FrwNQ3pm5K0",
+"title": "Remastered: Bubble G Funk - Electro - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 265,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"KnClT-L4_dg": {
+"videoId": "KnClT-L4_dg",
+"title": "TeknoAXE's Royalty Free Music - Loop #15 (Walking With Style) 128bpm House/Funk/Disco/Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 278,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"LxNUHQC7Gz0": {
+"videoId": "LxNUHQC7Gz0",
+"title": "Disorganized Hippy Funk Jam Remastered -- Rock/Funk -- Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 189,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"L9y8m0XVWwQ": {
+"videoId": "L9y8m0XVWwQ",
+"title": "Get the Guy With the Stash -- Funk/Rock -- Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 193,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"2kO0bwFvUso": {
+"videoId": "2kO0bwFvUso",
+"title": "The Red Bass - Alternative Metal/Funk - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 208,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"ZLIWBde7kP8": {
+"videoId": "ZLIWBde7kP8",
+"title": "TeknoAXE's Royalty Free Music - Loop #30 (Cold and Calculating) Dubstep/Funkstep/Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 241,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"wBZRZ6vzT8g": {
+"videoId": "wBZRZ6vzT8g",
+"title": "Good Cop Bad Cop - Rock/Funk - Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 172,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"oXNzmxFsZJk": {
+"videoId": "oXNzmxFsZJk",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #323 ( Make a Movement ) Funky House/Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 248,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"oQXcEov28HA": {
+"videoId": "oQXcEov28HA",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Intro Music #22 (Funky Walkabout Dubstep)",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 64,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"SmCDyOyjixg": {
+"videoId": "SmCDyOyjixg",
+"title": "Bubble G Funk Trance -- Royalty Free Music",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 205,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"rx9KcO_VnSY": {
+"videoId": "rx9KcO_VnSY",
+"title": "TeknoAXE's Royalty Free Music - #197 (Dead Piano Island) Tension/Suspense/Orchestra",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 197,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"LsN-JKVo22Q": {
+"videoId": "LsN-JKVo22Q",
+"title": "Royalty Free Intro Music #33-A (Jamming it Out on the Pavement Complete Mix) Electro",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 347,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"BrkCwQM_UaQ": {
+"videoId": "BrkCwQM_UaQ",
+"title": "TeknoAXE's Royalty Free Music - #246 (We Chill All Night) Dubstep/Funkstep/Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 273,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"0kuDcWptUMc": {
+"videoId": "0kuDcWptUMc",
+"title": "TeknoAXE's Royalty Free Music - Royalty Free Music #160 (The Okinawa Dance) Electro/Dubstep/Techno",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 253,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"aF22TVUzNlo": {
+"videoId": "aF22TVUzNlo",
+"title": "Royalty Free Music #93 (Summer Love Remaster) Funk/Rock Laid Back Downtempo",
+"channel": "TeknoAXE's Royalty Free Music",
+"length": 288,
+"artist_hint": "TeknoAXE",
+"query": "TeknoAXE funk",
+"origin": "search"
+},
+"VhIJ30X3CqU": {
+"videoId": "VhIJ30X3CqU",
+"title": "Stomping at Midnight",
+"channel": "Kevin MacLeod",
+"length": 122,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Stomping at Midnight\" Kevin MacLeod",
+"origin": "search"
+},
+"jlF_vSoM20s": {
+"videoId": "jlF_vSoM20s",
+"title": "Stomping at Midnight   Vinyl Recording",
+"channel": "Kevin MacLeod",
+"length": 119,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Stomping at Midnight\" Kevin MacLeod",
+"origin": "search"
+},
+"B1WIEJj99XA": {
+"videoId": "B1WIEJj99XA",
+"title": "Kevin MacLeod: Fig Leaf Rag - distressed",
+"channel": "Kevin MacLeod Archive",
+"length": 212,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Maple Leaf Rag\" Kevin MacLeod",
+"origin": "search"
+},
+"DFEJZVc2brs": {
+"videoId": "DFEJZVc2brs",
+"title": "Kevin Macleod-Fig Leaf Rag",
+"channel": "Kevin MacLeod Music",
+"length": 176,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Maple Leaf Rag\" Kevin MacLeod",
+"origin": "search"
+},
+"VtEYvt8IMaE": {
+"videoId": "VtEYvt8IMaE",
+"title": "Airport Lounge - Disco Ultralounge",
+"channel": "Kevin MacLeod",
+"length": 308,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Airport Lounge\" Kevin MacLeod|\"Ultralounge\" Kevin MacLeod",
+"origin": "search"
+},
+"OYeiE3Re7dk": {
+"videoId": "OYeiE3Re7dk",
+"title": "Kevin MacLeod - Backbay Lounge",
+"channel": "Kevin MacLeod's songs in alphabetical order",
+"length": 267,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Backbay Lounge\" Kevin MacLeod",
+"origin": "search"
+},
+"9zCY5C2VnZE": {
+"videoId": "9zCY5C2VnZE",
+"title": "Kevin MacLeod: Earnest",
+"channel": "Kevin MacLeod Archive",
+"length": 101,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Backbay Lounge\" Kevin MacLeod",
+"origin": "search"
+},
+"Ln_iJGWEMkE": {
+"videoId": "Ln_iJGWEMkE",
+"title": "Kevin MacLeod: Ultralounge",
+"channel": "Kevin MacLeod Archive",
+"length": 319,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Ultralounge\" Kevin MacLeod",
+"origin": "search"
+},
+"0b__Ab9Rteo": {
+"videoId": "0b__Ab9Rteo",
+"title": "Chill - Disco Ultralounge",
+"channel": "Kevin MacLeod",
+"length": 231,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Ultralounge\" Kevin MacLeod",
+"origin": "search"
+},
+"_fuXd7mW2xo": {
+"videoId": "_fuXd7mW2xo",
+"title": "Palm and Soul",
+"channel": "Kevin MacLeod",
+"length": 242,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Palm and Soul\" Kevin MacLeod",
+"origin": "search"
+},
+"_118WTrzaB0": {
+"videoId": "_118WTrzaB0",
+"title": "Kevin MacLeod - BossaBossa",
+"channel": "Kevin MacLeod's songs in alphabetical order",
+"length": 168,
+"artist_hint": "Kevin MacLeod",
+"query": "\"BossaBossa\" Kevin MacLeod",
+"origin": "search"
+},
+"IUJdYbeZoFk": {
+"videoId": "IUJdYbeZoFk",
+"title": "Kevin MacLeod [Official] - Groove Grove - incompetech.com",
+"channel": "Kevin MacLeod",
+"length": 206,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Groove Grove\" Kevin MacLeod",
+"origin": "search"
+},
+"r9cK9kTHyAk": {
+"videoId": "r9cK9kTHyAk",
+"title": "Kevin MacLeod: Groove Grove",
+"channel": "Kevin MacLeod Archive",
+"length": 208,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Groove Grove\" Kevin MacLeod",
+"origin": "search"
+},
+"f-k7Kk7XeIM": {
+"videoId": "f-k7Kk7XeIM",
+"title": "Groove Grove",
+"channel": "Kevin MacLeod",
+"length": 207,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Groove Grove\" Kevin MacLeod",
+"origin": "search"
+},
+"47ZY6GWKP0Y": {
+"videoId": "47ZY6GWKP0Y",
+"title": "Nonstop",
+"channel": "Kevin MacLeod",
+"length": 192,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Nonstop\" Kevin MacLeod",
+"origin": "search"
+},
+"wcCN8ZhAiW0": {
+"videoId": "wcCN8ZhAiW0",
+"title": "Kevin MacLeod: Nonstop",
+"channel": "Kevin MacLeod Archive",
+"length": 194,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Nonstop\" Kevin MacLeod",
+"origin": "search"
+},
+"jYWKrClkXPc": {
+"videoId": "jYWKrClkXPc",
+"title": "Nonstop by Kevin MacLeod",
+"channel": "Kevin MacLeod Music",
+"length": 192,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Nonstop\" Kevin MacLeod",
+"origin": "search"
+},
+"wJ0Yu9hxkaA": {
+"videoId": "wJ0Yu9hxkaA",
+"title": "Kevin MacLeod: Leopard Print Elevator",
+"channel": "Kevin MacLeod Archive",
+"length": 330,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Leopard Print Elevator\" Kevin MacLeod",
+"origin": "search"
+},
+"oWHr4ebSxEE": {
+"videoId": "oWHr4ebSxEE",
+"title": "Leopard Print Elevator by Kevin MacLeod",
+"channel": "Kevin MacLeod Music",
+"length": 328,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Leopard Print Elevator\" Kevin MacLeod",
+"origin": "search"
+},
+"DmZT2cniLVU": {
+"videoId": "DmZT2cniLVU",
+"title": "Kevin MacLeod: Clean Soul",
+"channel": "Kevin MacLeod Archive",
+"length": 309,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Clean Soul\" Kevin MacLeod",
+"origin": "search"
+},
+"THihnuQJHF4": {
+"videoId": "THihnuQJHF4",
+"title": "Kevin MacLeod - Clean Soul (EP and Bass Duet)",
+"channel": "Kevin MacLeod",
+"length": 307,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Clean Soul\" Kevin MacLeod",
+"origin": "search"
+},
+"M822DtfVpaE": {
+"videoId": "M822DtfVpaE",
+"title": "Clean Soul - Calming",
+"channel": "Kevin MacLeod",
+"length": 307,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Clean Soul\" Kevin MacLeod",
+"origin": "search"
+},
+"_q3NYfldJvs": {
+"videoId": "_q3NYfldJvs",
+"title": "Natural Vibes",
+"channel": "Kevin MacLeod",
+"length": 132,
+"artist_hint": "Kevin MacLeod",
+"query": "\"Natural Vibes\" Kevin MacLeod",
+"origin": "search"
+},
+"UP1hobX05TY": {
+"videoId": "UP1hobX05TY",
+"title": "Smooth Jazz Night",
+"channel": "Audionautix - Topic",
+"length": 111,
+"artist_hint": "Audionautix",
+"query": "Audionautix \"jazz\"",
+"origin": "search"
+},
+"F8ggAY4zDck": {
+"videoId": "F8ggAY4zDck",
+"title": "Boxcar Rag",
+"channel": "Audionautix - Topic",
+"length": 127,
+"artist_hint": "Audionautix",
+"query": "Audionautix ragtime",
+"origin": "search"
+},
+"9G20mM_bTms": {
+"videoId": "9G20mM_bTms",
+"title": "Whoopsy",
+"channel": "Audionautix - Topic",
+"length": 67,
+"artist_hint": "Audionautix",
+"query": "Audionautix ragtime",
+"origin": "search"
+},
+"hPSgKm3n2aM": {
+"videoId": "hPSgKm3n2aM",
+"title": "Twin Musicom - Old Bossa",
+"channel": "Twin Musicom",
+"length": 161,
+"artist_hint": "Twin Musicom",
+"query": "Twin Musicom bossa",
+"origin": "search"
+},
+"Zb6VxxLCWEg": {
+"videoId": "Zb6VxxLCWEg",
+"title": "Old Bossa",
+"channel": "Twin Musicom - Topic",
+"length": 159,
+"artist_hint": "Twin Musicom",
+"query": "Twin Musicom bossa",
+"origin": "search"
+},
+"5zEMAA_qd5I": {
+"videoId": "5zEMAA_qd5I",
+"title": "風 - ゆったりピアノ曲【音楽素材MusMus】",
+"channel": "MusMus Channel",
+"length": 78,
+"artist_hint": "MusMus",
+"query": "MusMus ジャズピアノ",
+"origin": "search"
+},
+"xPjpGnYrCAg": {
+"videoId": "xPjpGnYrCAg",
+"title": "Nice Old Tradition【音楽素材MusMus】",
+"channel": "MusMus Channel",
+"length": 203,
+"artist_hint": "MusMus",
+"query": "MusMus ジャズピアノ",
+"origin": "search"
+},
+"n4K8pFUQY9w": {
+"videoId": "n4K8pFUQY9w",
+"title": "【３分間DTM】ジャズその1【MusMus DTM】",
+"channel": "MusMus Channel",
+"length": 126,
+"artist_hint": "MusMus",
+"query": "MusMus ジャズピアノ",
+"origin": "search"
+},
+"MfaWiGHZAgE": {
+"videoId": "MfaWiGHZAgE",
+"title": "卒業（音楽室ver.）【音楽素材MusMus】",
+"channel": "MusMus Channel",
+"length": 236,
+"artist_hint": "MusMus",
+"query": "MusMus ジャズピアノ",
+"origin": "search"
+},
+"CLzw4fDx7ug": {
+"videoId": "CLzw4fDx7ug",
+"title": "卒業（体育館ver.）【音楽素材MusMus】",
+"channel": "MusMus Channel",
+"length": 236,
+"artist_hint": "MusMus",
+"query": "MusMus ジャズピアノ",
+"origin": "search"
+},
+"ZYM4GkcWSOY": {
+"videoId": "ZYM4GkcWSOY",
+"title": "wood note【音楽素材MusMus】",
+"channel": "MusMus Channel",
+"length": 171,
+"artist_hint": "MusMus",
+"query": "MusMus ジャズピアノ",
+"origin": "search"
+},
+"23z1funXCB8": {
+"videoId": "23z1funXCB8",
+"title": "内包する大地【音楽素材MusMus】壮大なゲームフィールド風楽曲",
+"channel": "MusMus Channel",
+"length": 171,
+"artist_hint": "MusMus",
+"query": "MusMus ジャズピアノ",
+"origin": "search"
+},
+"vbav36N8oZw": {
+"videoId": "vbav36N8oZw",
+"title": "雨の日のガーティ【音楽素材MusMus】",
+"channel": "MusMus Channel",
+"length": 61,
+"artist_hint": "MusMus",
+"query": "MusMus ジャズピアノ",
+"origin": "search"
+},
+"mpeGt1x475Q": {
+"videoId": "mpeGt1x475Q",
+"title": "The Concrete Bakes",
+"channel": "Soundimage.org",
+"length": 92,
+"artist_hint": "Eric Matyas",
+"query": "Soundimage lounge",
+"origin": "search"
+},
+"PKZiuhG6PGE": {
+"videoId": "PKZiuhG6PGE",
+"title": "Special Day",
+"channel": "Soundimage.org",
+"length": 66,
+"artist_hint": "Eric Matyas",
+"query": "Soundimage lounge",
+"origin": "search"
+},
+"pJYagtjvtAY": {
+"videoId": "pJYagtjvtAY",
+"title": "Retro Sci Fi Planet (Music Track)",
+"channel": "Soundimage.org",
+"length": 60,
+"artist_hint": "Eric Matyas",
+"query": "Soundimage lounge",
+"origin": "search"
+},
+"F6cccC-xvMY": {
+"videoId": "F6cccC-xvMY",
+"title": "Gulf Breeze",
+"channel": "Soundimage.org",
+"length": 143,
+"artist_hint": "Eric Matyas",
+"query": "Soundimage lounge",
 "origin": "search"
 }
 }

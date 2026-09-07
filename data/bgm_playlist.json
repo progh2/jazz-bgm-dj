@@ -1,7 +1,7 @@
 {
   "title": "Jazz BGM by scene (scrubbed)",
   "generated": "2026-09-08",
-  "note": "Non-jazz tracks removed (rock/ska/holiday/ambient false positives). Jazz & jazz-adjacent only.",
+  "note": "Jazz & jazz-adjacent after expand + hard NEG scrub (opaque jazz titles kept)",
   "categories": [
     {
       "name": "오프닝·신호",
@@ -15,8 +15,39 @@
         {
           "id": "A2_intro",
           "name": "밴드 인트로 / 테마",
-          "count": 0,
-          "tracks": []
+          "count": 3,
+          "tracks": [
+            {
+              "id": "a2_intro-ftidfrnadqi",
+              "title": "Ryno's Theme - .com",
+              "artist": "Kevin MacLeod",
+              "videoId": "FTIdFrNaDqI",
+              "focus": 4,
+              "length": 182,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=FTIdFrNaDqI"
+            },
+            {
+              "id": "a2_intro-ryuynwq38x0",
+              "title": "dear Dragon Example of use: 100% Orange Juice Sweet Breaker's Theme etc.",
+              "artist": "MusMus",
+              "videoId": "rYUynwQ38x0",
+              "focus": 4,
+              "length": 195,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=rYUynwQ38x0"
+            },
+            {
+              "id": "a2_intro-7hjr76oc9u0",
+              "title": "'s - (Away and then Home) Intro Funky Music",
+              "artist": "TeknoAXE",
+              "videoId": "7HjR76oC9u0",
+              "focus": 2,
+              "length": 99,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=7HjR76oC9u0"
+            }
+          ]
         },
         {
           "id": "A3_break",
@@ -49,7 +80,7 @@
         {
           "id": "B1_swing",
           "name": "스윙 / 빅밴드",
-          "count": 18,
+          "count": 20,
           "tracks": [
             {
               "id": "b1_swing-xqo5gppa2vi",
@@ -192,6 +223,26 @@
               "source": "https://www.youtube.com/watch?v=8wttOD6l5Io"
             },
             {
+              "id": "b1_swing-vhij30x3cqu",
+              "title": "Stomping at Midnight",
+              "artist": "Kevin MacLeod",
+              "videoId": "VhIJ30X3CqU",
+              "focus": 4,
+              "length": 122,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=VhIJ30X3CqU"
+            },
+            {
+              "id": "b1_swing-jlf_vsom20s",
+              "title": "Stomping at Midnight Vinyl Recording",
+              "artist": "Kevin MacLeod",
+              "videoId": "jlF_vSoM20s",
+              "focus": 4,
+              "length": 119,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=jlF_vSoM20s"
+            },
+            {
               "id": "b1_swing-rtahc_olxje",
               "title": "Swing Machine",
               "artist": "Kevin MacLeod",
@@ -242,8 +293,18 @@
         {
           "id": "B3_cool",
           "name": "쿨 재즈",
-          "count": 2,
+          "count": 4,
           "tracks": [
+            {
+              "id": "b3_cool-htvctalhgvu",
+              "title": "'s - Royalty Free Song (Laid Back) Elevator Music?",
+              "artist": "TeknoAXE",
+              "videoId": "htvCtAlhGvU",
+              "focus": 5,
+              "length": 270,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=htvCtAlhGvU"
+            },
             {
               "id": "b3_cool-tjqwsv4cgge",
               "title": "Cool Vibes",
@@ -253,6 +314,16 @@
               "length": 219,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=TjqwSV4CggE"
+            },
+            {
+              "id": "b3_cool-_q3nyfldjvs",
+              "title": "Natural Vibes",
+              "artist": "Kevin MacLeod",
+              "videoId": "_q3NYfldJvs",
+              "focus": 5,
+              "length": 132,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=_q3NYfldJvs"
             },
             {
               "id": "b3_cool-45ghq2g4vl8",
@@ -281,7 +352,7 @@
         {
           "id": "B6_latin",
           "name": "라틴 / 보사 / 삼바",
-          "count": 13,
+          "count": 16,
           "tracks": [
             {
               "id": "b6_latin-vygpdi8wgic",
@@ -314,6 +385,16 @@
               "source": "https://www.youtube.com/watch?v=A25zUqFEJr4"
             },
             {
+              "id": "b6_latin-_118wtrzab0",
+              "title": "BossaBossa",
+              "artist": "Kevin MacLeod",
+              "videoId": "_118WTrzaB0",
+              "focus": 5,
+              "length": 168,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=_118WTrzaB0"
+            },
+            {
               "id": "b6_latin-t1ugi0cpa50",
               "title": "Casa Bossa Nova",
               "artist": "Kevin MacLeod",
@@ -344,6 +425,16 @@
               "source": "https://www.youtube.com/watch?v=lgW3U0WA3vg"
             },
             {
+              "id": "b6_latin-7ge3pwsfu48",
+              "title": "Hot Salsa",
+              "artist": "Audionautix / Jason Shaw",
+              "videoId": "7ge3pWSFu48",
+              "focus": 5,
+              "length": 141,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=7ge3pWSFu48"
+            },
+            {
               "id": "b6_latin-iagw8l5s-xa",
               "title": "Modern Jazz Samba",
               "artist": "Kevin MacLeod",
@@ -362,6 +453,16 @@
               "length": 109,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=iaY1fWiiGwc"
+            },
+            {
+              "id": "b6_latin-hpsgkm3n2am",
+              "title": "Old Bossa",
+              "artist": "Twin Musicom",
+              "videoId": "hPSgKm3n2aM",
+              "focus": 5,
+              "length": 161,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=hPSgKm3n2aM"
             },
             {
               "id": "b6_latin-8fbvi38gvjq",
@@ -418,8 +519,18 @@
         {
           "id": "B7_blues",
           "name": "재즈 블루스",
-          "count": 14,
+          "count": 17,
           "tracks": [
+            {
+              "id": "b7_blues-zoai7wds44c",
+              "title": "'s - Basic Blues Stomp -- Rock/Retro",
+              "artist": "TeknoAXE",
+              "videoId": "zOai7WDS44c",
+              "focus": 4,
+              "length": 167,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=zOai7WDS44c"
+            },
             {
               "id": "b7_blues-33wptzmunai",
               "title": "Acoustic Blues",
@@ -521,6 +632,26 @@
               "source": "https://www.youtube.com/watch?v=QYCgQIiqUqc"
             },
             {
+              "id": "b7_blues-qjcnidvyfz0",
+              "title": "OctoBlues",
+              "artist": "Kevin MacLeod",
+              "videoId": "qJcnidvyfz0",
+              "focus": 4,
+              "length": 259,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=qJcnidvyfz0"
+            },
+            {
+              "id": "b7_blues-25xg93vqmnw",
+              "title": "OctoBlues - .com",
+              "artist": "Kevin MacLeod",
+              "videoId": "25xg93vqmNw",
+              "focus": 4,
+              "length": 253,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=25xg93vqmNw"
+            },
+            {
               "id": "b7_blues-lh6rlmhfj18",
               "title": "Opheliea's Blues",
               "artist": "Audionautix / Jason Shaw",
@@ -565,8 +696,18 @@
         {
           "id": "B8_ballad",
           "name": "발라드",
-          "count": 2,
+          "count": 3,
           "tracks": [
+            {
+              "id": "b8_ballad-kjkhxnci548",
+              "title": "'s - A Lullaby for James -- A Sleepy Song -- PCH Drive",
+              "artist": "TeknoAXE",
+              "videoId": "KJkHxnci548",
+              "focus": 5,
+              "length": 214,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=KJkHxnci548"
+            },
             {
               "id": "b8_ballad-6ydch18nsng",
               "title": "3 minutes DTM : Electric piano slow jazz - DTM",
@@ -592,17 +733,227 @@
         {
           "id": "B9_smooth",
           "name": "스무스 / 컨템포러리",
-          "count": 12,
+          "count": 45,
           "tracks": [
             {
-              "id": "b9_smooth-5vjc1xofe0i",
-              "title": "Jazzで聴くドラゴンクエストⅢ",
+              "id": "b9_smooth-5fe7qh3kbga",
+              "title": "'s - Royalty Free Song (The Crazyhorse) Zen Song (Circa 2005)",
+              "artist": "TeknoAXE",
+              "videoId": "5fE7QH3kbGA",
+              "focus": 5,
+              "length": 273,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=5fE7QH3kbGA"
+            },
+            {
+              "id": "b9_smooth-4-xh-xbyfym",
+              "title": "11th finger",
               "artist": "MusMus",
-              "videoId": "5VjC1XOFE0I",
+              "videoId": "4-XH-XBYfyM",
+              "focus": 5,
+              "length": 239,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=4-XH-XBYfyM"
+            },
+            {
+              "id": "b9_smooth-04wln7ajk7s",
+              "title": "64 Sundays",
+              "artist": "Twin Musicom",
+              "videoId": "04WlN7aJK7s",
+              "focus": 5,
+              "length": 142,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=04WlN7aJK7s"
+            },
+            {
+              "id": "b9_smooth--lw6nqtxe10",
+              "title": "Alpha Hydrae- Keratine, rust and clear soul",
+              "artist": "Loyalty Freak Music / Komiku",
+              "videoId": "-LW6nQtXe10",
+              "focus": 5,
+              "length": 304,
+              "license": "CC0",
+              "source": "https://www.youtube.com/watch?v=-LW6nQtXe10"
+            },
+            {
+              "id": "b9_smooth-wj_fj8g_pz0",
+              "title": "Chillin' with My Puzzles",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "wj_fj8G_PZ0",
+              "focus": 5,
+              "length": 144,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=wj_fj8G_PZ0"
+            },
+            {
+              "id": "b9_smooth-kc2do80ljge",
+              "title": "City Moon",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "Kc2dO80lJgE",
+              "focus": 5,
+              "length": 124,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=Kc2dO80lJgE"
+            },
+            {
+              "id": "b9_smooth-5c1say_pijy",
+              "title": "Crushin",
+              "artist": "Audionautix / Jason Shaw",
+              "videoId": "5c1say_pIjY",
+              "focus": 5,
+              "length": 256,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=5c1say_pIjY"
+            },
+            {
+              "id": "b9_smooth-m5olymxlfx0",
+              "title": "Dream Voyager",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "M5olymXlFx0",
+              "focus": 5,
+              "length": 142,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=M5olymXlFx0"
+            },
+            {
+              "id": "b9_smooth-auqlm6kx9qq",
+              "title": "Ethernight Club",
+              "artist": "Kevin MacLeod",
+              "videoId": "aUQLM6kX9qQ",
+              "focus": 5,
+              "length": 307,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=aUQLM6kX9qQ"
+            },
+            {
+              "id": "b9_smooth-f6cccc-xvmy",
+              "title": "Gulf Breeze",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "F6cccC-xvMY",
+              "focus": 5,
+              "length": 143,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=F6cccC-xvMY"
+            },
+            {
+              "id": "b9_smooth-ytuk90ip4by",
+              "title": "Haunting Dreams",
+              "artist": "Twin Musicom",
+              "videoId": "Ytuk90IP4BY",
               "focus": 5,
               "length": 168,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=Ytuk90IP4BY"
+            },
+            {
+              "id": "b9_smooth-r6bdisixori",
+              "title": "Kat and Tanner",
+              "artist": "Twin Musicom",
+              "videoId": "r6BdiSixOrI",
+              "focus": 5,
+              "length": 135,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=r6BdiSixOrI"
+            },
+            {
+              "id": "b9_smooth-qj3slui0v5q",
+              "title": "Koichi Morita - Mirage (Sore ha Shinkiro datta)",
+              "artist": "魔王魂 (森田交一)",
+              "videoId": "QJ3SluI0V5Q",
+              "focus": 5,
+              "length": 293,
+              "license": "Free with attribution (maou.audio terms)",
+              "source": "https://www.youtube.com/watch?v=QJ3SluI0V5Q"
+            },
+            {
+              "id": "b9_smooth-4wwypyji-tw",
+              "title": "L'orage et l'aventure",
+              "artist": "Loyalty Freak Music / Komiku",
+              "videoId": "4wwypyji-Tw",
+              "focus": 5,
+              "length": 212,
+              "license": "CC0",
+              "source": "https://www.youtube.com/watch?v=4wwypyji-Tw"
+            },
+            {
+              "id": "b9_smooth-wj0yu9hxkaa",
+              "title": "Leopard Print Elevator",
+              "artist": "Kevin MacLeod",
+              "videoId": "wJ0Yu9hxkaA",
+              "focus": 5,
+              "length": 330,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=wJ0Yu9hxkaA"
+            },
+            {
+              "id": "b9_smooth-vs5seovgwrc",
+              "title": "Leopard Print Elevator - .com",
+              "artist": "Kevin MacLeod",
+              "videoId": "vS5seoVGwrc",
+              "focus": 5,
+              "length": 330,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=vS5seoVGwrc"
+            },
+            {
+              "id": "b9_smooth-owhr4ebsxee",
+              "title": "Leopard Print Elevator by",
+              "artist": "Kevin MacLeod",
+              "videoId": "oWHr4ebSxEE",
+              "focus": 5,
+              "length": 328,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=oWHr4ebSxEE"
+            },
+            {
+              "id": "b9_smooth-tpw_g5zb07m",
+              "title": "Mall Walker",
+              "artist": "Audionautix / Jason Shaw",
+              "videoId": "tPw_G5ZB07M",
+              "focus": 5,
+              "length": 273,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=tPw_G5ZB07M"
+            },
+            {
+              "id": "b9_smooth-xpjpgnyrcag",
+              "title": "Nice Old Tradition",
+              "artist": "MusMus",
+              "videoId": "xPjpGnYrCAg",
+              "focus": 5,
+              "length": 203,
               "license": "Free with attribution (musmus.main.jp)",
-              "source": "https://www.youtube.com/watch?v=5VjC1XOFE0I"
+              "source": "https://www.youtube.com/watch?v=xPjpGnYrCAg"
+            },
+            {
+              "id": "b9_smooth-rdxiej3apms",
+              "title": "Not Without the Rest",
+              "artist": "Twin Musicom",
+              "videoId": "RDxieJ3Apms",
+              "focus": 5,
+              "length": 118,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=RDxieJ3Apms"
+            },
+            {
+              "id": "b9_smooth-2vahb2iqqgg",
+              "title": "Picnic Breeze",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "2vAhB2IqqGg",
+              "focus": 5,
+              "length": 100,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=2vAhB2IqqGg"
+            },
+            {
+              "id": "b9_smooth-nbbj9weexq0",
+              "title": "Port Horizon",
+              "artist": "Kevin MacLeod",
+              "videoId": "nbbJ9weexQ0",
+              "focus": 5,
+              "length": 324,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=nbbJ9weexQ0"
             },
             {
               "id": "b9_smooth-2uov7gzeslk",
@@ -613,6 +964,16 @@
               "length": 315,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=2Uov7GZeslk"
+            },
+            {
+              "id": "b9_smooth-iqxdqji_49c",
+              "title": "Royalty Free Background Music -A (Floating on Glass Super Chill Mode) Downtempo/Chill",
+              "artist": "TeknoAXE",
+              "videoId": "IqXDqji_49c",
+              "focus": 5,
+              "length": 270,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=IqXDqji_49c"
             },
             {
               "id": "b9_smooth-w2jbfjg3vgc",
@@ -635,44 +996,144 @@
               "source": "https://www.youtube.com/watch?v=5vX9A0XTc6I"
             },
             {
-              "id": "b9_smooth-c7cfpg08_yo",
-              "title": "Stable yetl - PIano Jazz",
-              "artist": "MusMus",
-              "videoId": "C7CFPG08_Yo",
+              "id": "b9_smooth-nqv0o7hva4i",
+              "title": "Straighty Baby",
+              "artist": "Audionautix / Jason Shaw",
+              "videoId": "NqV0o7hVa4I",
               "focus": 5,
-              "length": 165,
-              "license": "Free with attribution (musmus.main.jp)",
-              "source": "https://www.youtube.com/watch?v=C7CFPG08_Yo"
-            },
-            {
-              "id": "b9_smooth-vitcr-v40xm",
-              "title": "The Jazz Man",
-              "artist": "Eric Matyas (Soundimage.org)",
-              "videoId": "VITCr-V40xM",
-              "focus": 5,
-              "length": 100,
-              "license": "Free with attribution",
-              "source": "https://www.youtube.com/watch?v=VITCr-V40xM"
-            },
-            {
-              "id": "b9_smooth-l7iqnw3ia4u",
-              "title": "Ultralounge",
-              "artist": "Kevin MacLeod",
-              "videoId": "L7iqnW3iA4U",
-              "focus": 5,
-              "length": 318,
+              "length": 215,
               "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=L7iqnW3iA4U"
+              "source": "https://www.youtube.com/watch?v=NqV0o7hVa4I"
             },
             {
-              "id": "b9_smooth-ecfvi2ebav0",
-              "title": "ジャズで聴くファイナルファンタジー4",
-              "artist": "MusMus",
-              "videoId": "EcfVi2EBaV0",
+              "id": "b9_smooth-rstmmm-8w1i",
+              "title": "Stratosphere",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "RsTmmM-8W1I",
               "focus": 5,
-              "length": 196,
+              "length": 199,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=RsTmmM-8W1I"
+            },
+            {
+              "id": "b9_smooth-fvpvz2uwdb8",
+              "title": "THE ミュラ ー",
+              "artist": "MusMus",
+              "videoId": "fVpVz2UWdb8",
+              "focus": 5,
+              "length": 238,
               "license": "Free with attribution (musmus.main.jp)",
-              "source": "https://www.youtube.com/watch?v=EcfVi2EBaV0"
+              "source": "https://www.youtube.com/watch?v=fVpVz2UWdb8"
+            },
+            {
+              "id": "b9_smooth-oerdo5keu3e",
+              "title": "Tiki Breeze",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "oERdo5kEU3E",
+              "focus": 5,
+              "length": 129,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=oERdo5kEU3E"
+            },
+            {
+              "id": "b9_smooth--jg7v3e3lew",
+              "title": "Tom Perry",
+              "artist": "Twin Musicom",
+              "videoId": "-JG7V3E3Lew",
+              "focus": 5,
+              "length": 164,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=-JG7V3E3Lew"
+            },
+            {
+              "id": "b9_smooth-n2y4cz4ltbg",
+              "title": "Touchpoint",
+              "artist": "Audionautix / Jason Shaw",
+              "videoId": "n2y4cZ4Ltbg",
+              "focus": 5,
+              "length": 290,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=n2y4cZ4Ltbg"
+            },
+            {
+              "id": "b9_smooth-gwqkv76azgi",
+              "title": "Triangle",
+              "artist": "Audionautix / Jason Shaw",
+              "videoId": "gWQKv76azGI",
+              "focus": 5,
+              "length": 221,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=gWQKv76azGI"
+            },
+            {
+              "id": "b9_smooth-lfsn0blcuqa",
+              "title": "Wheels",
+              "artist": "Audionautix / Jason Shaw",
+              "videoId": "lfsn0BlCUqA",
+              "focus": 5,
+              "length": 212,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=lfsn0BlCUqA"
+            },
+            {
+              "id": "b9_smooth-wm7fxpwi-ly",
+              "title": "With a Stamp",
+              "artist": "Twin Musicom",
+              "videoId": "Wm7fXPwI-LY",
+              "focus": 5,
+              "length": 282,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=Wm7fXPwI-LY"
+            },
+            {
+              "id": "b9_smooth-tgmdouoy-yk",
+              "title": "turns into George Lucas...again",
+              "artist": "TeknoAXE",
+              "videoId": "tGMDouOy-yk",
+              "focus": 5,
+              "length": 665,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=tGMDouOy-yk"
+            },
+            {
+              "id": "b9_smooth-clzw4fdx7ug",
+              "title": "卒業（体育館 ）",
+              "artist": "MusMus",
+              "videoId": "CLzw4fDx7ug",
+              "focus": 5,
+              "length": 236,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=CLzw4fDx7ug"
+            },
+            {
+              "id": "b9_smooth-mfawighzage",
+              "title": "卒業（音楽室 ）",
+              "artist": "MusMus",
+              "videoId": "MfaWiGHZAgE",
+              "focus": 5,
+              "length": 236,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=MfaWiGHZAgE"
+            },
+            {
+              "id": "b9_smooth-wz_2ur4j4eo",
+              "title": "怠惰の果実",
+              "artist": "MusMus",
+              "videoId": "wZ_2uR4j4eo",
+              "focus": 5,
+              "length": 327,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=wZ_2uR4j4eo"
+            },
+            {
+              "id": "b9_smooth-rlx6i2fnqk4",
+              "title": "手描きアート Koichi Morita Art 004 Alien Sorting Soul",
+              "artist": "魔王魂 (森田交一)",
+              "videoId": "rlX6i2fNQK4",
+              "focus": 5,
+              "length": 739,
+              "license": "Free with attribution (maou.audio terms)",
+              "source": "https://www.youtube.com/watch?v=rlX6i2fNQK4"
             },
             {
               "id": "b9_smooth-otgdebate2q",
@@ -693,6 +1154,16 @@
               "length": 208,
               "license": "Free with attribution (musmus.main.jp)",
               "source": "https://www.youtube.com/watch?v=rBJ56gnGYB0"
+            },
+            {
+              "id": "b9_smooth-3xjqtmpqvoc",
+              "title": "Classical Carnivale",
+              "artist": "Twin Musicom",
+              "videoId": "3XJQtMPQvoc",
+              "focus": 4,
+              "length": 91,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=3XJQtMPQvoc"
             },
             {
               "id": "b9_smooth-h3ylvrgmkam",
@@ -731,8 +1202,18 @@
         {
           "id": "B12_dixie",
           "name": "딕실랜드 / 트래디셔널",
-          "count": 1,
+          "count": 4,
           "tracks": [
+            {
+              "id": "b12_dixie-01afmksqzu0",
+              "title": "Fig Leaf Times Two",
+              "artist": "Kevin MacLeod",
+              "videoId": "01AFmkSqZu0",
+              "focus": 4,
+              "length": 381,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=01AFmkSqZu0"
+            },
             {
               "id": "b12_dixie-uahft4fw0hm",
               "title": "2007 04 & Dan Beimborn - Ragtime Annie",
@@ -742,14 +1223,64 @@
               "length": 160,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=uaHFt4Fw0HM"
+            },
+            {
+              "id": "b12_dixie--2l1yqnjuku",
+              "title": "Frogs Legs Rag",
+              "artist": "Kevin MacLeod",
+              "videoId": "-2L1YqnJuKU",
+              "focus": 3,
+              "length": 169,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=-2L1YqnJuKU"
+            },
+            {
+              "id": "b12_dixie-b1izxvfdjis",
+              "title": "Maple Leaf Rag",
+              "artist": "Kevin MacLeod",
+              "videoId": "B1izxvFdJis",
+              "focus": 3,
+              "length": 152,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=B1izxvFdJis"
             }
           ]
         },
         {
           "id": "B13_soul",
           "name": "소울 재즈 / 펑키",
-          "count": 4,
+          "count": 39,
           "tracks": [
+            {
+              "id": "b13_soul-sk883ji5uas",
+              "title": "'s - (Resonance Experiment) Funky Big Beat Music",
+              "artist": "TeknoAXE",
+              "videoId": "Sk883ji5Uas",
+              "focus": 4,
+              "length": 257,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=Sk883ji5Uas"
+            },
+            {
+              "id": "b13_soul-1dgxozonlgi",
+              "title": "'s - Royalty Free Jam Music (Speaker Stomp Boogie) Rock/Retro/Hard",
+              "artist": "TeknoAXE",
+              "videoId": "1dGXozoNlGI",
+              "focus": 4,
+              "length": 199,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=1dGXozoNlGI"
+            },
+            {
+              "id": "b13_soul-advszjs_n_g",
+              "title": "'s - Royalty Free Song (Transient) Get Funky Song",
+              "artist": "TeknoAXE",
+              "videoId": "adVSZJS_n_g",
+              "focus": 4,
+              "length": 320,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=adVSZJS_n_g"
+            },
             {
               "id": "b13_soul-l7wtgxtjntc",
               "title": "Boogie Party",
@@ -761,6 +1292,176 @@
               "source": "https://www.youtube.com/watch?v=l7WTgXTjNtc"
             },
             {
+              "id": "b13_soul-dmzt2cnilvu",
+              "title": "Clean Soul",
+              "artist": "Kevin MacLeod",
+              "videoId": "DmZT2cniLVU",
+              "focus": 4,
+              "length": 309,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=DmZT2cniLVU"
+            },
+            {
+              "id": "b13_soul-thihnuqjhf4",
+              "title": "Clean Soul (EP and Bass Duet)",
+              "artist": "Kevin MacLeod",
+              "videoId": "THihnuQJHF4",
+              "focus": 4,
+              "length": 307,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=THihnuQJHF4"
+            },
+            {
+              "id": "b13_soul-m822dtfvpae",
+              "title": "Clean Soul - Calming",
+              "artist": "Kevin MacLeod",
+              "videoId": "M822DtfVpaE",
+              "focus": 4,
+              "length": 307,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=M822DtfVpaE"
+            },
+            {
+              "id": "b13_soul-0gp8kimr1zy",
+              "title": "Cold Funk",
+              "artist": "Kevin MacLeod",
+              "videoId": "0GP8kImr1zY",
+              "focus": 4,
+              "length": 291,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=0GP8kImr1zY"
+            },
+            {
+              "id": "b13_soul-kisszsqu7nq",
+              "title": "Cold Funk - Funkorama",
+              "artist": "Kevin MacLeod",
+              "videoId": "KISsZSqU7nQ",
+              "focus": 4,
+              "length": 289,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=KISsZSqU7nQ"
+            },
+            {
+              "id": "b13_soul-eb1zg49ulio",
+              "title": "Funk Japan / Copyright",
+              "artist": "MusMus",
+              "videoId": "EB1zg49Ulio",
+              "focus": 4,
+              "length": 207,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=EB1zg49Ulio"
+            },
+            {
+              "id": "b13_soul-yicqegdwca0",
+              "title": "Funk You O - Funk/Alternative",
+              "artist": "TeknoAXE",
+              "videoId": "yiCQeGdwcA0",
+              "focus": 4,
+              "length": 232,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=yiCQeGdwcA0"
+            },
+            {
+              "id": "b13_soul-mk1l2xyxuv4",
+              "title": "Funk the Chilldown - Funk/Chill",
+              "artist": "TeknoAXE",
+              "videoId": "mK1L2xyXuV4",
+              "focus": 4,
+              "length": 258,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=mK1L2xyXuV4"
+            },
+            {
+              "id": "b13_soul-lpeuzeht0qm",
+              "title": "Funkorama",
+              "artist": "Kevin MacLeod",
+              "videoId": "LpEUZEHt0qM",
+              "focus": 4,
+              "length": 202,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=LpEUZEHt0qM"
+            },
+            {
+              "id": "b13_soul-kixdwb3ksh8",
+              "title": "Funky Boxstep",
+              "artist": "Kevin MacLeod",
+              "videoId": "KixDwB3ksh8",
+              "focus": 4,
+              "length": 316,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=KixDwB3ksh8"
+            },
+            {
+              "id": "b13_soul-qcsfjsotauo",
+              "title": "Funky Chunk",
+              "artist": "Kevin MacLeod",
+              "videoId": "qcSFJSoTauo",
+              "focus": 4,
+              "length": 241,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=qcSFJSoTauo"
+            },
+            {
+              "id": "b13_soul-s9qlz6dviwu",
+              "title": "Funky One",
+              "artist": "Kevin MacLeod",
+              "videoId": "S9QLZ6dVIWU",
+              "focus": 4,
+              "length": 183,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=S9QLZ6dVIWU"
+            },
+            {
+              "id": "b13_soul-v3e3_pfja44",
+              "title": "Got Funk",
+              "artist": "Kevin MacLeod",
+              "videoId": "v3E3_pFJA44",
+              "focus": 4,
+              "length": 282,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=v3E3_pFJA44"
+            },
+            {
+              "id": "b13_soul-f-k7kk7xeim",
+              "title": "Groove Grove",
+              "artist": "Kevin MacLeod",
+              "videoId": "f-k7Kk7XeIM",
+              "focus": 4,
+              "length": 207,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=f-k7Kk7XeIM"
+            },
+            {
+              "id": "b13_soul-xqaozlds9kc",
+              "title": "Groove Grove (with composer commentary)",
+              "artist": "Kevin MacLeod",
+              "videoId": "XqAozLDS9kc",
+              "focus": 4,
+              "length": 206,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=XqAozLDS9kc"
+            },
+            {
+              "id": "b13_soul-iujdybezofk",
+              "title": "Groove Grove - .com",
+              "artist": "Kevin MacLeod",
+              "videoId": "IUJdYbeZoFk",
+              "focus": 4,
+              "length": 206,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=IUJdYbeZoFk"
+            },
+            {
+              "id": "b13_soul-81nl9dgoewa",
+              "title": "Jam the Future - Funk/Alternative",
+              "artist": "TeknoAXE",
+              "videoId": "81NL9DGoeWA",
+              "focus": 4,
+              "length": 210,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=81NL9DGoeWA"
+            },
+            {
               "id": "b13_soul-6ccwezvgxtc",
               "title": "Jumpin Boogie Woogie",
               "artist": "Audionautix / Jason Shaw",
@@ -769,6 +1470,46 @@
               "length": 183,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=6cCwEZvgXtc"
+            },
+            {
+              "id": "b13_soul-yypkc7tgrhk",
+              "title": "Moped Cruising -- Breakbeats/Funk",
+              "artist": "TeknoAXE",
+              "videoId": "yYpKC7TgRHk",
+              "focus": 4,
+              "length": 253,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=yYpKC7TgRHk"
+            },
+            {
+              "id": "b13_soul-_fuxd7mw2xo",
+              "title": "Palm and Soul",
+              "artist": "Kevin MacLeod",
+              "videoId": "_fuXd7mW2xo",
+              "focus": 4,
+              "length": 242,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=_fuXd7mW2xo"
+            },
+            {
+              "id": "b13_soul-6eoummyzf9s",
+              "title": "Shifting Sands - Funk/Easy",
+              "artist": "TeknoAXE",
+              "videoId": "6EouMmYZf9s",
+              "focus": 4,
+              "length": 233,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=6EouMmYZf9s"
+            },
+            {
+              "id": "b13_soul-58ismd33iuq",
+              "title": "Simpler Times - Funk/Alternative",
+              "artist": "TeknoAXE",
+              "videoId": "58ISMD33IuQ",
+              "focus": 4,
+              "length": 226,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=58ISMD33IuQ"
             },
             {
               "id": "b13_soul-kjmaelp4lvi",
@@ -789,13 +1530,123 @@
               "length": 147,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=wSe9BkkDGhI"
+            },
+            {
+              "id": "b13_soul-kyvxdeu8fyy",
+              "title": "C-Funk",
+              "artist": "Kevin MacLeod",
+              "videoId": "KyvXdEu8fYY",
+              "focus": 3,
+              "length": 173,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=KyvXdEu8fYY"
+            },
+            {
+              "id": "b13_soul-x5cdq4zyzom",
+              "title": "C-Funk - Funkorama",
+              "artist": "Kevin MacLeod",
+              "videoId": "X5cDq4ZyZoM",
+              "focus": 3,
+              "length": 171,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=X5cDq4ZyZoM"
+            },
+            {
+              "id": "b13_soul-a37a7a2pbwm",
+              "title": "Funky Gameplay",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "a37a7A2PBwM",
+              "focus": 3,
+              "length": 137,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=a37a7A2PBwM"
+            },
+            {
+              "id": "b13_soul-gimbmtwbv1s",
+              "title": "Laser Groove",
+              "artist": "Kevin MacLeod",
+              "videoId": "GImBmTwBV1s",
+              "focus": 3,
+              "length": 168,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=GImBmTwBV1s"
+            },
+            {
+              "id": "b13_soul-2lkoboatetg",
+              "title": "Captain Glouglou & their beautiful keyboard - Organ",
+              "artist": "Loyalty Freak Music / Komiku",
+              "videoId": "2lkoboAtETg",
+              "focus": 2,
+              "length": 93,
+              "license": "CC0",
+              "source": "https://www.youtube.com/watch?v=2lkoboAtETg"
+            },
+            {
+              "id": "b13_soul-j5bjczyyhic",
+              "title": "Funky Goat Store",
+              "artist": "MusMus",
+              "videoId": "J5bJCZyyHIc",
+              "focus": 2,
+              "length": 61,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=J5bJCZyyHIc"
+            },
+            {
+              "id": "b13_soul-xd9v_0kqjc4",
+              "title": "Funky Monster Mischief",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "Xd9V_0kQjC4",
+              "focus": 2,
+              "length": 76,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=Xd9V_0kQjC4"
+            },
+            {
+              "id": "b13_soul-j5yc2j9kjgu",
+              "title": "Funky Runnin'",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "j5yc2j9KjgU",
+              "focus": 2,
+              "length": 93,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=j5yc2j9KjgU"
+            },
+            {
+              "id": "b13_soul-d4kfviefv6m",
+              "title": "Future Funk",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "D4KFvIefV6M",
+              "focus": 2,
+              "length": 86,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=D4KFvIefV6M"
+            },
+            {
+              "id": "b13_soul-w8-brfquku4",
+              "title": "Unconventional Organ",
+              "artist": "MusMus",
+              "videoId": "W8-bRfQuku4",
+              "focus": 2,
+              "length": 90,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=W8-bRfQuku4"
+            },
+            {
+              "id": "b13_soul-hx0cphltu10",
+              "title": "Funky Streets",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "hX0cPhLTu10",
+              "focus": 1,
+              "length": 51,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=hX0cPhLTu10"
             }
           ]
         },
         {
           "id": "B14_noir",
           "name": "누아르 / 탐정",
-          "count": 4,
+          "count": 12,
           "tracks": [
             {
               "id": "b14_noir-5b9a2w5eftm",
@@ -808,6 +1659,36 @@
               "source": "https://www.youtube.com/watch?v=5B9a2W5eFTM"
             },
             {
+              "id": "b14_noir-soj9xucvmbg",
+              "title": "Darkest Child",
+              "artist": "Kevin MacLeod",
+              "videoId": "soJ9xucVMbg",
+              "focus": 5,
+              "length": 239,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=soJ9xucVMbg"
+            },
+            {
+              "id": "b14_noir-fzi1o9dhmzg",
+              "title": "Darkest Child (var A)",
+              "artist": "Kevin MacLeod",
+              "videoId": "fZi1O9dHMZg",
+              "focus": 5,
+              "length": 200,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=fZi1O9dHMZg"
+            },
+            {
+              "id": "b14_noir-ncwyta2kt8g",
+              "title": "Darkest Child A",
+              "artist": "Kevin MacLeod",
+              "videoId": "nCwYta2Kt8g",
+              "focus": 5,
+              "length": 198,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=nCwYta2Kt8g"
+            },
+            {
               "id": "b14_noir-3xieyu0qxzg",
               "title": "I Knew a Guy",
               "artist": "Kevin MacLeod",
@@ -818,6 +1699,36 @@
               "source": "https://www.youtube.com/watch?v=3XiEYu0Qxzg"
             },
             {
+              "id": "b14_noir-njle-047bzc",
+              "title": "Royalty Free Song (Shadow nights W_ Vocals) Downtempo/Electronica Music",
+              "artist": "TeknoAXE",
+              "videoId": "NJle-047bZc",
+              "focus": 5,
+              "length": 259,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=NJle-047bZc"
+            },
+            {
+              "id": "b14_noir-kbjzxvjezoa",
+              "title": "Spy Groove",
+              "artist": "Kevin MacLeod",
+              "videoId": "kbjZxvjEzOA",
+              "focus": 5,
+              "length": 183,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=kbjZxvjEzOA"
+            },
+            {
+              "id": "b14_noir-fx0sguvknns",
+              "title": "The Arcade Detective",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "Fx0sGuVknNs",
+              "focus": 5,
+              "length": 117,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=Fx0sGuVknNs"
+            },
+            {
               "id": "b14_noir-irgqbbpr1ke",
               "title": "Hard Boiled",
               "artist": "Kevin MacLeod",
@@ -826,6 +1737,26 @@
               "length": 180,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=irgqBbPR1kE"
+            },
+            {
+              "id": "b14_noir-7_t7gq8olgk",
+              "title": "Investigations",
+              "artist": "Kevin MacLeod",
+              "videoId": "7_t7gQ8Olgk",
+              "focus": 4,
+              "length": 96,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=7_t7gQ8Olgk"
+            },
+            {
+              "id": "b14_noir-k4vw4lkoejy",
+              "title": "deck brush detective",
+              "artist": "MusMus",
+              "videoId": "k4VW4LkoeJY",
+              "focus": 4,
+              "length": 78,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=k4VW4LkoeJY"
             },
             {
               "id": "b14_noir-rki9jvgw7ty",
@@ -847,8 +1778,18 @@
         {
           "id": "C1_lounge",
           "name": "미드나잇 라운지",
-          "count": 7,
+          "count": 18,
           "tracks": [
+            {
+              "id": "c1_lounge-_tro5l3ong0",
+              "title": "10 Past Midnight",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "_TRO5l3onG0",
+              "focus": 5,
+              "length": 109,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=_TRO5l3onG0"
+            },
             {
               "id": "c1_lounge-3jsmyi38bgk",
               "title": "Airport Lounge",
@@ -858,6 +1799,16 @@
               "length": 308,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=3jsMYi38bGk"
+            },
+            {
+              "id": "c1_lounge-vteyvt8imae",
+              "title": "Airport Lounge - Disco Ultralounge",
+              "artist": "Kevin MacLeod",
+              "videoId": "VtEYvt8IMaE",
+              "focus": 5,
+              "length": 308,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=VtEYvt8IMaE"
             },
             {
               "id": "c1_lounge-yf_haxd7stk",
@@ -870,14 +1821,54 @@
               "source": "https://www.youtube.com/watch?v=yF_HAXd7Stk"
             },
             {
-              "id": "c1_lounge-i0gpjrtrhds",
+              "id": "c1_lounge-oyeie3re7dk",
               "title": "Backbay Lounge",
               "artist": "Kevin MacLeod",
-              "videoId": "I0gPJrtRHds",
+              "videoId": "OYeiE3Re7dk",
               "focus": 5,
-              "length": 271,
+              "length": 267,
               "license": "CC BY 4.0",
-              "source": "https://www.youtube.com/watch?v=I0gPJrtRHds"
+              "source": "https://www.youtube.com/watch?v=OYeiE3Re7dk"
+            },
+            {
+              "id": "c1_lounge-0b__ab9rteo",
+              "title": "Chill - Disco Ultralounge",
+              "artist": "Kevin MacLeod",
+              "videoId": "0b__Ab9Rteo",
+              "focus": 5,
+              "length": 231,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=0b__Ab9Rteo"
+            },
+            {
+              "id": "c1_lounge-aqqejbbbdt4",
+              "title": "Disco Ultralounge",
+              "artist": "Kevin MacLeod",
+              "videoId": "aQQeJBbBdt4",
+              "focus": 5,
+              "length": 229,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=aQQeJBbBdt4"
+            },
+            {
+              "id": "c1_lounge-qhtl-6cf5xk",
+              "title": "Late Night Radio",
+              "artist": "Kevin MacLeod",
+              "videoId": "QhtL-6Cf5Xk",
+              "focus": 5,
+              "length": 265,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=QhtL-6Cf5Xk"
+            },
+            {
+              "id": "c1_lounge-krwdtoaswdm",
+              "title": "Midnight Mist",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "kRWdtoasWdM",
+              "focus": 5,
+              "length": 124,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=kRWdtoasWdM"
             },
             {
               "id": "c1_lounge-liwl0zwq2oc",
@@ -910,6 +1901,16 @@
               "source": "https://www.youtube.com/watch?v=5y2iCWVL06M"
             },
             {
+              "id": "c1_lounge-l7iqnw3ia4u",
+              "title": "Ultralounge",
+              "artist": "Kevin MacLeod",
+              "videoId": "L7iqnW3iA4U",
+              "focus": 5,
+              "length": 318,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=L7iqnW3iA4U"
+            },
+            {
               "id": "c1_lounge-wnjjizk7h28",
               "title": "Wallpaper",
               "artist": "Kevin MacLeod",
@@ -918,13 +1919,53 @@
               "length": 180,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=wNjJiZk7H28"
+            },
+            {
+              "id": "c1_lounge-6q-ffdlztvm",
+              "title": "Hong Kong Midnight",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "6Q-FfDlZtvM",
+              "focus": 4,
+              "length": 63,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=6Q-FfDlZtvM"
+            },
+            {
+              "id": "c1_lounge-fy7ktglkeom",
+              "title": "Midnight Crawlers",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "fy7kTGLKeoM",
+              "focus": 4,
+              "length": 63,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=fy7kTGLKeoM"
+            },
+            {
+              "id": "c1_lounge-rj0jwldy0xw",
+              "title": "Midnight Mist_LoFi ( Track)",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "rj0jwLdy0Xw",
+              "focus": 3,
+              "length": 48,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=rj0jwLdy0Xw"
+            },
+            {
+              "id": "c1_lounge-oauis-l37ca",
+              "title": "Midnight Streets_ ( Track)",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "oaUis-L37cA",
+              "focus": 3,
+              "length": 56,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=oaUis-L37cA"
             }
           ]
         },
         {
           "id": "C2_cafe",
           "name": "브런치 카페",
-          "count": 2,
+          "count": 3,
           "tracks": [
             {
               "id": "c2_cafe-8dtq21bwvyq",
@@ -935,6 +1976,16 @@
               "length": 180,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=8DtQ21BWvyQ"
+            },
+            {
+              "id": "c2_cafe-wtfovv1bafk",
+              "title": "Little Monster’s Cafe / Copyright",
+              "artist": "MusMus",
+              "videoId": "WTFoVv1BaFk",
+              "focus": 5,
+              "length": 142,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=WTFoVv1BaFk"
             },
             {
               "id": "c2_cafe-7fsklw3xyn8",
@@ -951,8 +2002,18 @@
         {
           "id": "C3_speakeasy",
           "name": "스피크이지",
-          "count": 1,
+          "count": 2,
           "tracks": [
+            {
+              "id": "c3_speakeasy-l8arj1fxxa4",
+              "title": "Bar Street Jam - Chill/Easy",
+              "artist": "TeknoAXE",
+              "videoId": "L8aRJ1FxXa4",
+              "focus": 5,
+              "length": 277,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=L8aRJ1FxXa4"
+            },
             {
               "id": "c3_speakeasy-qwmp_vng-ym",
               "title": "Whiskey on the Mississippi",
@@ -968,14 +2029,56 @@
         {
           "id": "C4_rooftop",
           "name": "루프탑 / 시티 라이트",
-          "count": 0,
-          "tracks": []
+          "count": 2,
+          "tracks": [
+            {
+              "id": "c4_rooftop-snz7hvmq74e",
+              "title": "Digital Downtown",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "Snz7hVmq74E",
+              "focus": 4,
+              "length": 106,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=Snz7hVmq74E"
+            },
+            {
+              "id": "c4_rooftop--vo4ax9fm-i",
+              "title": "URBAN FLIGHT",
+              "artist": "MusMus",
+              "videoId": "-VO4ax9FM-I",
+              "focus": 4,
+              "length": 138,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=-VO4ax9FM-I"
+            }
+          ]
         },
         {
           "id": "C5_festival",
           "name": "야외 페스티벌",
-          "count": 0,
-          "tracks": []
+          "count": 2,
+          "tracks": [
+            {
+              "id": "c5_festival-1_cvfd2jtpa",
+              "title": "Tiki Bar Mixer",
+              "artist": "Kevin MacLeod",
+              "videoId": "1_cvfD2jtpA",
+              "focus": 4,
+              "length": 213,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=1_cvfD2jtpA"
+            },
+            {
+              "id": "c5_festival--9magnskyd0",
+              "title": "Beach Party",
+              "artist": "Kevin MacLeod",
+              "videoId": "-9mAgnSkYD0",
+              "focus": 3,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=-9mAgnSkYD0"
+            }
+          ]
         },
         {
           "id": "C6_studio",
@@ -986,8 +2089,19 @@
         {
           "id": "C7_dance",
           "name": "댄스플로어",
-          "count": 0,
-          "tracks": []
+          "count": 1,
+          "tracks": [
+            {
+              "id": "c7_dance-027tcvvj4y0",
+              "title": "'s - -A (Chilling on Space Colony 1 The Dance Remix ) Downtempo",
+              "artist": "TeknoAXE",
+              "videoId": "027TcVVj4Y0",
+              "focus": 2,
+              "length": 262,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=027TcVVj4Y0"
+            }
+          ]
         }
       ]
     },
@@ -997,26 +2111,139 @@
         {
           "id": "D1_melancholy",
           "name": "멜랑콜리 / 블루",
-          "count": 0,
-          "tracks": []
+          "count": 1,
+          "tracks": [
+            {
+              "id": "d1_melancholy-h6ydejhm4ey",
+              "title": "Bittersweet",
+              "artist": "Kevin MacLeod",
+              "videoId": "H6ydejhm4EY",
+              "focus": 5,
+              "length": 202,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=H6ydejhm4EY"
+            }
+          ]
         },
         {
           "id": "D2_romance",
           "name": "로맨스",
-          "count": 0,
-          "tracks": []
+          "count": 3,
+          "tracks": [
+            {
+              "id": "d2_romance-htd1sl4g4o8",
+              "title": "Romantic",
+              "artist": "Kevin MacLeod",
+              "videoId": "HTd1sl4G4O8",
+              "focus": 5,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=HTd1sl4G4O8"
+            },
+            {
+              "id": "d2_romance-p5qiwdldfs8",
+              "title": "Romantic Halloween Theme",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "P5QiwdLdFS8",
+              "focus": 5,
+              "length": 101,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=P5QiwdLdFS8"
+            },
+            {
+              "id": "d2_romance-ggvrfcooami",
+              "title": "Romantic Lands Beckon",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "ggVRfCoOamI",
+              "focus": 5,
+              "length": 122,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=ggVRfCoOamI"
+            }
+          ]
         },
         {
           "id": "D3_uplift",
           "name": "업리프트 / 선데이 모닝",
-          "count": 0,
-          "tracks": []
+          "count": 5,
+          "tracks": [
+            {
+              "id": "d3_uplift-z4dq5qmabn0",
+              "title": "'s - Royalty Free Song (Lucid Morning) Thematic Music",
+              "artist": "TeknoAXE",
+              "videoId": "z4Dq5qMabN0",
+              "focus": 4,
+              "length": 262,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=z4Dq5qMabN0"
+            },
+            {
+              "id": "d3_uplift-smcwoajfuw0",
+              "title": "Carefree",
+              "artist": "Kevin MacLeod",
+              "videoId": "sMcWOaJFuw0",
+              "focus": 4,
+              "length": 206,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=sMcWOaJFuw0"
+            },
+            {
+              "id": "d3_uplift-axphs1morwo",
+              "title": "Carefree Days in Groovyville",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "AxPHs1MoRwo",
+              "focus": 4,
+              "length": 109,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=AxPHs1MoRwo"
+            },
+            {
+              "id": "d3_uplift-blubf0viane",
+              "title": "Shades of Spring",
+              "artist": "Kevin MacLeod",
+              "videoId": "bLuBF0vianE",
+              "focus": 4,
+              "length": 180,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=bLuBF0vianE"
+            },
+            {
+              "id": "d3_uplift-plqvzi9kfwm",
+              "title": "Carefree Days at Pelican Shores",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "PlqVzi9kFwM",
+              "focus": 3,
+              "length": 92,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=PlqVzi9kFwM"
+            }
+          ]
         },
         {
           "id": "D4_tense",
           "name": "텐스 / 서스펜스",
-          "count": 1,
+          "count": 4,
           "tracks": [
+            {
+              "id": "d4_tense-rx9kco_vnsy",
+              "title": "'s - (Dead Piano Island) Tension/Suspense/Orchestra",
+              "artist": "TeknoAXE",
+              "videoId": "rx9KcO_VnSY",
+              "focus": 4,
+              "length": 197,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=rx9KcO_VnSY"
+            },
+            {
+              "id": "d4_tense-5azmctdbqii",
+              "title": "'s - (Reception) Orchestra/Tension/Drama/Suspense",
+              "artist": "TeknoAXE",
+              "videoId": "5AZMctDbqII",
+              "focus": 4,
+              "length": 226,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=5AZMctDbqII"
+            },
             {
               "id": "d4_tense-gtrhdi8iuvs",
               "title": "Spy Glass",
@@ -1026,14 +2253,35 @@
               "length": 226,
               "license": "CC BY 4.0",
               "source": "https://www.youtube.com/watch?v=gTrHdi8iuvs"
+            },
+            {
+              "id": "d4_tense-iyhefenwack",
+              "title": "'s - (Boss Battle 1) bpm 120 Suspense/Action/Orchestra",
+              "artist": "TeknoAXE",
+              "videoId": "IYhEfEnWaCk",
+              "focus": 2,
+              "length": 81,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=IYhEfEnWaCk"
             }
           ]
         },
         {
           "id": "D5_playful",
           "name": "플레이풀 / 위트",
-          "count": 0,
-          "tracks": []
+          "count": 1,
+          "tracks": [
+            {
+              "id": "d5_playful-qrqjlopbnyy",
+              "title": "Sneaky Snitch",
+              "artist": "Kevin MacLeod",
+              "videoId": "QrqjLoPbnyY",
+              "focus": 3,
+              "length": 143,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=QrqjLoPbnyY"
+            }
+          ]
         },
         {
           "id": "D6_elegant",
@@ -1044,8 +2292,18 @@
         {
           "id": "D7_rainy",
           "name": "비 오는 창가",
-          "count": 1,
+          "count": 2,
           "tracks": [
+            {
+              "id": "d7_rainy-5rqc913k3kg",
+              "title": "Puddle Jumping",
+              "artist": "Eric Matyas (Soundimage.org)",
+              "videoId": "5Rqc913k3kg",
+              "focus": 5,
+              "length": 138,
+              "license": "Free with attribution",
+              "source": "https://www.youtube.com/watch?v=5Rqc913k3kg"
+            },
             {
               "id": "d7_rainy-yanzvd_mgjw",
               "title": "Rainy November -- Background/Jazz/Orchestra",
@@ -1061,14 +2319,46 @@
         {
           "id": "D8_afterhours",
           "name": "애프터아워 / 라스트 세트",
-          "count": 0,
-          "tracks": []
+          "count": 1,
+          "tracks": [
+            {
+              "id": "d8_afterhours-baykt6yw23m",
+              "title": "Mining by Moonlight",
+              "artist": "Kevin MacLeod",
+              "videoId": "bAYKt6yW23M",
+              "focus": 5,
+              "length": 196,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=bAYKt6yW23M"
+            }
+          ]
         },
         {
           "id": "D9_dawn",
           "name": "새벽 / 빈 클럽",
-          "count": 0,
-          "tracks": []
+          "count": 2,
+          "tracks": [
+            {
+              "id": "d9_dawn-3-vz_wi00se",
+              "title": "Lightless Dawn",
+              "artist": "Kevin MacLeod",
+              "videoId": "3-vZ_wi00SE",
+              "focus": 5,
+              "length": 381,
+              "license": "CC BY 4.0",
+              "source": "https://www.youtube.com/watch?v=3-vZ_wi00SE"
+            },
+            {
+              "id": "d9_dawn-n9ee7n03ya4",
+              "title": "The City Without Dawn",
+              "artist": "MusMus",
+              "videoId": "N9EE7n03YA4",
+              "focus": 5,
+              "length": 256,
+              "license": "Free with attribution (musmus.main.jp)",
+              "source": "https://www.youtube.com/watch?v=N9EE7n03YA4"
+            }
+          ]
         }
       ]
     }
