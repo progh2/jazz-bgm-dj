@@ -680,6 +680,7 @@ function initSecrets() {
     hearthSayTimer = setTimeout(() => el.classList.remove('show'), 3200);
   };
   const onHearth = () => {
+    if (!roast) return;
     const { id: dishId, dish, stage } = roast.peek();
 
     if (!dish.img) {            // 빈 레일 — 네온을 톡
@@ -907,8 +908,17 @@ function rebuildYt() {
   initYt();
 }
 
+function beginClub() {
+  if (greeted) return;
+  greeted = true;
+  say(currentPhase().greet, 'talk');
+  startAsk();
+}
+
 function initYt() {
-  yt = new YT.Player('yt-player', {
+  const YTapi = window.YT;
+  if (!YTapi?.Player) return;
+  yt = new YTapi.Player('yt-player', {
     height: '1', width: '1',
     host: ytAccountOn() ? 'https://www.youtube.com' : 'https://www.youtube-nocookie.com',
     playerVars: { autoplay: 0, controls: 0, disablekb: 1, playsinline: 1, origin: location.origin },
@@ -927,23 +937,22 @@ function initYt() {
           }
           return;
         }
-        if (greeted) return;
-        greeted = true;
-        say(currentPhase().greet, 'talk');
-        startAsk();
+        beginClub();
       },
       onStateChange: (e) => {
-        if (e.data === YT.PlayerState.PLAYING) {
+        const PS = window.YT?.PlayerState;
+        if (!PS) return;
+        if (e.data === PS.PLAYING) {
           state.playing = true;
           setBurning(true);
           setBardState($('bard-stage'), 'play');
           acquireWake();
-        } else if (e.data === YT.PlayerState.PAUSED) {
+        } else if (e.data === PS.PAUSED) {
           state.playing = false;
           setBurning(false);
           setBardState($('bard-stage'), 'idle');
           releaseWake();
-        } else if (e.data === YT.PlayerState.ENDED) {
+        } else if (e.data === PS.ENDED) {
           state.playing = false;
           secrets.noteFinished();   // 끝까지 들었다
           next();
@@ -1041,6 +1050,8 @@ function boot() {
   tick = setInterval(() => { stepFlames(); stepTime(); checkStall(); }, 120);
 
   if (window.YT && window.YT.Player) initYt();
+  // 유튜브 API 가 막히거나 늦어도 문답은 연다 (재생만 나중에 붙는다)
+  setTimeout(beginClub, 2500);
 }
 
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);

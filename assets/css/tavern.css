@@ -454,12 +454,16 @@ body::after {
 .deck {
   position: absolute;
   left: 50%;
-  top: 26%;
+  top: 22%;
   translate: -50% 0;
-  width: 48%;
+  width: 42%;
   aspect-ratio: 1.15 / 1;
   z-index: 3;
   pointer-events: none;
+}
+.deck i {
+  display: block;
+  font-style: normal;
 }
 .deck-plinth {
   position: absolute;
@@ -1266,13 +1270,13 @@ input[type="range"]:focus-visible { outline: 2px solid var(--accent); outline-of
   --drink-espresso: #5a3020;
 }
 
-/* 칵테일 존 — 바박스 하단 1/3. 네온·덱과 겹치지 않게 */
+/* 칵테일 존 — 바박스 하단. 네온·덱 아래, 조율 단추가 눌리게 */
 .roast {
   position: absolute;
-  left: 5%;
-  right: 5%;
-  top: 68%;
-  bottom: 3%;
+  left: 4%;
+  right: 4%;
+  top: 58%;
+  bottom: 2%;
   z-index: 6;
   pointer-events: auto;
 }
