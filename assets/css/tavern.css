@@ -75,6 +75,11 @@ html, body {
   font-size: 15px;
   line-height: 1.7;
   transition: background-color 1.4s var(--ease), color .6s var(--ease);
+  -webkit-tap-highlight-color: transparent; /* 모바일 파란 터치 깜빡임 */
+}
+
+button, a, [role="button"], input, label, .seg {
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* ── 벽: 돌을 쌓고 나뭇결을 얹는다 ─────────────────────────── */
